@@ -31,11 +31,14 @@
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
-
+<section class="az-content">
 	<?php require_once('includes/header.php'); ?>
-	
+	sdfdfs
+</section>
+<section class="az-footer">
 	<?php require_once('includes/footer.php'); ?>
-
+	sdfsfd
+</section>
 	
 </body>
 </html>
