@@ -6,7 +6,7 @@
   clear: both; }
 
 .zk_kontakt {
-  margin: 155px 0; }
+  margin-top: 155px; }
   .zk_kontakt .zk_form_all {
     font-family: "HelveticaNeue-Light";
     font-size: 20px;
@@ -42,7 +42,8 @@
         width: 100%;
         color: black;
         font-size: 15px;
-        padding: 0 5px 5px 5px; }
+        padding: 0 5px 5px 5px;
+        resize: none; }
       .zk_kontakt .zk_form_all .zk_form a {
         color: #000000;
         font-size: 20px;
