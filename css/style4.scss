@@ -32,7 +32,7 @@
 			height: 44px;
 			left: 50%;
 			transform: translate(-50%,0);
-			top: 113px;
+            bottom: 20px;
 		}
 	}
 	.ab-footer-menu{
@@ -113,7 +113,9 @@
     background: black;
     border-radius: 10px; 
 }
-
+.ah-slider{
+    margin-bottom: 25px;
+}
 
 
 /*=============== end slider.php ==================*/
@@ -169,7 +171,7 @@
 	.ab-str{
 		left: 50%;
 		transform: translate(-50%,0);
-		top: 281px !important;
+		bottom: 20px;
 	}
 
     .slidetextbox{
@@ -237,7 +239,7 @@
 	.ab-str{
 		left: 50%;
 		transform: translate(-50%,0);
-		top: 436px !important;
+        bottom: 20px;
 	}
 	.slidetextbox-span2{
 		font-size: 32px;
@@ -261,7 +263,7 @@
 	.ab-str{
 		left: 50%;
 		transform: translate(-50%,0);
-		top: 129px !important;
+        bottom: 20px;
 	}
 
 	.ah-arrowleft{
@@ -271,7 +273,7 @@
         height: 44px;
         left: 2%;
         top: 43%;
-        background: url(../img/ah-arrowleft.png) center center no-repeat !important;
+        background: url(../img/ah-arrowleft.png) center center no-repeat;
     }
     .ah-arrowright{
         display: block;

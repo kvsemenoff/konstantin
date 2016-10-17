@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="ah-sbox1">
+				<div class="ah-sbox1" id="ah-sbox1">
 					<div class="item">
 						<div class="ab-img-box">
 							<img  src="img/ab-slide-1.jpg" alt="">
@@ -53,7 +53,7 @@
 </section>
 <script>
 
- $('.ah-sbox1').owlCarousel({
+ $('#ah-sbox1').owlCarousel({
     loop: true,
     margin:0,
     items: 1,
@@ -63,10 +63,10 @@
     nav: true,
     navText:['<span class="ah-arrowleft"></span>','<span class="ah-arrowright"></span>']
 });
-var owl = $(".ah-sbox1");
+	var owl = $("#ah-sbox1");
 	owl.on( 'translated.owl.carousel initialized.owl.carousel', function(e) {
 		// alert(e.item.index);
-        if(e.item.index >= 3){
+        if(e.item.index == 3 || e.item.index == 4){
         	$('.owl-dot').addClass('white-dot');
         	$('.ah-arrowleft').addClass('white-left');
         	$('.ah-arrowright').addClass('white-right');

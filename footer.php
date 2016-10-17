@@ -39,7 +39,7 @@
 <section class="footer">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-6">
 				<div class="ab-main-img-box">
 					<img src="img/art-1.png" alt="">
 					<div class="ab-box-txt">
@@ -49,7 +49,7 @@
 					<a href="#"><div class="ab-str"></div></a>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-6">
 				<div class="ab-main-img-box">
 					<img src="img/art-2.png" alt="">
 					<div class="ab-box-txt">
@@ -58,7 +58,7 @@
 					<a href="#"><div class="ab-str"></div></a>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-6">
 				<div class="ab-main-img-box">
 					<img src="img/art-3.png" alt="">
 					<div class="ab-box-txt">
@@ -67,7 +67,7 @@
 					<a href="#"><div class="ab-str"></div></a>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-sm-6">
 				<div class="ab-main-img-box">
 					<img src="img/art-4.png" alt="">
 					<div class="ab-box-txt">
