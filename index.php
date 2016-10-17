@@ -33,10 +33,11 @@
 	<script src="js/common.js"></script>
 <section class="az-content">
 	<?php require_once('includes/header.php'); ?>
+	<?php require_once('slider.php'); ?>
 	<div class="az-buffer"></div>
 </section>
 <section class="az-footer">
-	<?php require_once('includes/footer.php'); ?>
+	<?php require_once('footer.php'); ?>
 </section>
 </body>
 </html>
