@@ -1,12 +1,5 @@
-<<<<<<< HEAD
-    
-=======
-@font-face {
-  font-family: "OpenSans-Bold";
-  src: url("../fonts/OpenSans-Bold/OpenSans-Bold.eot");
-  src: local("☺"), url("../fonts/OpenSans-Bold/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold/OpenSans-Bold.ttf") format("truetype"), url("../fonts/OpenSans-Bold/OpenSans-Bold.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+
+
 
 @font-face {
   font-family: "HelveticaNeue-Bold";
@@ -40,4 +33,12 @@
   font-weight: normal;
   font-style: normal;
 }
->>>>>>> 626865930446c3456b0d64ddec6410ad927a5025
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/Helvetica/Helvetica.eot");
+  src: local("☺"), url("../fonts/Helvetica/Helvetica.woff") format("woff"), url("../fonts/Helvetica/Helvetica.ttf") format("truetype"), url("../fonts/Helvetica/Helvetica.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+

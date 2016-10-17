@@ -2,8 +2,26 @@
 @import "style.css";
 @import "style2.css";
 @import "style3.css";
-@import "style4.css";
 @import "fonts.css";
+
+
+.footer{
+	.ab-main-img-box{
+		position: relative;
+		span{
+			color: yellow;
+			font-family: "HelveticaNeue-Bold";
+		}
+	}
+}
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width : 320px) {
 }
