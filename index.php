@@ -33,13 +33,11 @@
 	<script src="js/common.js"></script>
 <section class="az-content">
 	<?php require_once('includes/header.php'); ?>
-	sdfdfs
+	<div class="az-buffer"></div>
 </section>
 <section class="az-footer">
 	<?php require_once('includes/footer.php'); ?>
-	sdfsfd
 </section>
-	
 </body>
 </html>
 
