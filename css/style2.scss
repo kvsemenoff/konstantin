@@ -5,19 +5,174 @@
 @import "style4.css";
 @import "fonts.css";
 
+
+// RES**************************************
+.ah-resbody{
+	background: url(../img/ah-resfon.jpg) top center no-repeat;
+	background-size: cover;
+	min-height: 900px;
+}
+.ah-res{
+	p{
+		display: block;
+		font-family: "HelveticaNeue-Light";
+		color: #fff;
+		font-size: 26px;
+		line-height: 32px;
+		margin-bottom: 25px;
+	}
+}
+// transakvol************************
+.ah-transakvolbody{
+	background: url(../img/ah-transakvol_xs.jpg) top center no-repeat;
+	background-size: cover;
+	min-height: none;
+}
+.ah-transakvolwrap{
+	position: relative;
+	min-height: 560px;
+	margin-top: 245px;
+
+	outline: 1px solid red;
+
+}
+.ah-transleft, .ah-transright{
+	position: static;
+	background-color: #fff;
+	padding: 25px 30px;
+	text-align: center;
+	// top: 0px;
+}
+.ah-transleft{
+	min-height: none;
+	top: 0;
+	left: 0;
+	margin-bottom: 30px;
+}
+.ah-transright{
+	min-height: none;
+	top: 0;
+	left: 0;
+}
+.ah-transakvol-title{
+	display: block;
+	font-family: "HelveticaNeue-Bold";
+	color: #000;
+	font-size: 40px;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+.ah-transakvol-text{
+	display: block;
+	font-family: "HelveticaNeue-Thin";
+	color: #000;
+	font-size: 50px;
+	line-height: 60px;
+}
+// PRESSE**************************
+.ah-presse{
+	background: url(../img/ah-pressefon.jpg) top center no-repeat;
+	background-size: cover;
+}
+.ah-ressewrap, .ah-ressewrap1{ 
+	position: relative;
+	text-align: center;
+	background-color: #fff;
+	padding: 12px 12px 0px 12px;
+	margin-bottom: 11px;
+	min-height: 104px;
+}
+.ah-ressewrap1{
+	padding: 35px;
+	min-height: 0px !important; 
+}
+.ah-imgbox{
+	position: absolute;
+	bottom: 0px;
+	left: 47%;
+}
+.ah-resse-title{
+	display: block;
+	font-family: "HelveticaNeue-Light";
+	color: #000;
+	font-size: 16px;
+	line-height: 20px;
+}
+.ah-resse-text{
+	display: block;
+	font-family: "HelveticaNeue-Bold";
+	color: #000;
+	font-size: 16px;
+	line-height: 20px;
+	span{
+		font-family: "HelveticaNeue-Light";
+	}
+}
+// PRESSE**************************
+
+
+
+
+
 @media only screen and (min-width : 320px) {
 }
 
 @media only screen and (min-width : 480px) {
+
 }
 
 @media only screen and (min-width : 768px) {
+	.ah-transakvolbody{
+		background: url(../img/ah-transakvol.jpg) top center no-repeat;
+		min-height: 900px;
+	}
+	.ah-transleft, .ah-transright{
+		position: absolute;
+	}
+	.ah-transleft{
+		min-height: 300px;
+		top: 259px;
+		left: 29%;
+		margin-bottom: 0px;
+	}
+	.ah-transright{
+		min-height: 464px;
+		top: 95px;
+		left: 10%;
+	}
 }
 
 @media only screen and (min-width : 992px) {
+	.ah-transleft, .ah-transright{
+		position: absolute;
+	}
+	.ah-transleft{
+		min-height: 300px;
+		top: 259px;
+		left: 45%;
+		margin-bottom: 0px;
+	}
+	.ah-transright{
+		min-height: 464px;
+		top: 95px;
+		left: 7%;
+	}
 }
-
-@media only screen and (min-width : 1248px) {
+@media only screen and (min-width : 1200px) {
+	.ah-transleft, .ah-transright{
+		position: absolute;
+	}
+	.ah-transleft{
+		min-height: 300px;
+		top: 259px;
+		left: 55%;
+		margin-bottom: 0px;
+	}
+	.ah-transright{
+		min-height: 464px;
+		top: 95px;
+		left: 7%;
+	}
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
