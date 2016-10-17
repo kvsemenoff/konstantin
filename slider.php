@@ -72,7 +72,19 @@
 						</div>
 					
 					<div class="item">
-						
+						<div class="ab-img-box">
+							<img  src="img/ab-slide-3.jpg" alt="">
+							</div>
+							<div class="slidetextbox slidetextbox-2 slidetextbox-3">
+								<span class="slidetextbox-span1 slidetextbox-span2">
+									Das diskrete Vernetzen von Informations-<br>
+									vorsprüngen im 
+									Immobilienbereich stellt den<br> 
+									Geschäftspartnern der KW Real
+									Estate einen<br> besonderen Nutzen 
+									in Aussicht.
+								</span>
+							</div>
 					</div>
 				</div>
 			</div>
