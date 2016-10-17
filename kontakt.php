@@ -1,9 +1,9 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Главная</title>
+	<title>Kontakt</title>
 
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
@@ -16,7 +16,7 @@
 	<link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
+<body class="zk_bg_kontakt">
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="libs/owl.carousel/owl.carousel.js"></script>
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
@@ -31,13 +31,45 @@
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
-<section class="az-content">
-	<?php require_once('includes/header.php'); ?>
-	<div class="az-buffer"></div>
-</section>
-<section class="az-footer">
+
+	<?php require_once('includes/header.php'); ?>	
 	<?php require_once('includes/footer.php'); ?>
-</section>
+
+<div class="col-md-12" >
+	<div class="zk_kontakt">
+		<div class="zk_form_all">
+			<ul>
+				<li class="zk_first_li">KW Real Estate</li>
+				<li>Weinstrasse 4</li>
+				<li>80333 München</li><br/>
+				<li>Frau Maria Iskudi</li>
+				<li>Assistentin des Geschäftsführers</li>
+				<li>Telefon	+49 (0)89 – 33 99 55 40</li>
+				<li>Mobil	+49 (0)172 – 888 11 01</li>
+				<li>E-Mail	kw@konstantin-wettig.com</li>
+			</ul>
+			
+			<div class="zk_form">
+				<h3 class="zk_first_li">Kontaktformular</h3>
+				<form action="" name="feedback" method="post" class="zk_form">		
+					<input type="text" name="from" placeholder="Ihr Name(Pflichtfeld)" /><br/>		
+					<input type="text" name="to" placeholder="Ihr Name(Pflichtfeld)" /><br/>
+					<textarea name="message" cols="" rows="4" placeholder="Ihre Nachricht"></textarea>		
+				</form>
+
+				<a href="#">senden<span><img src="img/zk_send.png" alt=""></span></a>		
+			</div>
+			
+		</div>
+
+		<div class="zk_map">
+			<img src="img/zk_map.jpg" alt="">		
+		</div>	
+		<div class="clear"></div>	
+	</div>
+</div>
+
+	
 </body>
 </html>
 

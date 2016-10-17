@@ -62,6 +62,7 @@
 }
 .qq-impressum, .qq-werte{
 	padding: 68px 0 40px 0;
+	word-break: break-all;
 }
 .qq-top{
 	font-family: "HelveticaNeue-Bold";
@@ -123,6 +124,7 @@
 	}
 	h3{
 		font-family: "HelveticaNeue-Bold";
+		padding-bottom: 5px;
 	}
 
 	.qq-main_one{
@@ -156,7 +158,13 @@
 		max-width: 380px;
 		margin: 0 auto;
 	}
+	.qq-img-box-a{
+			img{
+				display: none;
+			}
+		}
 	@media only screen and (max-width : 992px) {
+
 
 		.qq-img-box{
 			img{
@@ -171,17 +179,23 @@
 	@media only screen and (max-width : 768px) {
 
 		.qq-t1, .qq-t2, .qq-t3, .qq-t3a, .qq-t4 {
-			max-width: 350px !important;
+			max-width: 100% !important;
 			margin: 0 auto !important;
 		}
 		.qq-t2{
 			margin-top: 15px !important;
 		}
 		.qq-img-box{
+			padding: 10px;
 			img{
-				padding: 7px 0;
-				width: auto;
-				height: auto;
+				display: none;
+			}
+		}
+		.qq-img-box-a{
+			text-align: center;
+			padding-bottom: 50px;
+			img{
+				display: inline-block;
 			}
 		}
 		

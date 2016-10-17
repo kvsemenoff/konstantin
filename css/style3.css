@@ -1,7 +1,125 @@
-@import url(reset.css);
-@import url(style2.css);
-@import url(style3.css);
-@import url(style4.css);
-@import url(fonts.css);
+body, html {
+  width: 100%;
+  height: 100%; }
+
+.az-content {
+  width: 100%;
+  min-height: 100%; }
+
+.az-buffer {
+  width: 100%;
+  height: 237px; }
+
+.az-footer {
+  height: 237px;
+  margin-top: -237px;
+  position: relative; }
+
+/*menu*/
+#check_1 {
+  display: none; }
+
+.anz-perspective {
+  position: fixed;
+  top: 0px;
+  height: 100%;
+  -webkit-perspective: 500px;
+  perspective: 500px;
+  z-index: 6; }
+
+#check_1:checked ~ .anz-perspective {
+  transition: all 1s ease-in-out;
+  left: 0px; }
+
+#check_1 ~ .anz-perspective {
+  transition: all 1s ease-in-out;
+  left: -250px; }
+
+#check_1:checked ~ .anz-perspective .menu-list-pressed {
+  transition: all 1s ease-in-out;
+  transform: rotateY(0deg); }
+
+#check_1 ~ .anz-perspective .menu-list-pressed {
+  transition: all 1s ease-in-out;
+  transform: rotateY(90deg); }
+
+#check_1 ~ .anz-menu-ch .fa-bars {
+  display: block; }
+
+#check_1 ~ .anz-menu-ch .fa-times {
+  display: none; }
+
+#check_1:checked ~ .anz-menu-ch .fa-bars {
+  display: none; }
+
+#check_1:checked ~ .anz-menu-ch .fa-times {
+  display: block; }
+
+.anz-menu-ch {
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top: 0px;
+  z-index: 3; }
+
+/*menu*/
+/*menu styles*/
+.az-header1 {
+  padding-top: 40px; }
+
+.menu-list-pressed {
+  border: 1px solid #000;
+  width: 250px;
+  height: 100%;
+  font-family: "HelveticaNeue-Light";
+  font-size: 22px;
+  padding: 30px;
+  line-height: 40px;
+  background: #fff; }
+
+.anz-menu-ch {
+  width: 41px;
+  height: 43px;
+  background: url(../img/az-menu.png) no-repeat top left; }
+
+.anz-menu-ch_style {
+  background: url(../img/az-menu2.png) no-repeat top left; }
+
+.main-menu a {
+  color: #000;
+  position: relative;
+  display: inline-block; }
+.main-menu a:before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: '';
+  width: 0%;
+  height: 3px;
+  background: #cd1719;
+  transition: width 0.5s ease-in-out; }
+.main-menu a:hover:before {
+  width: 100%; }
+
+.az-head-span {
+  font-family: "HelveticaNeue-Medium";
+  font-size: 20px;
+  line-height: 26px;
+  color: #000; }
+
+.az-head-span_style {
+  color: #fff; }
+
+/*menu styles*/
+/*margins*/
+.az-margin-bottom45 {
+  margin-bottom: 45px; }
+
+.az-margin-bottom20 {
+  margin-bottom: 20px; }
+
+@media only screen and (min-width: 768px) {
+  .anz-menu-ch {
+    right: 0px; } }
 
 /*# sourceMappingURL=style3.css.map */

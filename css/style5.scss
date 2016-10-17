@@ -1,27 +1,124 @@
-@import "reset.css";
-@import "style.css";
-@import "style2.css";
-@import "style3.css";
-@import "style4.css";
-@import "fonts.css";
+
+
+								//KONTAKT------------------
+.zk_bg_kontakt{
+	background: url(../img/zk_bg_kontakt.jpg) no-repeat;
+	margin: 0 auto;	
+}
+.clear{
+	clear:both;
+}
+
+.zk_kontakt{
+	margin-top:155px;
+
+	.zk_form_all{	
+		font-family: "HelveticaNeue-Light";
+		font-size:20px;
+		line-height: 1.4em;
+		color:#000000;
+		float:left;
+		padding-right: 30px;
+		.zk_first_li{
+			font-family: "HelveticaNeue-Medium";		
+		}	
+		
+		.zk_form{
+			margin-top: 5px;			
+			color:#000000;		
+			border-color: #7e7e7e;
+			vertical-align: top;
+			input::-webkit-input-placeholder { color: black; }
+		    textarea::-webkit-input-placeholder { color: black; }
+		    input::-moz-placeholder { color: black; }
+		    textarea::-moz-placeholder { color: black; }
+			
+
+			form{
+				padding-bottom: 30px;
+			}			
+			h3{
+				margin-top: 25px;
+			}
+			input{
+				padding:0 5px 5px 5px;
+				margin-bottom: 15px;
+				width:100%;
+				font-size:15px;
+				
+
+			}
+			textarea{
+				width:100%;
+				color:black;
+				font-size:15px;
+				padding:0 5px 5px 5px;
+				resize:none;
+			}
+			
+		     a{
+				color:#000000;
+				font-size:20px;
+				font-weight: bold;
+				position: relative;
+				display: block;
+				margin-bottom: 20px;							
+				span{
+					position: absolute;
+					top:-10px;
+					left:80px;					
+				}
+			} 		
+		}	
+	}	
+}
+
 
 @media only screen and (min-width : 320px) {
 }
 
 @media only screen and (min-width : 480px) {
+	.zk_form_all{
+		margin-left: 30px;
+		width:70%;
+	}
+	.zk_map{
+		margin-left: 30px;
+	}
+
 }
 
 @media only screen and (min-width : 768px) {
+	.zk_map{
+		margin-left: 40px;
+	}
+	.zk_form_all{
+		margin-left: 40px;
+		width:35%;
+	}
+	
 }
 
 @media only screen and (min-width : 992px) {
+	.zk_kontakt{
+		margin:155px 0px;
+	}
+	.zk_form_all{
+		width:35%;
+		margin-left: 50px;
+	}	
+
 }
 
 @media only screen and (min-width : 1248px) {
+	.zk_form_all{
+		width:45%;
+		margin-left: 75px;
+	}	
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    // outline: 1px solid red;
+
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   

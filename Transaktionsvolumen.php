@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Главная</title>
+	<title>Transaktionsvolumen</title>
 
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
@@ -16,7 +16,7 @@
 	<link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
+<body class="ah-transakvolbody">
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="libs/owl.carousel/owl.carousel.js"></script>
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
@@ -31,13 +31,42 @@
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
-<section class="az-content">
-	<?php require_once('includes/header.php'); ?>
-	<div class="az-buffer"></div>
+
+	<?php require_once('includes/header2.php'); ?>
+	
+<div class="clearfix"></div>
+
+<section class="ah-transakvol">
+    <div class="container">
+	    <div class="row">
+		    <div class="col-md-12 col-sm-12 col-xs-12">
+			    <div class="ah-transakvolwrap">
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<div class="ah-transleft">
+								<span class="ah-transakvol-title">2014</span>
+								<span class="ah-transakvol-text">40 MIO.<br>EURO</span>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<div class="ah-transright">
+								<span class="ah-transakvol-title">2015</span>
+								<span class="ah-transakvol-text">60 MIO.<br>EURO</span>
+							</div>
+						</div>
+					</div>
+				</div>
+		    </div>
+	    </div>
+    </div>
 </section>
-<section class="az-footer">
+
+<div class="clearfix"></div>
+
+
 	<?php require_once('includes/footer.php'); ?>
-</section>
+
+	
 </body>
 </html>
 
