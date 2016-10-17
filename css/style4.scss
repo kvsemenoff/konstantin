@@ -1,9 +1,4 @@
-@import "reset.css";
-@import "style.css";
-@import "style2.css";
-@import "style3.css";
-@import "style5.css";
-@import "fonts.css";
+
 
 /*================ footer.php ====================*/
 
@@ -37,7 +32,7 @@
 			height: 44px;
 			left: 50%;
 			transform: translate(-50%,0);
-			top: 113px;
+            bottom: 20px;
 		}
 	}
 	.ab-footer-menu{
@@ -69,6 +64,9 @@
     margin-top: 0px;
     position: absolute;
     top: 0;
+    span{
+		font-family: "HelveticaNeue-Thin";
+    }
 }
 .ah-sbox1{
     position: relative;
@@ -76,7 +74,6 @@
 }
 .item{
     background-size: cover;
-    //height: 482px;
     background:#E8E8E8;
     .ab-img-box{
 		opacity: 0;
@@ -85,7 +82,6 @@
 }
 .slidetextbox-span1{
     display: block;
-    font-family: "HelveticaNeue-Thin";
     color: #212121;
     font-size: 13px;
     line-height: 30px;
@@ -117,7 +113,9 @@
     background: black;
     border-radius: 10px; 
 }
-
+.ah-slider{
+    margin-bottom: 25px;
+}
 
 
 /*=============== end slider.php ==================*/
@@ -127,18 +125,19 @@
 @media only screen and (min-width : 250px) {
 	
 	.item{
-		height: 180px;
 		overflow: hidden;
 	}	
 
     .slidetextbox {
-        margin-left: 26px;
+        margin-left: 0px;
         text-align: center;
         //margin-top: 43px;
+        span{
+        	line-height: 15px;
+        }
     }
     .slidetextbox-span1{
         font-size: 13px;
-        line-height: 20px;
         br{
         	display: none;
         }
@@ -172,16 +171,26 @@
 	.ab-str{
 		left: 50%;
 		transform: translate(-50%,0);
-		top: 281px !important;
+		bottom: 20px;
 	}
 
     .slidetextbox{
-        width: 65%;
-        margin-left: 146px;
-        margin-top: 75px;
+        width: 60%;
+        margin-left: 26px;
+        text-align: left;
+        margin-top: 10px !important;
+        span{
+        	line-height: 25px;
+        }
+    }
+    .slidetextbox-3{
+		width: 60%;
+	    margin-left: 37px;
+	    padding-top: 84px;
     }
     .slidetextbox-2{
-		width: 100%;
+		width: 90%;
+		padding-top: 75px;
     }
     .owl-dots{
         left: 44%;
@@ -189,31 +198,27 @@
     }
     .item{
     background-size: cover;
-    	height: 334px;
+    	overflow: hidden;
+
 	    .ab-img-box{
 			opacity: 1;
 	    }
 	}
-
-	.slidetextbox {
-        margin-left: 26px;
-        text-align: left;
-        margin-top: 10px !important;
-    }
 	.slidetextbox-span1{
-        font-size: 32px;
+        font-size: 20px;
         line-height: 38px;
         br{
         	display: none;
         }
     }
     .slidetextbox-span2{
-		font-size: 32px;
+		font-size: 18px;
 		color:#fff;
-		font-family: "Helvetica";
 		line-height: 38px;
     }
 }
+
+
 
 @media only screen and (min-width : 768px) {
 
@@ -234,8 +239,23 @@
 	.ab-str{
 		left: 50%;
 		transform: translate(-50%,0);
-		top: 436px !important;
+        bottom: 20px;
 	}
+	.slidetextbox-span2{
+		font-size: 32px;
+		color:#fff;
+		line-height: 30px;
+    }
+    .slidetextbox-3{
+    	padding-left: 115px;
+	    padding-top: 47px;
+	    width: 85%;
+    }
+    .slidetextbox{
+    	span{
+    		line-height: 35px;
+    	}
+    }
 }
 
 @media only screen and (min-width : 992px) {
@@ -243,7 +263,7 @@
 	.ab-str{
 		left: 50%;
 		transform: translate(-50%,0);
-		top: 129px !important;
+        bottom: 20px;
 	}
 
 	.ah-arrowleft{
@@ -253,7 +273,7 @@
         height: 44px;
         left: 2%;
         top: 43%;
-        background: url(../img/ah-arrowleft.png) center center no-repeat !important;
+        background: url(../img/ah-arrowleft.png) center center no-repeat;
     }
     .ah-arrowright{
         display: block;
@@ -283,25 +303,31 @@
         margin-top: 23px;
         padding-top:40px;
     }
-
-    .item{
-        height: 482px;
+    .slidetextbox-2{
+    	margin-left: 219px;
+	    margin-top: 33px;
+	    padding-top: 144px;
+	    width: 100%;
     }
+    
     .slidetextbox-span1{
         font-size: 33px;
         line-height: 33px;
         letter-spacing: 0.025em;
         margin-bottom: 33px;
-        font-family: "HelveticaNeue-Thin";
         br{
         	display: block;
         }
     }
     .slidetextbox-span2{
-    	font-family: "Helvetica";
     	color:#fff;
     	padding-left:15px;
     }
+    .slidetextbox-3{
+    	padding-top:180px;
+    	padding-left:0 !important;
+    }
+    
 }
 
 @media only screen and (min-width : 1248px) {
