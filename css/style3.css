@@ -111,6 +111,20 @@ body, html {
   color: #fff; }
 
 /*menu styles*/
+/*slider*/
+.white-dot {
+  background: url(../img/az-menu2.png) no-repeat top left !important; }
+
+.white-dot.active {
+  background: url(../img/az-menu2.png) no-repeat top left !important; }
+
+.white-left {
+  background: url(../img/az-menu2.png) no-repeat top left !important; }
+
+.white-right {
+  background: url(../img/az-menu2.png) no-repeat top left !important; }
+
+/*slider*/
 /*margins*/
 .az-margin-bottom45 {
   margin-bottom: 45px; }
