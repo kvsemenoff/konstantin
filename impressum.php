@@ -39,8 +39,11 @@
 					<div class="col-md-4 col-sm-4 col-xs-4">
 						<span>Impressum</span>
 					</div>
-					<div class="col-md-4 col-sm-4 col-xs-4 qq-top_center">
-						<a href="#"><img src="img/close.png" alt=""></a>
+					<div class="col-md-4 col-sm-4 col-xs-4">
+						<div class="qq-top_center">
+							<a href="#"><img src="img/close.png" alt=""></a>
+						</div>
+							
 					</div>
 					<div class="col-md-4 col-sm-4 col-xs-4 qq-top_right">
 						<a href="#">
