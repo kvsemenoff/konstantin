@@ -52,26 +52,26 @@
 	</div>
 </section>
 <script>
-var owl = $(".ah-sbox1");
-	owl.on( 'translated.owl.carousel initialized.owl.carousel', function(e) {
-        if(e.item.index >= 1){
-        	$('.owl-prev').hide();
-        }
-    	else if(e.item.index == 0){
-    		$('.owl-prev').show();
-    	}
-    });
+
  $('.ah-sbox1').owlCarousel({
     loop: true,
     margin:0,
     items: 1,
-    // autoplay: false,
+    autoplay: false,
     smartSpeed:500,
-    // autoplayTimeout:7000,
+    autoplayTimeout:7000,
     nav: true,
     navText:['<span class="ah-arrowleft"></span>','<span class="ah-arrowright"></span>']
 });
-
+var owl = $(".ah-sbox1");
+	owl.on( 'translated.owl.carousel initialized.owl.carousel', function(e) {
+        if(e.item.index >= 1){
+        	$('.owl-dot').addClass('white-dot');
+        }
+    	else if(e.item.index == 0){
+    		$('owl-dot').removeClass('white-dot');
+    	}
+    });
 </script>
 
 

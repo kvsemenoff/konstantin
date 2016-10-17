@@ -113,16 +113,16 @@ body, html {
 /*menu styles*/
 /*slider*/
 .white-dot {
-  background: url(../img/az-menu2.png) no-repeat top left !important; }
+  border: 1px solid white !important; }
 
 .white-dot.active {
-  background: url(../img/az-menu2.png) no-repeat top left !important; }
+  background: white !important; }
 
 .white-left {
-  background: url(../img/az-menu2.png) no-repeat top left !important; }
+  background: url(../img/ab-left.png) no-repeat top left !important; }
 
 .white-right {
-  background: url(../img/az-menu2.png) no-repeat top left !important; }
+  background: url(../img/ab-right.png) no-repeat top left !important; }
 
 /*slider*/
 /*margins*/
