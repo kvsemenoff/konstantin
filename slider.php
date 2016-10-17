@@ -65,11 +65,16 @@
 });
 var owl = $(".ah-sbox1");
 	owl.on( 'translated.owl.carousel initialized.owl.carousel', function(e) {
-        if(e.item.index >= 1){
+		// alert(e.item.index);
+        if(e.item.index >= 3){
         	$('.owl-dot').addClass('white-dot');
+        	$('.ah-arrowleft').addClass('white-left');
+        	$('.ah-arrowright').addClass('white-right');
         }
-    	else if(e.item.index == 0){
-    		$('owl-dot').removeClass('white-dot');
+    	else if(e.item.index == 2){
+    		$('.owl-dot').removeClass('white-dot');
+    		$('.ah-arrowleft').removeClass('white-left');
+        	$('.ah-arrowright').removeClass('white-right');
     	}
     });
 </script>
