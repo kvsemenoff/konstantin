@@ -25,7 +25,8 @@
   font-size: 20px; }
 
 .qq-impressum, .qq-werte {
-  padding: 68px 0 40px 0; }
+  padding: 68px 0 40px 0;
+  word-break: break-all; }
 
 .qq-top {
   font-family: "HelveticaNeue-Bold"; }
@@ -77,7 +78,8 @@
   padding: 10px 15px;
   font-size: 16px; }
 .qq-werte h3 {
-  font-family: "HelveticaNeue-Bold"; }
+  font-family: "HelveticaNeue-Bold";
+  padding-bottom: 5px; }
 .qq-werte .qq-main_two {
   padding: 20px 0 20px 0; }
   .qq-werte .qq-main_two .qq-img-box {
@@ -98,6 +100,8 @@
 .qq-werte .qq-t4 {
   max-width: 380px;
   margin: 0 auto; }
+.qq-werte .qq-img-box-a img {
+  display: none; }
 @media only screen and (max-width: 992px) {
   .qq-werte .qq-img-box img {
     padding-top: 50px;
@@ -105,13 +109,18 @@
     height: auto; } }
 @media only screen and (max-width: 768px) {
   .qq-werte .qq-t1, .qq-werte .qq-t2, .qq-werte .qq-t3, .qq-werte .qq-t3a, .qq-werte .qq-t4 {
-    max-width: 350px !important;
+    max-width: 100% !important;
     margin: 0 auto !important; }
   .qq-werte .qq-t2 {
     margin-top: 15px !important; }
-  .qq-werte .qq-img-box img {
-    padding: 7px 0;
-    width: auto;
-    height: auto; } }
+  .qq-werte .qq-img-box {
+    padding: 10px; }
+    .qq-werte .qq-img-box img {
+      display: none; }
+  .qq-werte .qq-img-box-a {
+    text-align: center;
+    padding-bottom: 50px; }
+    .qq-werte .qq-img-box-a img {
+      display: inline-block; } }
 
 /*# sourceMappingURL=style6.css.map */

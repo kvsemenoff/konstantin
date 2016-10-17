@@ -1,8 +1,85 @@
-@import url(reset.css);
-@import url(style.css);
-@import url(style2.css);
-@import url(style3.css);
-@import url(style4.css);
-@import url(fonts.css);
+.zk_bg_kontakt {
+  background: url(../img/zk_bg_kontakt.jpg) no-repeat;
+  margin: 0 auto; }
+
+.clear {
+  clear: both; }
+
+.zk_kontakt {
+  margin-top: 155px; }
+  .zk_kontakt .zk_form_all {
+    font-family: "HelveticaNeue-Light";
+    font-size: 20px;
+    line-height: 1.4em;
+    color: #000000;
+    float: left;
+    padding-right: 30px; }
+    .zk_kontakt .zk_form_all .zk_first_li {
+      font-family: "HelveticaNeue-Medium"; }
+    .zk_kontakt .zk_form_all .zk_form {
+      margin-top: 5px;
+      color: #000000;
+      border-color: #7e7e7e;
+      vertical-align: top; }
+      .zk_kontakt .zk_form_all .zk_form input::-webkit-input-placeholder {
+        color: black; }
+      .zk_kontakt .zk_form_all .zk_form textarea::-webkit-input-placeholder {
+        color: black; }
+      .zk_kontakt .zk_form_all .zk_form input::-moz-placeholder {
+        color: black; }
+      .zk_kontakt .zk_form_all .zk_form textarea::-moz-placeholder {
+        color: black; }
+      .zk_kontakt .zk_form_all .zk_form form {
+        padding-bottom: 30px; }
+      .zk_kontakt .zk_form_all .zk_form h3 {
+        margin-top: 25px; }
+      .zk_kontakt .zk_form_all .zk_form input {
+        padding: 0 5px 5px 5px;
+        margin-bottom: 15px;
+        width: 100%;
+        font-size: 15px; }
+      .zk_kontakt .zk_form_all .zk_form textarea {
+        width: 100%;
+        color: black;
+        font-size: 15px;
+        padding: 0 5px 5px 5px;
+        resize: none; }
+      .zk_kontakt .zk_form_all .zk_form a {
+        color: #000000;
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        display: block;
+        margin-bottom: 20px; }
+        .zk_kontakt .zk_form_all .zk_form a span {
+          position: absolute;
+          top: -10px;
+          left: 80px; }
+
+@media only screen and (min-width: 480px) {
+  .zk_form_all {
+    margin-left: 30px;
+    width: 70%; }
+
+  .zk_map {
+    margin-left: 30px; } }
+@media only screen and (min-width: 768px) {
+  .zk_map {
+    margin-left: 40px; }
+
+  .zk_form_all {
+    margin-left: 40px;
+    width: 35%; } }
+@media only screen and (min-width: 992px) {
+  .zk_kontakt {
+    margin: 155px 0px; }
+
+  .zk_form_all {
+    width: 35%;
+    margin-left: 50px; } }
+@media only screen and (min-width: 1248px) {
+  .zk_form_all {
+    width: 45%;
+    margin-left: 75px; } }
 
 /*# sourceMappingURL=style5.css.map */
