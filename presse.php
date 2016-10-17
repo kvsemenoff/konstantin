@@ -16,7 +16,7 @@
 	<link rel="stylesheet" href="css/style.css">
 
 </head>
-<body class="ah-presse">
+<body class="ah-presse"> 
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="libs/owl.carousel/owl.carousel.js"></script>
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>

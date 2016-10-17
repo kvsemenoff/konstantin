@@ -35,60 +35,65 @@
 	<?php require_once('includes/header.php'); ?>
 	
 	<?php require_once('includes/footer.php'); ?>
-
-<section class="footer">
+<section class="ah-slider">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3">
-				<div class="ab-main-img-box">
-					<img src="img/art-1.png" alt="">
-					<div class="ab-box-txt">
-						<span>Konstantin Wettig</span>
-						<span class="ab-box-txt-span">Immobilienscout</span>
+			<div class="col-md-12">
+				<div class="ah-sbox1">
+					
+						<div class="item">
+							<div class="ab-img-box">
+							<img  src="img/ab-slide-1.jpg" alt="">
+							</div>
+							<div class="slidetextbox">
+								<span class="slidetextbox-span1">
+									Immobilienscouting für bisher am Markt<br> 
+									unbekannte Potential immobilien ist das<br>  
+									Spezialgebiet von Konstantin Wettig.
+								</span>
+							</div>
+						</div>
+					
+					
+						<div class="item">
+							<div class="ab-img-box">
+							<img  src="img/ab-slide-2.jpg" alt="">
+							</div>
+							<div class="slidetextbox slidetextbox-2">
+								<span class="slidetextbox-span1 slidetextbox-span2">
+									Personifizierte Immobilienprofessionalität<br> 
+									verbunden mit einem umfassenden,<br> 
+									persönlichen Netzwerk machen Konstantin<br> 
+									Wettig zu einem ausgewiesenen Spezialisten<br>
+									des deutschen Immobilienmarktes mit dem<br>
+									Schwerpunkt auf München.<br>
+								</span>
+							</div>
+						</div>
+					
+					<div class="item">
+						
 					</div>
-					<a href="#"><div class="ab-str"></div></a>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="ab-main-img-box">
-					<img src="img/art-2.png" alt="">
-					<div class="ab-box-txt">
-						<span>Leistungen</span>
-					</div>
-					<a href="#"><div class="ab-str"></div></a>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="ab-main-img-box">
-					<img src="img/art-3.png" alt="">
-					<div class="ab-box-txt">
-						<span>Geschäftspartner</span>
-					</div>
-					<a href="#"><div class="ab-str"></div></a>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="ab-main-img-box">
-					<img src="img/art-4.png" alt="">
-					<div class="ab-box-txt">
-						<span>Transaktions-<br>volumen</span>
-					</div>
-					<a href="#"><div class="ab-str"></div></a>
 				</div>
 			</div>
 			<div class="clearfix"></div>
-			<div class="col-md-12">
-				<ul class="ab-footer-menu">
-					<li><a href="#">Werte</a></li>
-					<li><a href="#">Kooperationen</a></li>
-					<li><a href="#">Presse</a></li>
-					<li><a href="#">Kontakt</a></li>
-					<li><a href="#">Impressum</a></li>
-				</ul>
-			</div>
 		</div>
 	</div>
 </section>
+<script>
+ $('.ah-sbox1').owlCarousel({
+    loop: true,
+    margin:0,
+    items: 1,
+    autoplay: false,
+    smartSpeed:2000,
+    autoplayTimeout:7000,
+    nav: true,
+    navText:['<span class="ah-arrowleft"></span>','<span class="ah-arrowright"></span>']
+});
+
+</script>
+
 
 </body>
 </html>

@@ -1,13 +1,11 @@
-<div class="az-header1 az-margin-bottom20">
+<div class="az-header1 az-margin-bottom45">
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-xs-6">
-                <a href="#">
-                    <img src="img/az-logo.png" alt="">
-                </a>
+                <span class="az-head-span">Geschäftspartner<br>Ein Auszug</span>
             </div>
             <div class="col-md-6 col-xs-6">
-                <div class="anz-menu az-margin-bottom45">
+                <div class="anz-menu">
                     <input type="checkbox" id="check_1" class=""/>
                     <label class="anz-menu-ch" for="check_1"></label>
                     <div class="anz-perspective">
