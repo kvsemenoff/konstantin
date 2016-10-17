@@ -50,6 +50,11 @@
 				</div>
 			</div>
 			<div class="row qq-main">
+				<div class="col-xs-12">
+					<div class="qq-img-box-a">
+						<img src="img/werte-logo.png" alt="">
+					</div>
+				</div>
 				<div class="col-md-6 col-sm-6 col-xs-12">
 					<div class="qq-txt_box qq-t1">
 						<h3>INDIVIDUALITÄT</h3>
