@@ -73,14 +73,17 @@ body, html{
 
     .anz-menu-ch{
         cursor: pointer; 
-        position: absolute;
-        right: 15px;
-        top: 0px;
-        z-index: 3;
+        // position: absolute;
+        // right: 15px;
+        // top: 0px;
+        // z-index: 3;
     }
 /*menu*/
 
 /*menu styles*/
+.anz-menu{
+    text-align: right;
+}
 .az-header1{
     padding-top: 40px;
 }
@@ -95,6 +98,7 @@ body, html{
     background: #fff;
 }
 .anz-menu-ch{
+    display: inline-block;
     width: 41px;
     height: 43px;
     background: url(../img/az-menu.png) no-repeat top left;
@@ -103,6 +107,7 @@ body, html{
     background: url(../img/az-menu2.png) no-repeat top left;
 }
 .main-menu{
+    text-align: left;
     a{
         color: #000;
         position: relative;

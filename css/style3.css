@@ -56,14 +56,13 @@ body, html {
   display: block; }
 
 .anz-menu-ch {
-  cursor: pointer;
-  position: absolute;
-  right: 15px;
-  top: 0px;
-  z-index: 3; }
+  cursor: pointer; }
 
 /*menu*/
 /*menu styles*/
+.anz-menu {
+  text-align: right; }
+
 .az-header1 {
   padding-top: 40px; }
 
@@ -78,6 +77,7 @@ body, html {
   background: #fff; }
 
 .anz-menu-ch {
+  display: inline-block;
   width: 41px;
   height: 43px;
   background: url(../img/az-menu.png) no-repeat top left; }
@@ -85,21 +85,23 @@ body, html {
 .anz-menu-ch_style {
   background: url(../img/az-menu2.png) no-repeat top left; }
 
-.main-menu a {
-  color: #000;
-  position: relative;
-  display: inline-block; }
-.main-menu a:before {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  content: '';
-  width: 0%;
-  height: 3px;
-  background: #cd1719;
-  transition: width 0.5s ease-in-out; }
-.main-menu a:hover:before {
-  width: 100%; }
+.main-menu {
+  text-align: left; }
+  .main-menu a {
+    color: #000;
+    position: relative;
+    display: inline-block; }
+  .main-menu a:before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #cd1719;
+    transition: width 0.5s ease-in-out; }
+  .main-menu a:hover:before {
+    width: 100%; }
 
 .az-head-span {
   font-family: "HelveticaNeue-Medium";
