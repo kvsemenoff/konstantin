@@ -9,8 +9,8 @@
 // RES**************************************
 .ah-resbody{
 	background: url(../img/ah-resfon.jpg) top center no-repeat;
-	background-size: cover;
-	min-height: 900px;
+	background-size: cover !important;
+	// min-height: 900px;
 }
 .ah-res{
 	p{
@@ -25,16 +25,13 @@
 // transakvol************************
 .ah-transakvolbody{
 	background: url(../img/ah-transakvol_xs.jpg) top center no-repeat;
-	background-size: cover;
-	min-height: none;
+	background-size: cover !important;
+	// min-height: none;
 }
 .ah-transakvolwrap{
 	position: relative;
 	min-height: 560px;
-	margin-top: 245px;
-
-	outline: 1px solid red;
-
+	margin-top: 109px;
 }
 .ah-transleft, .ah-transright{
 	position: static;
@@ -70,26 +67,20 @@
 	line-height: 60px;
 }
 // PRESSE**************************
-.ah-presse{
+.ah-pressebody{
 	background: url(../img/ah-pressefon.jpg) top center no-repeat;
-	background-size: cover;
+	background-size: cover !important;
+
 }
 .ah-ressewrap, .ah-ressewrap1{ 
-	position: relative;
 	text-align: center;
 	background-color: #fff;
-	padding: 12px 12px 0px 12px;
+	padding: 10px 10px 0px 10px;
 	margin-bottom: 11px;
-	min-height: 104px;
-}
-.ah-ressewrap1{
-	padding: 35px;
-	min-height: 0px !important; 
+	// min-height: 99px;
 }
 .ah-imgbox{
-	position: absolute;
-	bottom: 0px;
-	left: 47%;
+	margin-top: 5px;
 }
 .ah-resse-title{
 	display: block;
@@ -124,7 +115,8 @@
 @media only screen and (min-width : 768px) {
 	.ah-transakvolbody{
 		background: url(../img/ah-transakvol.jpg) top center no-repeat;
-		min-height: 900px;
+		// min-height: 900px;
+		background-size: cover !important;
 	}
 	.ah-transleft, .ah-transright{
 		position: absolute;

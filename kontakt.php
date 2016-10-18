@@ -37,12 +37,14 @@
 
 <div class="col-md-12" >
 	<div class="zk_kontakt">
+		<h3 class="zk_top_h3">Kontakt</h3>		
 		<div class="zk_form_all">
+
 			<ul>
 				<li class="zk_first_li">KW Real Estate</li>
 				<li>Weinstrasse 4</li>
-				<li>80333 München</li><br/>
-				<li>Frau Maria Iskudi</li>
+				<li>80333 München</li>
+				<li class="zk_br">Frau Maria Iskudi</li>
 				<li>Assistentin des Geschäftsführers</li>
 				<li>Telefon	+49 (0)89 – 33 99 55 40</li>
 				<li>Mobil	+49 (0)172 – 888 11 01</li>
@@ -54,7 +56,7 @@
 				<form action="" name="feedback" method="post" class="zk_form">		
 					<input type="text" name="from" placeholder="Ihr Name(Pflichtfeld)" /><br/>		
 					<input type="text" name="to" placeholder="Ihr Name(Pflichtfeld)" /><br/>
-					<textarea name="message" cols="" rows="4" placeholder="Ihre Nachricht"></textarea>		
+					<textarea name="message" cols="" rows="5" placeholder="Ihre Nachricht"></textarea>		
 				</form>
 
 				<a href="#">senden<span><img src="img/zk_send.png" alt=""></span></a>		
