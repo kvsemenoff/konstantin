@@ -106,21 +106,15 @@
 			'left' : '0px',
 			'transform': 'skewY(' + -az_deg(h3-h2, w1) + 'deg)'
 		});
-		var devide = (h3-h2)/w1;
-		var devide2 = w1/(h3-h2);
-		// alert(devide2);
 		$('.az-arrow').css({
 			'bottom' : h2 + 'px',
 			'left' :  '0px',
 			'transform': 'translate(-15px, 5px) rotate(' + -az_deg(h3-h2, w1) + 'deg)',
 			'transform-origin': '50% 50%',
 		});
-		
-		// alert(devide);
 		$('.az-arrow').animate({
 			'bottom' : h3 + 'px',
 			'left' : w1 + 'px',
-			// 'transform': 'rotate(' + -az_deg(h3-h2, w1) + 'deg)',
 		}, 2200);
 		$('.ah-transleft').height(h1-100);
 		$('.ah-transright').height(h2-100);
