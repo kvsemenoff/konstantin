@@ -228,7 +228,7 @@ body, html {
   height: 9px;
   background: #9dbd1a;
   transform-origin: 0px 0px;
-  animation: len 5s ease-in-out; }
+  animation: len 2.5s ease-in-out; }
 
 .az-arrow {
   position: absolute;
