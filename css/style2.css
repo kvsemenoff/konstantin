@@ -61,13 +61,25 @@
   background: url(../img/ah-pressefon.jpg) top center no-repeat;
   background-size: cover !important; }
 
-.ah-ressewrap, .ah-ressewrap1 {
+.ah-ressewrap {
+  position: relative;
   text-align: center;
   background-color: #fff;
   padding: 10px 10px 0px 10px;
-  margin-bottom: 11px; }
+  margin-bottom: 11px;
+  min-height: 102px; }
+
+.ah-ressewrap1 {
+  position: relative;
+  text-align: center;
+  background-color: #fff;
+  padding: 10px 10px 0px 10px;
+  min-height: 63px; }
 
 .ah-imgbox {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
   margin-top: 5px; }
 
 .ah-resse-title {
