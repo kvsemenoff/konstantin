@@ -40,27 +40,87 @@
     <div class="container">
 	    <div class="row">
 		    <div class="col-md-12 col-sm-12 col-xs-12">
-			    <div class="ah-transakvolwrap">
-					<div class="row">
-						<div class="col-md-6 col-sm-6 col-xs-12">
-							<div class="ah-transleft">
-								<span class="ah-transakvol-title">2014</span>
-								<span class="ah-transakvol-text">40 MIO.<br>EURO</span>
-							</div>
-						</div>
-						<div class="col-md-6 col-sm-6 col-xs-12">
-							<div class="ah-transright">
-								<span class="ah-transakvol-title">2015</span>
-								<span class="ah-transakvol-text">60 MIO.<br>EURO</span>
-							</div>
-						</div>
+				<div class="az-col">
+					<div class="ah-arr ah-arr1"></div>
+				</div>
+				<div class="az-col">
+					<div class="ah-arr ah-arr2"></div>
+					<div class="ah-transleft">
+						<span class="ah-transakvol-title">2014</span>
+						<span class="ah-transakvol-text">40 MIO.<br>EURO</span>
 					</div>
 				</div>
+				<div class="az-col">
+					<div class="ah-arr ah-arr3"></div>
+				</div>
+				<div class="az-col">
+					<div class="ah-arr ah-arr4"></div>
+					<div class="ah-transright">
+						<span class="ah-transakvol-title">2015</span>
+						<span class="ah-transakvol-text">60 MIO.<br>EURO</span>
+					</div>
+				</div>
+				<div class="az-col">
+					<div class="ah-arr ah-arr5"></div>
+					<div class="az-arrow"></div>
+				</div>
+				<div class="clearfix"></div>
+				
+
+				
+
 		    </div>
 	    </div>
     </div>
 </section>
-
+<script>
+	var az_deg = function(a, b){
+		return Math.atan(a/b)/Math.PI*180;
+	};
+	$(document).ready(function(){
+		var start = 50;
+		var h1 = 340;
+		var h2 = 450;
+		var h3 = 550;
+		var w1 = $('.az-col').width();
+		$('.ah-arr1').css({
+			'bottom' : start + 'px',
+			'left' : '0px',
+			'transform': 'skewY(' + -az_deg(h1-start, w1) + 'deg)'
+		});
+		$('.ah-arr2').css({
+			'bottom' : h1 + 'px',
+			'left' : '0px',
+		});
+		$('.ah-arr3').css({
+			'bottom' : h1 + 'px',
+			'left' : '0px',
+			'transform': 'skewY(' + -az_deg(h2-h1, w1) + 'deg)'
+		});
+		$('.ah-arr4').css({
+			'bottom' : h2 + 'px',
+			'left' : '0px',
+		});
+		$('.ah-arr5').css({
+			'bottom' : h2 + 'px',
+			'left' : '0px',
+			'transform': 'skewY(' + -az_deg(h3-h2, w1) + 'deg)'
+		});
+		$('.az-arrow').css({
+			'bottom' : h2 + 'px',
+			'left' : '-1%',
+			'transform': 'rotate(' + -az_deg(h3-h2, w1) + 'deg)',
+		});
+		$('.az-arrow').animate({
+			'bottom' : h3 + 'px',
+			'left' : '99%',
+			// 'transform': 'rotate(' + -az_deg(h3-h2, w1) + 'deg)',
+		}, 5000);
+		$('.ah-transleft').height(h1-100);
+		$('.ah-transright').height(h2-100);
+	});
+	
+</script>
 <div class="clearfix"></div>
 
 

@@ -34,21 +34,22 @@
 	margin-top: 109px;
 }
 .ah-transleft, .ah-transright{
-	position: static;
+	position: absolute;
 	background-color: #fff;
 	padding: 25px 30px;
 	text-align: center;
+	width: 100%;
 	// top: 0px;
 }
 .ah-transleft{
 	min-height: none;
-	top: 0;
+	bottom: 0;
 	left: 0;
-	margin-bottom: 30px;
+	// margin-bottom: 30px;
 }
 .ah-transright{
 	min-height: none;
-	top: 0;
+	bottom: 0;
 	left: 0;
 }
 .ah-transakvol-title{
@@ -125,57 +126,57 @@
 
 @media only screen and (min-width : 768px) {
 	.ah-transakvolbody{
-		background: url(../img/ah-transakvol.jpg) top center no-repeat;
+		background: url(../img/ah-transakvol_xs.jpg) top center no-repeat;
 		// min-height: 900px;
 		background-size: cover !important;
 	}
 	.ah-transleft, .ah-transright{
-		position: absolute;
+		// position: absolute;
 	}
 	.ah-transleft{
-		min-height: 300px;
-		top: 259px;
-		left: 29%;
-		margin-bottom: 0px;
+		// min-height: 300px;
+		// top: 259px;
+		// left: 29%;
+		// margin-bottom: 0px;
 	}
 	.ah-transright{
-		min-height: 464px;
-		top: 95px;
-		left: 10%;
+		// min-height: 464px;
+		// top: 95px;
+		// left: 10%;
 	}
 }
 
 @media only screen and (min-width : 992px) {
-	.ah-transleft, .ah-transright{
-		position: absolute;
-	}
-	.ah-transleft{
-		min-height: 300px;
-		top: 259px;
-		left: 45%;
-		margin-bottom: 0px;
-	}
-	.ah-transright{
-		min-height: 464px;
-		top: 95px;
-		left: 7%;
-	}
+	// .ah-transleft, .ah-transright{
+	// 	position: absolute;
+	// }
+	// .ah-transleft{
+	// 	min-height: 300px;
+	// 	top: 259px;
+	// 	left: 45%;
+	// 	margin-bottom: 0px;
+	// }
+	// .ah-transright{
+	// 	min-height: 464px;
+	// 	top: 95px;
+	// 	left: 7%;
+	// }
 }
 @media only screen and (min-width : 1200px) {
-	.ah-transleft, .ah-transright{
-		position: absolute;
-	}
-	.ah-transleft{
-		min-height: 300px;
-		top: 259px;
-		left: 55%;
-		margin-bottom: 0px;
-	}
-	.ah-transright{
-		min-height: 464px;
-		top: 95px;
-		left: 7%;
-	}
+	// .ah-transleft, .ah-transright{
+	// 	position: absolute;
+	// }
+	// .ah-transleft{
+	// 	min-height: 300px;
+	// 	top: 259px;
+	// 	left: 55%;
+	// 	margin-bottom: 0px;
+	// }
+	// .ah-transright{
+	// 	min-height: 464px;
+	// 	top: 95px;
+	// 	left: 7%;
+	// }
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
