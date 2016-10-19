@@ -245,7 +245,7 @@ html, body {
 /*graph*/
 /*leistungen*/
 .az-leistungen {
-  background: url(../img/az-radar.jpg) no-repeat calc(50% + 2px) calc(50% + 2px); }
+  background: url(../img/az-radar.jpg) no-repeat calc(50% + 2px) calc(50% + 2px) #090909; }
 
 @keyframes rot {
   0% {

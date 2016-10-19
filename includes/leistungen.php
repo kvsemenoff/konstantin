@@ -183,7 +183,7 @@
 		for(var i=0; i<elems.length; i++){
 			top = elems.eq(i).position().top - y + elems.eq(i).height()/2;
 			left = elems.eq(i).position().left - x + elems.eq(i).width()/2;
-			deg_arrs.push((top>0&&left>0)?az_deg(top, left):(top<0&&left>0)?(360+az_deg(top, left)):(180+az_deg(top, left)));
+			deg_arrs.push((top>=0&&left>=0)?az_deg(top, left):(top<=0&&left>=0)?(360+az_deg(top, left)):(180+az_deg(top, left)));
 		}
 		for(var i=0; i<deg_arrs.length; i++){
 			deg_arrs2.push(deg_arrs[i]>180?deg_arrs[i]-180:deg_arrs[i]+180);
