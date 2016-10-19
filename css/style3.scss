@@ -1,4 +1,8 @@
-body, html{
+.az-html{
+    height: 100%;
+    width: 100%;
+}
+html, body{
     width: 100%;
     min-height: 100%;
 }
@@ -320,15 +324,168 @@ body, html{
         transform: rotate(360deg) translate(-50%, 0);
     }
 }
-.radar-arrow{
+.az-radar-arrow{
     position: fixed;
     top: 50%;
     left: 50%;
     // transform-origin: 0% 0%;
-    animation: rot 5s linear infinite;
+    animation: rot 4s linear infinite;
     width: 1150px;
     height: 3px;
     background: linear-gradient(to right, transparent calc(50% + 32px), #fff calc(50% + 32px));
+}
+.az-radar-elem{
+    opacity: 0;
+}
+.az-radar-elem-item{
+    font-family: "Helvetica";
+    border: 1px solid #e6e6e6;
+    background: #4f4e4e;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 27px;
+    display: inline-block;
+}
+.az-offerten{
+    padding: 16px 14px;
+    width: 100%;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: "HelveticaNeue-Bold";
+    color: #cd1719;
+    display: inline-block;
+}
+.az-offerten-lr{
+    position: relative;
+    width: 100%;
+}
+.az-offerten-lr:before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    left: 0px;
+    width: 1px;
+    background: url(../img/az-border-left.png) repeat-y center center;
+}
+.az-offerten-lr:after{
+    content: '';
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    right: 0px;
+    width: 1px;
+    background: url(../img/az-border-left.png) repeat-y center center;
+}
+.az-offerten-tb{
+    position: relative;
+    width: 100%;    
+}
+.az-offerten-tb:before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    height: 1px;
+    left: 0px;
+    width: 100%;
+    background: url(../img/az-border-top.png) repeat-x center center;
+}
+.az-offerten-tb:after{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    height: 1px;
+    left: 0px;
+    width: 100%;
+    background: url(../img/az-border-top.png) repeat-x center center;
+}
+.az-radar-elem-item2{
+    max-width: 300px;
+    background: #fff;
+    display: inline-block;
+    padding: 15px;
+    font-size: 18px;
+    color: #000;
+    font-family: "Helvetica";
+    text-align: center;
+    strong{
+        font-family: "HelveticaNeue-Bold";
+        text-transform: uppercase;
+    }
+}
+.az-radar-elem-item3{
+    padding: 8px 7px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: "HelveticaNeue-Bold";
+    font-size: 18px;
+    display: inline-block;
+}
+.az-pos1{
+    position: fixed;
+    top: 100px;
+    left: 700px;
+}
+.az-pos2{
+    position: fixed;
+    top: 150px;
+    left: 700px;
+}
+.az-pos3{
+    position: fixed;
+    top: 200px;
+    left: 700px;
+}
+.az-pos4{
+    position: fixed;
+    top: 250px;
+    left: 700px;
+}
+.az-pos5{
+    position: fixed;
+    top: 300px;
+    left: 700px;
+}
+.az-pos6{
+    position: fixed;
+    top: 350px;
+    left: 700px;
+}
+.az-pos7{
+    position: fixed;
+    top: 250px;
+    left: 300px;
+}
+.az-pos8{
+    position: fixed;
+    top: 350px;
+    left: 300px;
+}
+.az-pos9{
+    position: fixed;
+    top: 450px;
+    left: 450px;
+}
+.az-pos10{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@keyframes opas{
+    0%{
+        opacity: 1;
+        z-index: 1;
+    }
+    100%{
+        opacity: 0;
+        z-index: -1;
+    }
+}
+.az-active{
+    opacity: 0;
+    animation: opas 2s ease-in-out;
 }
 /*leistungen*/
 
