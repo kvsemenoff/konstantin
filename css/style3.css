@@ -33,7 +33,7 @@ body, html {
 
 #check_1 ~ .anz-perspective {
   transition: all 1s ease-in-out;
-  left: -250px; }
+  left: -330px; }
 
 #check_1:checked ~ .anz-perspective .menu-list-pressed {
   transition: all 1s ease-in-out;
@@ -42,18 +42,6 @@ body, html {
 #check_1 ~ .anz-perspective .menu-list-pressed {
   transition: all 1s ease-in-out;
   transform: rotateY(90deg); }
-
-#check_1 ~ .anz-menu-ch .fa-bars {
-  display: block; }
-
-#check_1 ~ .anz-menu-ch .fa-times {
-  display: none; }
-
-#check_1:checked ~ .anz-menu-ch .fa-bars {
-  display: none; }
-
-#check_1:checked ~ .anz-menu-ch .fa-times {
-  display: block; }
 
 .anz-menu-ch {
   cursor: pointer; }
@@ -68,7 +56,7 @@ body, html {
 
 .menu-list-pressed {
   border: 1px solid #000;
-  width: 250px;
+  width: 330px;
   height: 100%;
   font-family: "HelveticaNeue-Light";
   font-size: 22px;
@@ -78,12 +66,21 @@ body, html {
 
 .anz-menu-ch {
   display: inline-block;
-  width: 41px;
-  height: 43px;
-  background: url(../img/az-menu.png) no-repeat top left; }
+  font-family: "HelveticaNeue-Thin";
+  font-size: 40px;
+  border: 3px solid #1d1d1b;
+  color: #1d1d1b;
+  font-weight: 0;
+  padding: 0 4px;
+  transition: all 0.5s ease-in-out; }
+
+.anz-menu-ch:hover {
+  border: 3px solid #999;
+  color: #999; }
 
 .anz-menu-ch_style {
-  background: url(../img/az-menu2.png) no-repeat top left; }
+  border: 3px solid #fff;
+  color: #fff; }
 
 .main-menu {
   text-align: left; }
@@ -98,7 +95,7 @@ body, html {
     content: '';
     width: 0%;
     height: 3px;
-    background: #cd1719;
+    background: #777;
     transition: width 0.5s ease-in-out; }
   .main-menu a:hover:before {
     width: 100%; }
@@ -112,8 +109,72 @@ body, html {
 .az-head-span_style {
   color: #fff; }
 
+.anz-menu-ch1 {
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  color: #222; }
+  .anz-menu-ch1 i {
+    font-size: 40px; }
+
+.anz-menu-ch1:hover {
+  color: #999; }
+
+.az-logobox {
+  max-width: 160px;
+  display: inline-block; }
+  .az-logobox img {
+    width: 100%;
+    height: auto; }
+
+.az-center {
+  text-align: center; }
+
+.az-close {
+  font-size: 40px;
+  color: #222;
+  transition: all 0.5s ease-in-out; }
+
+.az-close:hover {
+  color: #999; }
+
 /*menu styles*/
 /*slider*/
+.az-arrowleft {
+  transition: all .5s ease-in-out;
+  display: block;
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 4%;
+  top: 30%;
+  background: none;
+  border-radius: 50%;
+  border: 2px solid #000; }
+  .az-arrowleft i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-68%, -54%);
+    font-size: 30px; }
+
+.az-arrowright {
+  transition: all .5s ease-in-out;
+  display: block;
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  right: 4%;
+  top: 30%;
+  background: none;
+  border-radius: 50%;
+  border: 2px solid #000; }
+  .az-arrowright i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-28%, -54%);
+    font-size: 30px; }
+
 .white-dot {
   border: 1px solid white !important; }
 
@@ -121,12 +182,84 @@ body, html {
   background: white !important; }
 
 .white-left {
-  background: url(../img/ab-left.png) no-repeat top left !important; }
+  color: #fff;
+  border: 2px solid #fff; }
 
 .white-right {
-  background: url(../img/ab-right.png) no-repeat top left !important; }
+  color: #fff;
+  border: 2px solid #fff; }
+
+.owl-dot {
+  transition: all .5s ease-in-out; }
+
+.owl-carousel .owl-item img {
+  transform-style: unset !important; }
+
+.slidetextbox {
+  position: unset !important; }
+
+.slidetextbox-outer {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+.owl-dots {
+  left: 50% !important;
+  transform: translate(-50%, 0); }
+  .owl-dots div:first-child {
+    margin-left: 0px !important; }
 
 /*slider*/
+/*graph*/
+@keyframes len {
+  0% {
+    width: 0%; }
+  100% {
+    width: 100%; } }
+.az-col {
+  width: 20%;
+  float: left;
+  position: relative;
+  height: 570px; }
+
+.ah-arr {
+  position: absolute;
+  width: 100%;
+  height: 9px;
+  background: #9dbd1a;
+  transform-origin: 0px 0px;
+  animation: len 2.5s ease-in-out; }
+
+.az-arrow {
+  position: absolute;
+  border-left: 30px solid #9dbd1a;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  width: 0px;
+  height: 0px; }
+
+/*graph*/
+/*leistungen*/
+.az-leistungen {
+  background: url(../img/az-radar.jpg) no-repeat calc(50% + 2px) calc(50% + 2px); }
+
+@keyframes rot {
+  0% {
+    transform-origin: 0% 0%;
+    transform: rotate(0deg) translate(-50%, 0); }
+  100% {
+    transform-origin: 0% 0%;
+    transform: rotate(360deg) translate(-50%, 0); } }
+.radar-arrow {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  animation: rot 5s linear infinite;
+  width: 1150px;
+  height: 3px;
+  background: linear-gradient(to right, transparent calc(50% + 32px), #fff calc(50% + 32px)); }
+
+/*leistungen*/
 /*margins*/
 .az-margin-bottom45 {
   margin-bottom: 45px; }
@@ -134,8 +267,13 @@ body, html {
 .az-margin-bottom20 {
   margin-bottom: 20px; }
 
-@media only screen and (min-width: 768px) {
-  .anz-menu-ch {
-    right: 0px; } }
+@media only screen and (min-width: 992px) {
+  .az-arrowleft {
+    left: 2%;
+    top: 43%; }
+
+  .az-arrowright {
+    right: 2%;
+    top: 43%; } }
 
 /*# sourceMappingURL=style3.css.map */

@@ -2,15 +2,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-xs-6">
-                <span class="az-head-span az-head-span_style">Geschäftspartner<br>Ein Auszug</span>
+                <span class="az-head-span az-head-span_style">Transaktionsvolumen<br>Ein Auszug</span>
             </div>
             <div class="col-md-6 col-xs-6">
                 <div class="anz-menu">
                     <input type="checkbox" id="check_1" class=""/>
-                    <label class="anz-menu-ch anz-menu-ch_style" for="check_1"><i class="fa fa-bars" aria-hidden="true"></i></label>
+                    <label class="anz-menu-ch anz-menu-ch_style" for="check_1"></label>
                     <div class="anz-perspective">
                         <div class="menu-list-pressed">
-                            <label class="anz-menu-ch1" for="check_1"><i class="fa fa-times-circle-o" aria-hidden="true"></i></label>
                             <ul class="main-menu">
                                 <li><a href="#">Werte</a></li>
                                 <li><a href="#">Kooperationen</a></li>
