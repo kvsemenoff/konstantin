@@ -1,37 +1,115 @@
 <div class="az-radar-arrow"></div>
 <div class="az-radar-elems">
-	<div class="az-radar-elem az-pos1">
-		<div class="az-radar-elem-item">Family Offices</div>
+	<div class="az-pos1">
+		<div class="az-radar-elem-item3">Erfahrung</div>
 	</div>
-	<div class="az-radar-elem az-pos2">
-		<div class="az-radar-elem-item">Family Offices</div>
+	<div class="az-pos2">
+		<div class="az-radar-elem-item3">Kontakte</div>
 	</div>
 	<div class="az-radar-elem az-pos3">
 		<div class="az-radar-elem-item">Family Offices</div>
 	</div>
 	<div class="az-radar-elem az-pos4">
-		<div class="az-radar-elem-item">Family Offices</div>
+		<div class="az-radar-elem-item">Architekten</div>
 	</div>
 	<div class="az-radar-elem az-pos5">
-		<div class="az-radar-elem-item">Family Offices</div>
+		<div class="az-radar-elem-item">Private Immobilineigentumer</div>
 	</div>
 	<div class="az-radar-elem az-pos6">
-		<div class="az-radar-elem-item">Family Offices</div>
+		<div class="az-radar-elem-item">Projectentwickler</div>
 	</div>
 	<div class="az-radar-elem az-pos7">
+		<div class="az-radar-elem-item">Erbengemeinschaften</div>
+	</div>
+	<div class="az-radar-elem az-pos8">
+		<div class="az-radar-elem-item">Privatinvestoren</div>
+	</div>
+	<div class="az-radar-elem az-pos9">
+		<div class="az-radar-elem-item">Kanzleien</div>
+	</div>
+	<div class="az-radar-elem az-pos10">
+		<div class="az-radar-elem-item">Privatisierung von Wohnraum</div>
+	</div>
+	<div class="az-radar-elem az-pos11">
+		<div class="az-radar-elem-item">Mezzaninkapitalgeber</div>
+	</div>
+	<div class="az-radar-elem az-pos12">
+		<div class="az-radar-elem-item">Bautrager</div>
+	</div>
+	<div class="az-radar-elem az-pos13">
+		<div class="az-radar-elem-item">Stadteplaner</div>
+	</div>
+	<div class="az-radar-elem az-pos14">
 		<div class="az-offerten-lr">
 			<div class="az-offerten-tb">
 				<div class="az-offerten">Offerten</div>
 			</div>
 		</div>
 	</div>
-	<div class="az-radar-elem az-pos8">
-		<div class="az-radar-elem-item2"><strong>Beratung</strong> bei der Konzeption & Entwicklung von Stadtquartieren</div>
+	<div class="az-radar-elem az-pos15">
+		<div class="az-offerten-lr">
+			<div class="az-offerten-tb">
+				<div class="az-offerten">Offerten</div>
+			</div>
+		</div>
 	</div>
-	<div class="az-pos9">
-		<div class="az-radar-elem-item3">Erfahrung</div>
+	<div class="az-radar-elem az-pos16">
+		<div class="az-offerten-lr">
+			<div class="az-offerten-tb">
+				<div class="az-offerten">Offerten</div>
+			</div>
+		</div>
 	</div>
-	<div class="az-pos10">
+	<div class="az-radar-elem az-pos17">
+		<div class="az-offerten-lr">
+			<div class="az-offerten-tb">
+				<div class="az-offerten">Offerten</div>
+			</div>
+		</div>
+	</div>
+	<div class="az-radar-elem az-pos18">
+		<div class="az-offerten-lr">
+			<div class="az-offerten-tb">
+				<div class="az-offerten">Offerten</div>
+			</div>
+		</div>
+	</div>
+	<div class="az-radar-elem az-pos19">
+		<div class="az-offerten-lr">
+			<div class="az-offerten-tb">
+				<div class="az-offerten">Offerten</div>
+			</div>
+		</div>
+	</div>
+	<div class="az-radar-elem az-pos20">
+		<div class="az-offerten-lr">
+			<div class="az-offerten-tb">
+				<div class="az-offerten">Offerten</div>
+			</div>
+		</div>
+	</div>
+	<div class="az-radar-elem az-pos21">
+		<div class="az-radar-elem-item2"><strong>Beratung</strong> bei der Konzeption &<br>Entwicklung von Stadtquartieren</div>
+	</div>
+	<div class="az-radar-elem az-pos22">
+		<div class="az-radar-elem-item2"><strong>Potentialanalysen</strong><br>von unbebauten & bebauten Grundstucken</div>
+	</div>
+	<div class="az-radar-elem az-pos23">
+		<div class="az-radar-elem-item2"><strong>Diskrete abwicklung</strong><br>von Immobiliensuchauftragen</div>
+	</div>
+	<div class="az-radar-elem az-pos24">
+		<div class="az-radar-elem-item2"><strong>Wertermittlung</strong></div>
+	</div>
+	<div class="az-radar-elem az-pos25">
+		<div class="az-radar-elem-item2"><strong>Vermittlung</strong><br>von Mezzaninkapitalgebern</div>
+	</div>
+	<div class="az-radar-elem az-pos26">
+		<div class="az-radar-elem-item2"><strong>Vermittlung</strong><br>von Gewerbe-/ Investmentimmobilien</div>
+	</div>
+	<div class="az-radar-elem az-pos27">
+		<div class="az-radar-elem-item2"><strong>Immobilienscouting</strong></div>
+	</div>
+	<div class="az-pos28">
 		<div class="az-radar-logo">
 			<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="69.85mm" height="43.0388mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
 				viewBox="0 0 6985 4304"
@@ -116,8 +194,6 @@
 			var azdeg = Math.acos(parseFloat(matrix[0]))/Math.PI*180;
 			var azdeg2 = Math.asin(parseFloat(matrix[1]))/Math.PI*180;
 			var azdeg3 = azdeg2>0?azdeg:(360-azdeg);
-			// info.html(azdeg3);
-			// alert(deg_arrs);
 			var az_in_it = az_in_array(azdeg3, deg_arrs);
 			var az_in_it2 = az_in_array(azdeg3, deg_arrs2);
 			if(az_in_it.length != 0){

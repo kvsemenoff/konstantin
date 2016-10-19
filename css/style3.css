@@ -273,6 +273,7 @@ html, body {
   color: #fff;
   padding: 10px 20px;
   font-size: 27px;
+  white-space: nowrap;
   display: inline-block; }
 
 .az-offerten {
@@ -294,7 +295,7 @@ html, body {
   top: 0px;
   height: 100%;
   left: 0px;
-  width: 1px;
+  width: 1.5px;
   background: url(../img/az-border-left.png) repeat-y center center; }
 
 .az-offerten-lr:after {
@@ -303,7 +304,7 @@ html, body {
   top: 0px;
   height: 100%;
   right: 0px;
-  width: 1px;
+  width: 1.5px;
   background: url(../img/az-border-left.png) repeat-y center center; }
 
 .az-offerten-tb {
@@ -314,7 +315,7 @@ html, body {
   content: '';
   position: absolute;
   top: 0px;
-  height: 1px;
+  height: 1.5px;
   left: 0px;
   width: 100%;
   background: url(../img/az-border-top.png) repeat-x center center; }
@@ -323,13 +324,12 @@ html, body {
   content: '';
   position: absolute;
   bottom: 0px;
-  height: 1px;
+  height: 1.5px;
   left: 0px;
   width: 100%;
   background: url(../img/az-border-top.png) repeat-x center center; }
 
 .az-radar-elem-item2 {
-  max-width: 300px;
   background: #fff;
   display: inline-block;
   padding: 15px;
@@ -352,50 +352,167 @@ html, body {
 
 .az-pos1 {
   position: fixed;
-  top: 100px;
-  left: 700px; }
+  left: 44.79%;
+  top: 64%;
+  transform: translate(-50%, -50%); }
 
 .az-pos2 {
   position: fixed;
-  top: 150px;
-  left: 700px; }
+  left: 56.04%;
+  top: 64%;
+  transform: translate(-50%, -50%); }
 
 .az-pos3 {
   position: fixed;
-  top: 200px;
-  left: 700px; }
+  left: 41.66%;
+  top: 17.33%;
+  transform: translate(-50%, -50%); }
 
 .az-pos4 {
   position: fixed;
-  top: 250px;
-  left: 700px; }
+  left: 61.80%;
+  top: 17.33%;
+  transform: translate(-50%, -50%); }
 
 .az-pos5 {
   position: fixed;
-  top: 300px;
-  left: 700px; }
+  left: 28.61%;
+  top: 25.33%;
+  transform: translate(-50%, -50%); }
 
 .az-pos6 {
   position: fixed;
-  top: 350px;
-  left: 700px; }
+  left: 50%;
+  top: 27.33%;
+  transform: translate(-50%, -50%); }
 
 .az-pos7 {
   position: fixed;
-  top: 250px;
-  left: 300px; }
+  left: 74.16%;
+  top: 25%;
+  transform: translate(-50%, -50%); }
 
 .az-pos8 {
   position: fixed;
-  top: 350px;
-  left: 300px; }
+  left: 25.41%;
+  top: 33.88%;
+  transform: translate(-50%, -50%); }
 
 .az-pos9 {
   position: fixed;
-  top: 450px;
-  left: 450px; }
+  left: 50%;
+  top: 36.22%;
+  transform: translate(-50%, -50%); }
 
 .az-pos10 {
+  position: fixed;
+  left: 74.44%;
+  top: 32.88%;
+  transform: translate(-50%, -50%); }
+
+.az-pos11 {
+  position: fixed;
+  left: 33.40%;
+  top: 42.88%;
+  transform: translate(-50%, -50%); }
+
+.az-pos12 {
+  position: fixed;
+  left: 62.5%;
+  top: 42.88%;
+  transform: translate(-50%, -50%); }
+
+.az-pos13 {
+  position: fixed;
+  left: 77.08%;
+  top: 41.11%;
+  transform: translate(-50%, -50%); }
+
+.az-pos14 {
+  position: fixed;
+  left: 24.65%;
+  top: 14.88%;
+  transform: translate(-50%, -50%); }
+
+.az-pos15 {
+  position: fixed;
+  left: 17.91%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+.az-pos16 {
+  position: fixed;
+  left: 29.86%;
+  top: 60.88%;
+  transform: translate(-50%, -50%); }
+
+.az-pos17 {
+  position: fixed;
+  left: 18.05%;
+  top: 66.66%;
+  transform: translate(-50%, -50%); }
+
+.az-pos18 {
+  position: fixed;
+  left: 66.80%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+.az-pos19 {
+  position: fixed;
+  left: 82.63%;
+  top: 55.66%;
+  transform: translate(-50%, -50%); }
+
+.az-pos20 {
+  position: fixed;
+  left: 77.91%;
+  top: 91.55%;
+  transform: translate(-50%, -50%); }
+
+.az-pos21 {
+  position: fixed;
+  left: 24.65%;
+  top: 69.33%;
+  transform: translate(-50%, -50%); }
+
+.az-pos22 {
+  position: fixed;
+  left: 50.41%;
+  top: 74.33%;
+  transform: translate(-50%, -50%); }
+
+.az-pos23 {
+  position: fixed;
+  left: 75.62%;
+  top: 69.22%;
+  transform: translate(-50%, -50%); }
+
+.az-pos24 {
+  position: fixed;
+  left: 24.51%;
+  top: 81.22%;
+  transform: translate(-50%, -50%); }
+
+.az-pos25 {
+  position: fixed;
+  left: 43.75%;
+  top: 85.22%;
+  transform: translate(-50%, -50%); }
+
+.az-pos26 {
+  position: fixed;
+  left: 66.66%;
+  top: 87.66%;
+  transform: translate(-50%, -50%); }
+
+.az-pos27 {
+  position: fixed;
+  left: 78.68%;
+  top: 78.88%;
+  transform: translate(-50%, -50%); }
+
+.az-pos28 {
   position: fixed;
   top: 50%;
   left: 50%;
