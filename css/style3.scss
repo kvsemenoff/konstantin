@@ -310,9 +310,7 @@ html, body{
 
 /*leistungen*/
 .az-leistungen{
-    // width: 100%;
-    // height: 100%;
-    background: url(../img/az-radar.jpg) no-repeat calc(50% + 2px) calc(50% + 2px) #090909;
+    background: #121212;
 }
 @keyframes rot{
     0%{
@@ -325,25 +323,16 @@ html, body{
     }
 }
 .az-radar-arrow{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    // transform-origin: 0% 0%;
-    animation: rot 4s linear infinite;
-    width: 1150px;
-    height: 3px;
-    background: linear-gradient(to right, transparent calc(50% + 32px), #fff calc(50% + 32px));
+    // display: none;
 }
-.az-radar-elem{
-    opacity: 0;
-}
+
 .az-radar-elem-item{
     font-family: "Helvetica";
     border: 1px solid #e6e6e6;
     background: #4f4e4e;
     color: #fff;
-    padding: 10px 20px;
-    font-size: 27px;
+    padding: 5px 10px;
+    font-size: 17px;
     white-space: nowrap;
     display: inline-block;
 }
@@ -403,8 +392,8 @@ html, body{
 .az-radar-elem-item2{
     background: #fff;
     display: inline-block;
-    padding: 15px;
-    font-size: 18px;
+    padding: 5px;
+    font-size: 12px;
     color: #000;
     font-family: "Helvetica";
     text-align: center;
@@ -414,182 +403,15 @@ html, body{
     }
 }
 .az-radar-elem-item3{
-    padding: 8px 7px;
+    padding: 4px 3px;
     text-transform: uppercase;
     border: 1px solid #fff;
     color: #fff;
     font-family: "HelveticaNeue-Bold";
-    font-size: 18px;
+    font-size: 12px;
     display: inline-block;
 }
-.az-pos1{
-    position: fixed;
-    left: 44.79%;
-    top: 64%;
-    transform: translate(-50%, -50%);
-}
-.az-pos2{
-    position: fixed;
-    left: 56.04%;
-    top: 64%;
-    transform: translate(-50%, -50%);
-}
-.az-pos3{
-    position: fixed;
-    left: 41.66%;
-    top: 17.33%;
-    transform: translate(-50%, -50%);
-}
-.az-pos4{
-    position: fixed;
-    left: 61.80%;
-    top: 17.33%;
-    transform: translate(-50%, -50%);
-}
-.az-pos5{
-    position: fixed;
-    left: 28.61%;
-    top: 25.33%;
-    transform: translate(-50%, -50%);
-}
-.az-pos6{
-    position: fixed;
-    left: 50%;
-    top: 27.33%;
-    transform: translate(-50%, -50%);
-}
-.az-pos7{
-    position: fixed;
-    left: 74.16%;
-    top: 25%;
-    transform: translate(-50%, -50%);
-}
-.az-pos8{
-    position: fixed;
-    left: 25.41%;
-    top: 33.88%;
-    transform: translate(-50%, -50%);
-}
-.az-pos9{
-    position: fixed;
-    left: 50%;
-    top: 36.22%;
-    transform: translate(-50%, -50%);
-}
-.az-pos10{
-    position: fixed;
-    left: 74.44%;
-    top: 32.88%;
-    transform: translate(-50%, -50%);
-}
-.az-pos11{
-    position: fixed;
-    left: 33.40%;
-    top: 42.88%;
-    transform: translate(-50%, -50%);
-}
-.az-pos12{
-    position: fixed;
-    left: 62.5%;
-    top: 42.88%;
-    transform: translate(-50%, -50%);
-}
-.az-pos13{
-    position: fixed;
-    left: 77.08%;
-    top: 41.11%;
-    transform: translate(-50%, -50%);
-}
-.az-pos14{
-    position: fixed;
-    left: 24.65%;
-    top: 14.88%;
-    transform: translate(-50%, -50%);
-}
-.az-pos15{
-    position: fixed;
-    left: 17.91%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-.az-pos16{
-    position: fixed;
-    left: 29.86%;
-    top: 60.88%;
-    transform: translate(-50%, -50%);
-}
-.az-pos17{
-    position: fixed;
-    left: 18.05%;
-    top: 66.66%;
-    transform: translate(-50%, -50%);
-}
-.az-pos18{
-    position: fixed;
-    left: 66.80%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-.az-pos19{
-    position: fixed;
-    left: 82.63%;
-    top: 55.66%;
-    transform: translate(-50%, -50%);
-}
-.az-pos20{
-    position: fixed;
-    left: 77.91%;
-    top: 91.55%;
-    transform: translate(-50%, -50%);
-}
-.az-pos21{
-    position: fixed;
-    left: 24.65%;
-    top: 69.33%;
-    transform: translate(-50%, -50%);
-}
-.az-pos22{
-    position: fixed;
-    left: 50.41%;
-    top: 74.33%;
-    transform: translate(-50%, -50%);
-}
-.az-pos23{
-    position: fixed;
-    left: 75.62%;
-    top: 69.22%;
-    transform: translate(-50%, -50%);
-}
-.az-pos24{
-    position: fixed;
-    left: 24.51%;
-    top: 81.22%;
-    transform: translate(-50%, -50%);
-}
-.az-pos25{
-    position: fixed;
-    left: 43.75%;
-    top: 85.22%;
-    transform: translate(-50%, -50%);
-}
-.az-pos26{
-    position: fixed;
-    left: 66.66%;
-    top: 87.66%;
-    transform: translate(-50%, -50%);
-}
-.az-pos27{
-    position: fixed;
-    left: 78.68%;
-    top: 78.88%;
-    transform: translate(-50%, -50%);
-}
-.az-pos28{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 @keyframes opas{
     0%{
         opacity: 1;
@@ -604,6 +426,35 @@ html, body{
     opacity: 0;
     animation: opas 2s ease-in-out;
 }
+.az-radar-elems{
+    >div{
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .az-pos14{
+        display: none;
+    }
+    .az-pos15{
+        display: none;
+    }
+    .az-pos16{
+        display: none;
+    }
+    .az-pos17{
+        display: none;
+    }
+    .az-pos18{
+        display: none;
+    }
+    .az-pos19{
+        display: none;
+    }
+    .az-pos20{
+        display: none;
+    }
+}
+
 /*leistungen*/
 
 /*margins*/
@@ -617,12 +468,222 @@ html, body{
 }
 
 @media only screen and (min-width : 480px) {
+    .az-leistungen{
+        background: url(../img/az-radar.jpg) no-repeat calc(50% + 2px) calc(50% + 2px) #090909;
+        background-size: unset;
+    }
+    .az-radar-elem{
+        opacity: 0;
+    }
+    .az-radar-arrow{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        box-shadow: 0 -10px 20px #aaa;
+        // transform-origin: 0% 0%;
+        animation: rot 4s linear infinite;
+        width: 1150px;
+        height: 3px;
+        background: linear-gradient(to right, transparent calc(50% + 32px), #fff calc(50% + 32px));
+    }
+    .az-pos1{
+        position: fixed;
+        left: 40%;
+        top: 70%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos2{
+        position: fixed;
+        left: 60%;
+        top: 70%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos3{
+        position: fixed;
+        left: 41.66%;
+        top: 17.33%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos4{
+        position: fixed;
+        left: 61.80%;
+        top: 17.33%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos5{
+        position: fixed;
+        left: 28.61%;
+        top: 25.33%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos6{
+        position: fixed;
+        left: 50%;
+        top: 27.33%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos7{
+        position: fixed;
+        left: 74.16%;
+        top: 25%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos8{
+        position: fixed;
+        left: 25.41%;
+        top: 33.88%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos9{
+        position: fixed;
+        left: 50%;
+        top: 36.22%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos10{
+        position: fixed;
+        left: 74.44%;
+        top: 32.88%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos11{
+        position: fixed;
+        left: 33.40%;
+        top: 42.88%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos12{
+        position: fixed;
+        left: 62.5%;
+        top: 42.88%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos13{
+        position: fixed;
+        left: 77.08%;
+        top: 41.11%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos14{
+        position: fixed;
+        left: 24.65%;
+        top: 14.88%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos15{
+        position: fixed;
+        left: 17.91%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos16{
+        position: fixed;
+        left: 29.86%;
+        top: 60.88%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos17{
+        position: fixed;
+        left: 18.05%;
+        top: 66.66%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos18{
+        position: fixed;
+        left: 66.80%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos19{
+        position: fixed;
+        left: 82.63%;
+        top: 55.66%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos20{
+        position: fixed;
+        left: 77.91%;
+        top: 91.55%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos21{
+        position: fixed;
+        left: 24.65%;
+        top: 69.33%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos22{
+        position: fixed;
+        left: 50.41%;
+        top: 74.33%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos23{
+        position: fixed;
+        left: 75.62%;
+        top: 69.22%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos24{
+        position: fixed;
+        left: 24.51%;
+        top: 81.22%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos25{
+        position: fixed;
+        left: 43.75%;
+        top: 85.22%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos26{
+        position: fixed;
+        left: 66.66%;
+        top: 87.66%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos27{
+        position: fixed;
+        left: 78.68%;
+        top: 78.88%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos28{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 @media only screen and (min-width : 768px) {
-    // .anz-menu-ch{
-    //     right: 0px;
-    // }
+    .az-pos1{
+        position: fixed;
+        left: 44.79%;
+        top: 68%;
+        transform: translate(-50%, -50%);
+    }
+    .az-pos2{
+        position: fixed;
+        left: 56.04%;
+        top: 68%;
+        transform: translate(-50%, -50%);
+    }
+    .az-radar-elem-item{
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 27px;
+    }
+    .az-radar-elem-item2{
+        padding: 15px;
+        font-size: 18px;
+        color: #000;
+    }
+    .az-radar-elem-item3{
+        padding: 8px 7px;
+        color: #fff;
+        font-size: 18px;
+    }
 }
 
 @media only screen and (min-width : 992px) {
