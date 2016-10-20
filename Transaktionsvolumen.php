@@ -115,7 +115,7 @@
 		$('.az-arrow').animate({
 			'bottom' : h3 + 'px',
 			'left' : w1 + 'px',
-		}, 2200);
+		}, 2400);
 		$('.ah-transleft').height(h1-100);
 		$('.ah-transright').height(h2-100);
 	});

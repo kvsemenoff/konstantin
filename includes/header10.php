@@ -2,15 +2,15 @@
     <div class="container">
         <div class="row">
             <div class="col-md-5 col-xs-5">
-                <span class="az-head-span az-head-span_style">Kooperationen</span>
+                <span class="az-head-span">Impressum</span>
             </div>
             <div class="col-md-2 col-xs-2 az-center">
-                <a href="/" class="az-close az-close_style"></a>
+                <a href="/" class="az-close az-close_style az-close_style2"></a>
             </div>
             <div class="col-md-5 col-xs-5">
                 <div class="anz-menu">
                     <input type="checkbox" id="check_1" class=""/>
-                    <label class="anz-menu-ch anz-menu-ch_style" for="check_1"></label>
+                    <label class="anz-menu-ch" for="check_1"></label>
                     <div class="anz-perspective">
                         <div class="menu-list-pressed">
                             <label class="anz-menu-ch1" for="check_1"></label>

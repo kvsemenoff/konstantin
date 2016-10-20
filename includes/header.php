@@ -2,9 +2,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-xs-6">
-                <a href="#" class="az-logobox">
+                <span class="az-logobox">
                     <img src="img/logo.svg" alt="">
-                </a>
+                </span>
             </div>
             <div class="col-md-6 col-xs-6">
                 <div class="anz-menu az-margin-bottom45">
@@ -22,6 +22,7 @@
                                 <li><a href="/Kooperationspartner.php">KOOPERATIONSPARTNER</a></li>
                                 <li><a href="/presse.php">PRESSE</a></li>
                                 <li><a href="/kontakt.php">KONTAKT</a></li>
+                                <li><a href="/impressum.php">IMPRESSUM</a></li>
                             </ul>
                         </div>
                     </div>

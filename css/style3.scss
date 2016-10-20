@@ -213,42 +213,10 @@ body{
 
 
 .az-arrowleft{
-    transition: all .5s ease-in-out;
-    display: block;
-    position: absolute;
-    width: 44px; 
-    height: 44px;
-    left: 4%;
-    top: 30%;
-    background: none;
-    border-radius: 50%;
-    border: 2px solid #000;
-    i{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-68%, -54%);
-        font-size: 30px;
-    }
+    display: none;
 }
 .az-arrowright{
-    transition: all .5s ease-in-out;
-    display: block;
-    position: absolute;
-    width: 44px; 
-    height: 44px;
-    right: 4%;
-    top: 30%;
-    background: none;
-    border-radius: 50%;
-    border: 2px solid #000;
-    i{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-28%, -54%);
-        font-size: 30px;
-    }
+    display: none;
 }
 .white-dot{
     border: 1px solid white !important;
@@ -280,6 +248,7 @@ body{
     position: absolute;
     top: 0px;
     left: 0px;
+    padding: 10px;
 }
 .owl-dots{
     left: 50% !important;
@@ -497,6 +466,9 @@ body{
 }
 
 @media only screen and (min-width : 480px) {
+    .slidetextbox-outer{
+        padding: 0px;
+    }
     .az-leistungen{
         background: url(../img/az-radar.jpg) no-repeat calc(50% + 2px) calc(50% + 2px) #090909;
         background-size: unset;
@@ -716,13 +688,45 @@ body{
 
 @media only screen and (min-width : 992px) {
     .az-arrowleft{
-        left: 2%;
-        top: 43%;
+    transition: all .5s ease-in-out;
+    display: block;
+    position: absolute;
+    width: 44px; 
+    height: 44px;
+    left: 2%;
+    top: 50%;
+    transform: translate(0, -50%);
+    background: none;
+    border-radius: 50%;
+    border: 2px solid #000;
+    i{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-68%, -54%);
+        font-size: 30px;
     }
-    .az-arrowright{
-        right: 2%;
-        top: 43%;
+}
+.az-arrowright{
+    transition: all .5s ease-in-out;
+    display: block;
+    position: absolute;
+    width: 44px; 
+    height: 44px;
+    right: 2%;
+    top: 50%;
+    transform: translate(0, -50%);
+    background: none;
+    border-radius: 50%;
+    border: 2px solid #000;
+    i{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-28%, -54%);
+        font-size: 30px;
     }
+}
 }
 
 @media only screen and (min-width : 1248px) {
