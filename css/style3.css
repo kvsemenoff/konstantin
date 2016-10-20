@@ -208,11 +208,27 @@ body {
 
 .ah-arr {
   position: absolute;
-  width: 100%;
+  width: 0%;
   height: 9px;
   background: #9dbd1a;
   transform-origin: 0px 0px;
-  animation: len 2.5s ease-in-out; }
+  animation: len 1s linear;
+  animation-fill-mode: both; }
+
+.ah-arr1 {
+  animation-delay: 0.05s; }
+
+.ah-arr2 {
+  animation-delay: 1.05s; }
+
+.ah-arr3 {
+  animation-delay: 2.05s; }
+
+.ah-arr4 {
+  animation-delay: 3.05s; }
+
+.ah-arr5 {
+  animation-delay: 4.05s; }
 
 .az-arrow {
   position: absolute;
@@ -383,6 +399,9 @@ body {
     bottom: 20px; } }
 .ab-str:hover {
   animation: shake 1s ease-in-out; }
+
+.ah-transakvol .col-md-12 {
+  position: relative; }
 
 @media only screen and (min-width: 480px) {
   .slidetextbox-outer {
