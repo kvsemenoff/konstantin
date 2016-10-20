@@ -38,7 +38,7 @@
 <div class="container">
 	<div class="row">		
 			<div class="zk_kontakt">
-				<div class="col-md-6 ">
+				<div class="col-md-6">
 					<div class="zk_form_all">
 						<ul>
 							<li class="zk_first_li">KW Real Estate</li>
