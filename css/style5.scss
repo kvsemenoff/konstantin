@@ -18,7 +18,6 @@
 		font-size:20px;
 		color:#000000;
 		padding-bottom: 65px;
-
 	}
 
 	.zk_form_all{	
@@ -27,8 +26,7 @@
 		line-height: 1.25em;
 		color:#000000;
 		float:left;
-		margin-right: 27px;		
-		
+		width: 100%;
 		.zk_first_li{
 			font-family: "HelveticaNeue-Medium";		
 		}
@@ -89,51 +87,15 @@
 }
 
 @media only screen and (min-width : 480px) {
-	.zk_form_all{
-		margin-left: 30px;
-		width:70%;
-	}
-	.zk_map{
-		margin-left: 30px;
-	}
-	.zk_top_h3{
-		padding-left:33px;
-	}
 }
 
-@media only screen and (min-width : 768px) {
-	.zk_map{
-		
-	}
-	.zk_form_all{
-		margin-left: 40px;
-		width:40%;
-	}
-	.zk_top_h3{
-		padding-left:40px;
-	}	
+@media only screen and (min-width : 768px) {	
 }
 
 @media only screen and (min-width : 992px) {
-	.zk_kontakt{
-		
-	}
-	.zk_form_all{
-		width:35%;		
-	}
-	.zk_top_h3{
-		padding-left:40px;
-	}
-
 }
 
 @media only screen and (min-width : 1248px) {
-	.zk_form_all{
-		width:45%;		
-	}
-	.zk_top_h3{
-		padding-left:40px;
-	}
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
