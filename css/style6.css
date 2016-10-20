@@ -13,13 +13,8 @@
   font-size: 20px; }
 
 .qq-impressum, .qq-werte {
-<<<<<<< HEAD
   padding: 68px 0 40px 0;
 }
-=======
-  padding: 0px 0 40px 0;
-  word-break: break-all; }
->>>>>>> 37e21319e1d05b54c2d851492a746bd014f04999
 
 .qq-top {
   font-family: "HelveticaNeue-Bold"; }
@@ -55,13 +50,16 @@
   background: url("../img/korp-bg.jpg") no-repeat;
   background-size: cover;
   font-family: "HelveticaNeue-Light";
-  font-size: 24px;
+  font-size: 26px;
   color: #fff; }
-
+.qq-krp p{
+  line-height: 1.32;
+}
 .qq-wer {
   background: url("../img/werte-bg.jpg") no-repeat;
   background-size: cover;
-  font-family: "HelveticaNeue-Light";
+  font-family: "HelveticaNeue-Thin";
+  font-size: 18px;
    }
 
 .qq-werte .qq-txt_box {
