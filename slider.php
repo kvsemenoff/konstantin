@@ -44,7 +44,7 @@
 								<img  src="img/ab-slide-3.jpg" alt="">
 							</div>
 							<div class="slidetextbox-outer">
-								<div class="slidetextbox slidetextbox-2 slidetextbox-3">
+								<div class="slidetextbox  slidetextbox-3">
 									<span class="slidetextbox-span1 slidetextbox-span2">
 										Das diskrete Vernetzen von Informations-<br>
 										vorsprüngen im 
@@ -98,7 +98,7 @@
 	    loop: true,
 	    margin:0,
 	    items: 1,
-	    autoplay: true,
+	    autoplay: false,
 	    smartSpeed:500,
 	    autoplayTimeout:7000,
 	    nav: true,
