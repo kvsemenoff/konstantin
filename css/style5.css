@@ -18,7 +18,7 @@
   line-height: 1.25em;
   color: #000000;
   float: left;
-  margin-right: 27px; }
+  width: 100%; }
   .zk_kontakt .zk_form_all .zk_first_li {
     font-family: "HelveticaNeue-Medium"; }
   .zk_kontakt .zk_form_all .zk_br {
@@ -64,35 +64,5 @@
         position: absolute;
         top: -10px;
         left: 80px; }
-
-@media only screen and (min-width: 480px) {
-  .zk_form_all {
-    margin-left: 30px;
-    width: 70%; }
-
-  .zk_map {
-    margin-left: 30px; }
-
-  .zk_top_h3 {
-    padding-left: 33px; } }
-@media only screen and (min-width: 768px) {
-  .zk_form_all {
-    margin-left: 40px;
-    width: 40%; }
-
-  .zk_top_h3 {
-    padding-left: 40px; } }
-@media only screen and (min-width: 992px) {
-  .zk_form_all {
-    width: 35%; }
-
-  .zk_top_h3 {
-    padding-left: 40px; } }
-@media only screen and (min-width: 1248px) {
-  .zk_form_all {
-    width: 45%; }
-
-  .zk_top_h3 {
-    padding-left: 40px; } }
 
 /*# sourceMappingURL=style5.css.map */
