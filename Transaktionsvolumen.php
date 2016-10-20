@@ -32,12 +32,12 @@
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
 
-	<?php require_once('includes/ah-header3.php'); ?>
+	<?php require_once('includes/header5.php'); ?>
 	
 <div class="clearfix"></div>
 
 <section class="ah-transakvol">
-    <div class="container">
+    <div class="container-fluid">
 	    <div class="row">
 		    <div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="az-col">
@@ -115,7 +115,7 @@
 		$('.az-arrow').animate({
 			'bottom' : h3 + 'px',
 			'left' : w1 + 'px',
-		}, 2200);
+		}, 2400);
 		$('.ah-transleft').height(h1-100);
 		$('.ah-transright').height(h2-100);
 	});

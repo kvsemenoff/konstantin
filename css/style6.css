@@ -13,8 +13,13 @@
   font-size: 20px; }
 
 .qq-impressum, .qq-werte {
+<<<<<<< HEAD
   padding: 68px 0 40px 0;
 }
+=======
+  padding: 0px 0 40px 0;
+  word-break: break-all; }
+>>>>>>> 37e21319e1d05b54c2d851492a746bd014f04999
 
 .qq-top {
   font-family: "HelveticaNeue-Bold"; }

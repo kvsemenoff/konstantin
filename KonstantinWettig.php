@@ -32,7 +32,7 @@
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
 
-	<?php require_once('includes/header3.php'); ?>
+	<?php require_once('includes/header2.php'); ?>
 	
 <div class="clearfix"></div>
 

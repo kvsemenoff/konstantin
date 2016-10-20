@@ -31,33 +31,15 @@
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
-
+	<?php require_once('includes/header10.php'); ?>
 	<section class="qq-impressum">
 		<div class="container">
-			<div class="row qq-top">
-				<div class="col-md-12">
-					<div class="col-md-4 col-sm-4 col-xs-4">
-						<span>Impressum</span>
-					</div>
-					<div class="col-md-4 col-sm-4 col-xs-4">
-						<div class="qq-top_center">
-							<a href="#"><img src="img/close.png" alt=""></a>
-						</div>
-							
-					</div>
-					<div class="col-md-4 col-sm-4 col-xs-4 qq-top_right">
-						<a href="#">
-							<img src="img/menu.png" alt="">
-						</a>
-					</div>
-				</div>
-			</div>
 			<div class="row qq-main">
-				<div class="col-md-12 ">
-					<div clas<div class="col-md-6 col-sm-6 col-xs-6">
+
+					<div class="col-md-6 col-sm-6 col-xs-12">
 						<p>Angaben gemäß § 5 TMG:</p>
 					</div>
-					<div clas<div class="col-md-6 col-sm-6 col-xs-6">
+					<div class="col-md-6 col-sm-6 col-xs-12">
 						<p>
 							Konstantin Wettig <br>
 							KW Real Estate <br>
@@ -69,32 +51,32 @@
 							</span>
 						</p>
 					</div>
-				</div>
-				<div class="clear"></div>
-				<div class="col-md-12">
-					<div clas<div class="col-md-6 col-sm-6 col-xs-6">
+
+				<div class="clearfix"></div>
+
+					<div class="col-md-6 col-sm-6 col-xs-12">
 						<p>Umsatzsteuer-Identifikationsnummer <br>
 						gemäß §27 a Umsatzsteuergesetz</p>
 					</div>
-					<div clas<div class="col-md-6 col-sm-6 col-xs-6">
+					<div class="col-md-6 col-sm-6 col-xs-12">
 						<p>DE 214455127</p>
 					</div>
-				</div>
-				<div class="clear"></div>
-				<div class="col-md-12">
-					<div clas<div class="col-md-6 col-sm-6 col-xs-6">
+
+				<div class="clearfix"></div>
+
+					<div class="col-md-6 col-sm-6 col-xs-12">
 						<p>Aufsichtsbehörde: </p>
 					</div>
-					<div clas<div class="col-md-6 col-sm-6 col-xs-6">
+					<div class="col-md-6 col-sm-6 col-xs-12">
 						<p>KVR München</p>
 					</div>
-				</div>
-				<div class="clear"></div>
-				<div class="col-md-12">
-					<div clas<div class="col-md-6 col-sm-6 col-xs-6">
+
+				<div class="clearfix"></div>
+
+					<div class="col-md-6 col-sm-6 col-xs-12">
 						<p>Angaben zur Berufshaftpflichtversicherung: </p>
 					</div>
-					<div clas<div class="col-md-6 col-sm-6 col-xs-6">
+					<div class="col-md-6 col-sm-6 col-xs-12">
 						<p>
 							Name und Sitz der Gesellschaft: <br>
 							Allianz Versicherungs AG <br>
@@ -102,45 +84,45 @@
 							85774 Unterföhring <br>
 						</p>
 					</div>
-				</div>
-				<div class="clear"></div>
-				<div class="col-md-12">
-					<div clas<div class="col-md-6 col-sm-6 col-xs-6">
+
+				<div class="clearfix"></div>
+
+					<div class="col-md-6 col-sm-6 col-xs-12">
 						<p>Geltungsraum der Versicherung:  </p>
 					</div>
-					<div clas<div class="col-md-6 col-sm-6 col-xs-6">
+					<div class="col-md-6 col-sm-6 col-xs-12">
 						<p>Deutschland</p>
 					</div>
-				</div>
-				<div class="clear"></div>
-				<div class="col-md-12">
-					<div clas<div class="col-md-6 col-sm-6 col-xs-6">
+
+				<div class="clearfix"></div>
+
+					<div class="col-md-6 col-sm-6 col-xs-12">
 						<p>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:	</p>
 					</div>
-					<div clas<div class="col-md-6 col-sm-6 col-xs-6">
+					<div class="col-md-6 col-sm-6 col-xs-12">
 						<p>
 							Julia Werner <br>
 							Römerstraße 15 <br>
 							80801 München
 						</p>
 					</div>
-				</div>
-				<div class="clear"></div>
-				<div class="col-md-12">
-					<div clas<div class="col-md-6 col-sm-6 col-xs-6">
+
+				<div class="clearfix"></div>
+
+					<div class="col-md-6 col-sm-6 col-xs-12">
 						<p>Quellenangaben für die verwendeten Bilder & Grafiken:  </p>
 					</div>
-					<div clas<div class="col-md-6 col-sm-6 col-xs-6">
+					<div class="col-md-6 col-sm-6 col-xs-12">
 						<p>????</p>
 					</div>
-				</div>
+					<div class="clearfix"></div>
 			</div>
 			<div class="row qq-foot">
 				<div class="col-md-12">
-					<div class="col-md-12">
+
 						<p>Disclaimer</p>
 						<p>Datenschutzerklärung</p>
-					</div>
+
 				</div>
 			</div>
 		</div>

@@ -13,20 +13,20 @@
 .zk_kontakt{
 	
 	.zk_top_h3{
+		text-align: left;
 		font-family: "HelveticaNeue-Medium";
 		font-size:20px;
 		color:#000000;
-		padding-bottom: 70px;
+		padding-bottom: 65px;
 	}
 
 	.zk_form_all{	
 		font-family: "HelveticaNeue-Light";
 		font-size:20px;
-		line-height: 1.2em;
+		line-height: 1.25em;
 		color:#000000;
 		float:left;
-		padding-right: 30px;		
-		
+		width: 100%;
 		.zk_first_li{
 			font-family: "HelveticaNeue-Medium";		
 		}
@@ -35,7 +35,7 @@
 		}	
 		
 		.zk_form{
-			margin-top: 5px;			
+			margin-top: 7px;			
 			color:#000000;		
 			border-color: #7e7e7e;
 			vertical-align: top;
@@ -43,16 +43,14 @@
 		    textarea::-webkit-input-placeholder { color: black; }
 		    input::-moz-placeholder { color: black; }
 		    textarea::-moz-placeholder { color: black; }
-			
-
 			form{
-				padding-bottom: 30px;				
+				padding-bottom: 35px;				
 			}			
 			h3{
 				margin-top: 35px;
 			}
 			input{
-				padding:0 5px 14px 5px;
+				padding:0 5px 16px 5px;
 				margin-bottom: 21px;
 				width:100%;
 				font-size:15px;
@@ -89,53 +87,15 @@
 }
 
 @media only screen and (min-width : 480px) {
-	.zk_form_all{
-		margin-left: 30px;
-		width:70%;
-	}
-	.zk_map{
-		margin-left: 30px;
-	}
-	.zk_top_h3{
-		padding-left: 30px;
-	}	
 }
 
-@media only screen and (min-width : 768px) {
-	.zk_map{
-		margin-left: 40px;
-	}
-	.zk_form_all{
-		margin-left: 40px;
-		width:40%;
-	}
-	.zk_top_h3{
-		padding-left: 40px;
-	}		
+@media only screen and (min-width : 768px) {	
 }
 
 @media only screen and (min-width : 992px) {
-	.zk_kontakt{
-		
-	}
-	.zk_form_all{
-		width:35%;
-		margin-left: 50px;
-	}
-	.zk_top_h3{
-		padding-left: 50px;
-	}	
-
 }
 
 @media only screen and (min-width : 1248px) {
-	.zk_form_all{
-		width:43%;
-		margin-left: 95px;
-	}
-	.zk_top_h3{
-		padding-left: 95px;
-	}	
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {

@@ -32,9 +32,10 @@
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
 
+	<?php require_once('includes/header6.php'); ?>
 	<section class="qq-werte">
 		<div class="container">
-			<div class="row qq-top">
+			<!-- <div class="row qq-top">
 				<div class="col-md-12">
 					<div class="col-md-4 col-sm-4 col-xs-4">
 						<span>Werte</span>
@@ -48,7 +49,7 @@
 						</a>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<div class="row qq-main">
 				<div class="col-xs-12">
 					<div class="qq-img-box-a">

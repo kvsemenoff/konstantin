@@ -32,23 +32,10 @@
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
 
+	<?php require_once('includes/header7.php'); ?>
 	<section class="qq-impressum">
 		<div class="container">
-			<div class="row qq-top">
-				<div class="col-md-12">
-					<div class="col-md-4 col-sm-4 col-xs-4">
-						<span>Kooperationen</span>
-					</div>
-					<div class="col-md-4 col-sm-4 col-xs-4 qq-top_center">
-						<a href="#"><img src="img/close-white.png" alt=""></a>
-					</div>
-					<div class="col-md-4 col-sm-4 col-xs-4 qq-top_right">
-						<a href="#">
-							<img src="img/menu-white.png" alt="">
-						</a>
-					</div>
-				</div>
-			</div>
+
 			<div class="row">
 				<div class="col-md-12 col-sm-12 col-xs-12 qq-txt">
 					<p>
