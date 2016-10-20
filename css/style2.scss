@@ -6,6 +6,15 @@
 @import "fonts.css";
 
 
+// *****************************************
+
+.ah-ani:hover{
+	transform: rotate(90deg); 
+}
+.ah-br1{
+	display: none;
+}
+
 // RES**************************************
 .ah-resbody{
 	background: url(../img/ah-resfon.jpg) top center no-repeat;
@@ -89,10 +98,10 @@
 	min-height: 63px; 
 }
 .ah-imgbox{
-	position: absolute;
+	position: none;
 	left: 50%;
 	bottom: 0;
-	margin-top: 5px;
+	margin-top: 10px;
 }
 .ah-resse-title{
 	display: block;
@@ -107,6 +116,7 @@
 	color: #000;
 	font-size: 16px;
 	line-height: 20px;
+	margin-bottom: 10px;
 	span{
 		font-family: "HelveticaNeue-Light";
 	}
@@ -147,6 +157,15 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.ah-br1{
+		display: block;
+	}
+	.ah-imgbox{
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		margin-top: 5px;
+	}
 	// .ah-transleft, .ah-transright{
 	// 	position: absolute;
 	// }
