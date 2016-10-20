@@ -144,7 +144,7 @@
 
     }
     .ah-arrowleft{
-        display: block;
+        display: none;
         position: absolute;
         width: 44px; 
         height: 44px;
@@ -153,7 +153,7 @@
         background: none;
     }
     .ah-arrowright{
-        display: block;
+        display: none;
         position: absolute;
         width: 44px; 
         height: 44px;
@@ -190,7 +190,7 @@
     }
     .slidetextbox-2{
 		width: 90%;
-		padding-top: 75px;
+		padding-top: 40px;
     }
     .owl-dots{
         left: 44%;
@@ -304,9 +304,9 @@
         padding-top:40px;
     }
     .slidetextbox-2{
-    	margin-left: 219px;
+    	margin-left: 147px;
 	    margin-top: 33px;
-	    padding-top: 144px;
+	    padding-top: 94px;
 	    width: 100%;
     }
     
@@ -323,14 +323,25 @@
     	color:#fff;
     	padding-left:15px;
     }
-    .slidetextbox-3{
-    	padding-top:180px;
-    	padding-left:0 !important;
+    .slidetextbox-3 {
+    padding-left: 80px !important;
+    padding-top: 140px;
     }
-    
 }
 
-@media only screen and (min-width : 1248px) {
+@media only screen and (min-width : 1200px) {
+
+    .slidetextbox-2{
+        margin-left: 212px;
+        margin-top: 0;
+        padding-top: 149px;
+        width: 100%;
+    }
+    .slidetextbox-3 {
+    padding-left: 170px !important;
+    padding-top: 181px;
+}
+   
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
