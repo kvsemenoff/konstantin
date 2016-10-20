@@ -32,17 +32,14 @@
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
 
-	<?php require_once('includes/header.php'); ?>	
+	<?php require_once('includes/header9.php'); ?>	
 	<?php require_once('includes/footer.php'); ?>
 
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
 			<div class="zk_kontakt">
-					<h3 class="zk_top_h3">Kontakt</h3>	
 				<div class="zk_form_all">
-					
-
 					<ul>
 						<li class="zk_first_li">KW Real Estate</li>
 						<li>Weinstrasse 4</li>
