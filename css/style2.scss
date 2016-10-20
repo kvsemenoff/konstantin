@@ -1,15 +1,10 @@
-@import "reset.css";
-@import "style.css";
-@import "style2.css";
-@import "style3.css";
-@import "style4.css";
-@import "fonts.css";
-
 
 // *****************************************
 
 .ah-ani:hover{
-	transform: rotate(90deg); 
+	// transform: rotate(90deg);
+	// opacity: 0.6;
+
 }
 .ah-br1{
 	display: none;
@@ -77,6 +72,10 @@
 	line-height: 60px;
 }
 // PRESSE**************************
+.ah-resse{
+	padding-bottom: 25px;
+
+}
 .ah-pressebody{
 	background: url(../img/ah-pressefon.jpg) top center no-repeat;
 	background-size: cover !important;
@@ -102,6 +101,11 @@
 	left: 50%;
 	bottom: 0;
 	margin-top: 10px;
+	transform: translate(-50%, 0);
+	transition: all 1s ease-in-out;
+}
+.ah-imgbox:hover{
+	opacity: 0.6;
 }
 .ah-resse-title{
 	display: block;

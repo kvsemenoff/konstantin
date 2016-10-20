@@ -97,7 +97,7 @@ body {
     display: inline-block; }
   .main-menu a:before {
     position: absolute;
-    top: 0px;
+    bottom: 2px;
     left: 0px;
     content: '';
     width: 0%;
@@ -105,6 +105,24 @@ body {
     background: #777;
     transition: width 0.5s ease-in-out; }
   .main-menu a:hover:before {
+    width: 100%; }
+
+.ab-footer-menu {
+  text-align: left; }
+  .ab-footer-menu a {
+    color: #000;
+    position: relative;
+    display: inline-block; }
+  .ab-footer-menu a:before {
+    position: absolute;
+    bottom: -5px;
+    left: 0px;
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #777;
+    transition: width 0.5s ease-in-out; }
+  .ab-footer-menu a:hover:before {
     width: 100%; }
 
 .az-head-span {
@@ -402,6 +420,27 @@ body {
 
 .ah-transakvol .col-md-12 {
   position: relative; }
+
+.cube {
+  width: 2em;
+  transform-style: preserve-3d; }
+
+.side {
+  transition: all 1s ease-in-out; }
+  .side img {
+    transition: all 1s ease-in-out; }
+
+.side:hover {
+  transform: rotateY(-180deg); }
+  .side:hover img {
+    transform: rotateY(180deg); }
+
+.ab-main-img-box {
+  font-size: 0px;
+  transition: opacity 1s ease-in-out; }
+
+.ab-main-img-box:hover {
+  opacity: 0.8; }
 
 @media only screen and (min-width: 480px) {
   .slidetextbox-outer {

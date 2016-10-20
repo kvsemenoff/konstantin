@@ -143,7 +143,28 @@ body{
     }
     a:before{
         position: absolute;
-        top: 0px;
+        bottom: 2px;
+        left: 0px;
+        content: '';
+        width: 0%;
+        height: 3px;
+        background: #777;//#cd1719;
+        transition: width 0.5s ease-in-out;
+    }
+    a:hover:before{
+        width: 100%;
+    }
+}
+.ab-footer-menu{
+    text-align: left;
+    a{
+        color: #000;
+        position: relative;
+        display: inline-block;
+    }
+    a:before{
+        position: absolute;
+        bottom: -5px;
         left: 0px;
         content: '';
         width: 0%;
@@ -505,6 +526,41 @@ body{
     .col-md-12{
         position: relative;
     }
+}
+
+.cube {
+  width: 2em;
+  transform-style: preserve-3d;
+}
+
+.side {
+  transition: all 1s ease-in-out;
+  img{
+        transition: all 1s ease-in-out;
+  }
+}
+.side:hover{
+    transform: rotateY(-180deg);
+    img{
+        transform: rotateY(180deg);
+
+    }
+    // transform-origin: 100% 100%;
+}
+
+// .front  { transform:                  translateZ(1em); }
+// .top    { transform: rotateX( 90deg)  translateZ(1em); }
+// .right  { transform: rotateY( 90deg)  translateZ(1em); }
+// .left   { transform: rotateY(-90deg)  translateZ(1em); }
+// .bottom { transform: rotateX(-90deg)  translateZ(1em); }
+// .back   { transform: rotateY(-180deg) translateZ(1em); }
+.ab-main-img-box{
+    font-size: 0px;
+    transition: opacity 1s ease-in-out;
+
+}
+.ab-main-img-box:hover{
+    opacity: 0.8;
 }
 
 @media only screen and (min-width : 320px) {
