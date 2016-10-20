@@ -246,10 +246,10 @@ body {
 @keyframes rot {
   0% {
     transform-origin: 0% 0%;
-    transform: rotate(0deg) translate(-50%, 0); }
+    transform: rotate(0deg) translate(32px, 0); }
   100% {
     transform-origin: 0% 0%;
-    transform: rotate(360deg) translate(-50%, 0); } }
+    transform: rotate(360deg) translate(32px, 0); } }
 .az-radar-elem-item {
   font-family: "Helvetica";
   border: 1px solid #e6e6e6;
@@ -414,15 +414,18 @@ body {
   .az-radar-elem {
     opacity: 0; }
 
+  .az-radar-elems > div {
+    display: block; }
+
   .az-radar-arrow {
     position: fixed;
     top: 50%;
     left: 50%;
     box-shadow: 0 -10px 20px #aaa;
     animation: rot 4s linear infinite;
-    width: 1150px;
+    width: 543px;
     height: 3px;
-    background: linear-gradient(to right, transparent calc(50% + 32px), #fff calc(50% + 32px)); }
+    background: #fff; }
 
   .az-pos1 {
     position: fixed;
