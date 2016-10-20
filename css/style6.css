@@ -4,12 +4,7 @@
   font-family: "HelveticaNeue-Light";
   font-size: 20px; }
 
-.qq-koorp {
-  background: url("../img/korp-bg.jpg") no-repeat;
-  background-size: cover;
-  font-family: "HelveticaNeue-Light";
-  font-size: 20px;
-  color: #fff; }
+
 
 .qq-wer {
   background: url("../img/werte-bg.jpg") no-repeat;
@@ -19,7 +14,7 @@
 
 .qq-impressum, .qq-werte {
   padding: 68px 0 40px 0;
-  word-break: break-all; }
+}
 
 .qq-top {
   font-family: "HelveticaNeue-Bold"; }
@@ -55,21 +50,21 @@
   background: url("../img/korp-bg.jpg") no-repeat;
   background-size: cover;
   font-family: "HelveticaNeue-Light";
-  font-size: 20px;
+  font-size: 24px;
   color: #fff; }
 
 .qq-wer {
   background: url("../img/werte-bg.jpg") no-repeat;
   background-size: cover;
   font-family: "HelveticaNeue-Light";
-  font-size: 18px; }
+   }
 
 .qq-werte .qq-txt_box {
   background-color: #000;
   color: #fff;
   text-align: center;
   padding: 10px 15px;
-  font-size: 16px; }
+  font-size: 18px; }
 .qq-werte h3 {
   font-family: "HelveticaNeue-Bold";
   padding-bottom: 5px; }
