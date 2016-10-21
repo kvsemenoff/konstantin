@@ -11,14 +11,20 @@
 		.ab-box-txt{
 			position:absolute;
 			top: 0;
-			padding-left: 16px;
-			padding-top: 18px;
+			margin-left: 16px;
+			margin-top: 18px;
 			span{
 				color: #fff;
 				font-family: "HelveticaNeue-Medium";
 				display: block;
 				font-size: 23px;
 			}
+            a{
+                color: #fff;
+                font-family: "HelveticaNeue-Medium";
+                display: block;
+                font-size: 23px;
+            }
 			.ab-box-txt-span{
 				 font-family: "Helvetica";
 				 color:#fff;

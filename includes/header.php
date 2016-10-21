@@ -14,7 +14,7 @@
                         <div class="menu-list-pressed">
                             <label class="anz-menu-ch1" for="check_1"></label>
                             <ul class="main-menu">
-                                <li><a href="/KonstantinWettig.php">KONSTANTIN</a></li>
+                                <li><a href="/KonstantinWettig.php">KONSTANTIN WETTIG</a></li>
                                 <li><a href="/leistungen.php">LEISTUNGEN</a></li>
                                 <li><a href="#">GESCHÄFTSPARTNER</a></li>
                                 <li><a href="/Transaktionsvolumen.php">TRANSAKTIONSVOLUMEN</a></li>

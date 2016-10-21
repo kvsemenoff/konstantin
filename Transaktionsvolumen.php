@@ -156,7 +156,7 @@
 		$('.az-arrow').css('display', 'none');
 		var anim = document.getElementById("anim");
 		anim.addEventListener("animationstart", function(){
-			
+			$('.ah-transleft').animate({'height': (h1-50) + 'px'}, 1000);
 			$('.az-arrow').eq(0).css({
 				'bottom' : start + 'px',
 				'display': 'block',
@@ -168,70 +168,145 @@
 				'bottom' : h1 + 'px',
 				'left' : w1 + 'px',
 			}, 1000, 'linear');
-			setTimeout(function(){
-				$('.az-arrow').eq(0).css('display', 'none');
-				$('.az-arrow').eq(1).css({
-					'bottom' : h1 + 'px',
-					'display': 'block',
-					'left' :  '0px',
-					'transform': 'translate(-5px, 5px)',
-					'transform-origin': '20% 50%',
-				});
-				$('.az-arrow').eq(1).animate({
-					'bottom' : h1 + 'px',
-					'left' : w1 + 'px',
-				}, 1000, 'linear');
-				setTimeout(function(){
-					$('.az-arrow').eq(1).css('display', 'none');
-					$('.az-arrow').eq(2).css({
-						'bottom' : h1 + 'px',
-						'display': 'block',
-						'left' :  '0px',
-						'transform': 'translate(-5px, 5px) rotate(' + -az_deg(h2-h1, w1) + 'deg)',
-						'transform-origin': '20% 50%',
-					});
-					$('.az-arrow').eq(2).animate({
-						'bottom' : h2 + 'px',
-						'left' : w1 + 'px',
-					}, 1000, 'linear');
-					setTimeout(function(){
-						$('.az-arrow').eq(2).css('display', 'none');
-						$('.az-arrow').eq(3).css({
-							'bottom' : h2 + 'px',
-							'display': 'block',
-							'left' :  '0px',
-							'transform': 'translate(-5px, 5px)',
-							'transform-origin': '20% 50%',
-						});
-						$('.az-arrow').eq(3).animate({
-							'bottom' : h2 + 'px',
-							'left' : w1 + 'px',
-						}, 1000, 'linear');
-						setTimeout(function(){
-							$('.az-arrow').eq(3).css('display', 'none');
-							$('.az-arrow').eq(4).css({
-								'bottom' : h2 + 'px',
-								'display': 'block',
-								'left' :  '0px',
-								'transform': 'translate(-5px, 5px) rotate(' + -az_deg(h3-h2, w1) + 'deg)',
-								'transform-origin': '20% 50%',
-							});
-							$('.az-arrow').eq(4).animate({
-								'bottom' : h3 + 'px',
-								'left' : w1 + 'px',
-							}, 1000, 'linear');
-						}, 1000);
-					}, 1000);
-				}, 1000);
-			}, 1000);
-
-			$('.ah-transleft').height(0);
-			$('.ah-transleft').animate({'height': (h1-50) + 'px'}, 1000);
-			$('.ah-transright').height(0);
-			setTimeout(function(){
-				$('.ah-transright').animate({'height': (h2-50) + 'px'}, 1400);
-			}, 400);
 		}, false);
+		anim.addEventListener("animationend", function(){
+			$('.az-arrow').eq(0).css('display', 'none');
+		}, false);
+
+		var anim2 = document.getElementById("anim2");
+		anim2.addEventListener("animationstart", function(){
+			$('.ah-transright').animate({'height': (h2-50) + 'px'}, 2000);
+			$('.az-arrow').eq(1).css({
+				'bottom' : h1 + 'px',
+				'display': 'block',
+				'left' :  '0px',
+				'transform': 'translate(-5px, 5px)',
+				'transform-origin': '20% 50%',
+			});
+			$('.az-arrow').eq(1).animate({
+				'bottom' : h1 + 'px',
+				'left' : w1 + 'px',
+			}, 1000, 'linear');
+		}, false);
+		anim2.addEventListener("animationend", function(){
+			$('.az-arrow').eq(1).css('display', 'none');
+		}, false);
+
+		var anim3 = document.getElementById("anim3");
+		anim3.addEventListener("animationstart", function(){
+			$('.az-arrow').eq(2).css({
+				'bottom' : h1 + 'px',
+				'display': 'block',
+				'left' :  '0px',
+				'transform': 'translate(-5px, 5px) rotate(' + -az_deg(h2-h1, w1) + 'deg)',
+				'transform-origin': '20% 50%',
+			});
+			$('.az-arrow').eq(2).animate({
+				'bottom' : h2 + 'px',
+				'left' : w1 + 'px',
+			}, 1000, 'linear');
+		}, false);
+		anim3.addEventListener("animationend", function(){
+			$('.az-arrow').eq(2).css('display', 'none');
+		}, false);
+
+		var anim4 = document.getElementById("anim4");
+		anim4.addEventListener("animationstart", function(){
+			$('.az-arrow').eq(3).css({
+				'bottom' : h2 + 'px',
+				'display': 'block',
+				'left' :  '0px',
+				'transform': 'translate(-5px, 5px)',
+				'transform-origin': '20% 50%',
+			});
+			$('.az-arrow').eq(3).animate({
+				'bottom' : h2 + 'px',
+				'left' : w1 + 'px',
+			}, 1000, 'linear');
+		}, false);
+		anim4.addEventListener("animationend", function(){
+			$('.az-arrow').eq(3).css('display', 'none');
+		}, false);
+
+		var anim5 = document.getElementById("anim5");
+		anim5.addEventListener("animationstart", function(){
+			$('.az-arrow').eq(4).css({
+				'bottom' : h2 + 'px',
+				'display': 'block',
+				'left' :  '0px',
+				'transform': 'translate(-5px, 5px) rotate(' + -az_deg(h3-h2, w1) + 'deg)',
+				'transform-origin': '20% 50%',
+			});
+			$('.az-arrow').eq(4).animate({
+				'bottom' : h3 + 'px',
+				'left' : w1 + 'px',
+			}, 1000, 'linear');
+		}, false);
+		
+			// setTimeout(function(){
+			// 	$('.az-arrow').eq(0).css('display', 'none');
+			// 	$('.az-arrow').eq(1).css({
+			// 		'bottom' : h1 + 'px',
+			// 		'display': 'block',
+			// 		'left' :  '0px',
+			// 		'transform': 'translate(-5px, 5px)',
+			// 		'transform-origin': '20% 50%',
+			// 	});
+			// 	$('.az-arrow').eq(1).animate({
+			// 		'bottom' : h1 + 'px',
+			// 		'left' : w1 + 'px',
+			// 	}, 1000, 'linear');
+			// 	setTimeout(function(){
+			// 		$('.az-arrow').eq(1).css('display', 'none');
+			// 		$('.az-arrow').eq(2).css({
+			// 			'bottom' : h1 + 'px',
+			// 			'display': 'block',
+			// 			'left' :  '0px',
+			// 			'transform': 'translate(-5px, 5px) rotate(' + -az_deg(h2-h1, w1) + 'deg)',
+			// 			'transform-origin': '20% 50%',
+			// 		});
+			// 		$('.az-arrow').eq(2).animate({
+			// 			'bottom' : h2 + 'px',
+			// 			'left' : w1 + 'px',
+			// 		}, 1000, 'linear');
+			// 		setTimeout(function(){
+			// 			$('.az-arrow').eq(2).css('display', 'none');
+			// 			$('.az-arrow').eq(3).css({
+			// 				'bottom' : h2 + 'px',
+			// 				'display': 'block',
+			// 				'left' :  '0px',
+			// 				'transform': 'translate(-5px, 5px)',
+			// 				'transform-origin': '20% 50%',
+			// 			});
+			// 			$('.az-arrow').eq(3).animate({
+			// 				'bottom' : h2 + 'px',
+			// 				'left' : w1 + 'px',
+			// 			}, 1000, 'linear');
+			// 			setTimeout(function(){
+			// 				$('.az-arrow').eq(3).css('display', 'none');
+			// 				$('.az-arrow').eq(4).css({
+			// 					'bottom' : h2 + 'px',
+			// 					'display': 'block',
+			// 					'left' :  '0px',
+			// 					'transform': 'translate(-5px, 5px) rotate(' + -az_deg(h3-h2, w1) + 'deg)',
+			// 					'transform-origin': '20% 50%',
+			// 				});
+			// 				$('.az-arrow').eq(4).animate({
+			// 					'bottom' : h3 + 'px',
+			// 					'left' : w1 + 'px',
+			// 				}, 1000, 'linear');
+			// 			}, 1000);
+			// 		}, 1000);
+			// 	}, 1000);
+			// }, 1000);
+
+			// $('.ah-transleft').height(0);
+			// $('.ah-transleft').animate({'height': (h1-50) + 'px'}, 1000);
+			// $('.ah-transright').height(0);
+			// setTimeout(function(){
+			// 	$('.ah-transright').animate({'height': (h2-50) + 'px'}, 1500);
+			// }, 1500);
+		// }, false);
 	});
 	
 </script>

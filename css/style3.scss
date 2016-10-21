@@ -283,8 +283,30 @@ body{
         width: 100%;
     }
 }
-
-
+// @keyframes len2{
+//     0%{
+//         width: 0%;
+//     }
+//     100%{
+//         width: 119.299%;
+//     }
+// }
+// @keyframes len3{
+//     0%{
+//         width: 0%;
+//     }
+//     100%{
+//         width: 110%;
+//     }
+// }
+// @keyframes len4{
+//     0%{
+//         width: 0%;
+//     }
+//     100%{
+//         width: 110%;
+//     }
+// }
 .az-col{
     width: 20%;
     float: left;
@@ -303,6 +325,18 @@ body{
     animation-fill-mode: both;
     // width: 100%;
 }
+// .ah-arr_style2{
+//     animation: len2 1s linear;
+//     animation-fill-mode: both;
+// }
+// .ah-arr_style3{
+//     animation: len3 1s linear;
+//     animation-fill-mode: both;
+// }
+// .ah-arr_style4{
+//     animation: len4 1s linear;
+//     animation-fill-mode: both;
+// }
 .ah-arr1{
     animation-delay: 1s;
 }
