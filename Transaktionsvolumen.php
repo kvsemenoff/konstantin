@@ -41,24 +41,23 @@
 	    <div class="row">
 		    <div class="col-md-12 col-sm-12 col-xs-12">
 				<div class="az-col">
-					<div class="ah-arr ah-arr1"></div>
+					<div class="ah-arr ah-arr1" id="anim"></div>
 					<div class="az-arrow"></div>
 				</div>
 				<div class="az-col">
-					<div class="ah-arr ah-arr2"></div>
+					<div class="ah-arr ah-arr2" id="anim2"></div>
 					<div class="az-arrow"></div>
 					<div class="ah-transleft">
 						<span class="ah-transakvol-title">2014</span>
 						<span class="ah-transakvol-text">40 MIO.<br>EURO</span>
 					</div>
-
 				</div>
 				<div class="az-col">
-					<div class="ah-arr ah-arr3"></div>
+					<div class="ah-arr ah-arr3" id="anim3"></div>
 					<div class="az-arrow"></div>
 				</div>
 				<div class="az-col">
-					<div class="ah-arr ah-arr4"></div>
+					<div class="ah-arr ah-arr4" id="anim4"></div>
 					<div class="az-arrow"></div>
 					<div class="ah-transright">
 						<span class="ah-transakvol-title">2015</span>
@@ -66,11 +65,10 @@
 					</div>
 				</div>
 				<div class="az-col">
-					<div class="ah-arr ah-arr5"></div>
+					<div class="ah-arr ah-arr5" id="anim5"></div>
 					<div class="az-arrow"></div>
 				</div>
 				<div class="clearfix"></div>
-				
 		    </div>
 	    </div>
     </div>
@@ -80,7 +78,7 @@
 		return Math.atan(a/b)/Math.PI*180;
 	};
 	$(document).ready(function(){
-		var start = 50;
+		var start = 200;
 		var h1 = 340;
 		var h2 = 450;
 		var h3 = 550;
@@ -109,84 +107,131 @@
 			'left' : '0px',
 			'transform': 'skewY(' + -az_deg(h3-h2, w1) + 'deg)'
 		});
+		// var az_arrow = $('.az-arrow');
+		// az_arrow.css('display', 'none');
+		// var anim0 = document.getElementById("anim1");
+		// anim.addEventListener("animationstart", function(){
+		// 	az_arrow.eq(0).css({
+		// 		'bottom' : start + 'px',
+		// 		'display': 'block',
+		// 		'left' :  '0px',
+		// 		'transform': 'translate(-15px, 5px) rotate(' + -az_deg(h1-start, w1) + 'deg)',
+		// 		'transform-origin': '50% 50%',
+		// 	});
+		// 	$('.az-arrow').eq(0).animate({
+		// 		'bottom' : h1 + 'px',
+		// 		'left' : w1 + 'px',
+		// 	}, 1000, 'linear');
+		// }, false);
+		// anim.addEventListener("animationend", function(){
+		// 	az_arrow.eq(0).css('display', 'none');
+		// }, false);
 
-		
+		// var anim1 = document.getElementById("anim1");
+		// anim1.addEventListener("animationstart", function(){
+		// 	$('.az-arrow').eq(1).css({
+		// 		'bottom' : h1 + 'px',
+		// 		'display': 'block',
+		// 		'left' :  '0px',
+		// 		'transform': 'translate(-15px, 5px)',
+		// 		'transform-origin': '50% 50%',
+		// 	});
+		// 	$('.az-arrow').eq(1).animate({
+		// 		'bottom' : h1 + 'px',
+		// 		'left' : w1 + 'px',
+		// 	}, 1000, 'linear');
+		// }, false);
+		// anim1.addEventListener("animationend", function(){
+		// 	az_arrow.eq(1).css('display', 'none');
+		// }, false);
+		// var az_arrow = $('.az-arrow');
+		// az_arrow.css('display', 'none');
+		// setInterval(function(){
+		// 	for(var i = 0; i<az_arrow.length; i++){
+		// 		// if(az_arrow.eq(i).width() > 0){
+		// 			alert(az_arrow.eq(i).width());
+		// 		// }
+		// 	}
+		// }, 1000);
 		$('.az-arrow').css('display', 'none');
-		$('.az-arrow').eq(0).css({
-			'bottom' : start + 'px',
-			'display': 'block',
-			'left' :  '0px',
-			'transform': 'translate(-15px, 5px) rotate(' + -az_deg(h1-start, w1) + 'deg)',
-			'transform-origin': '50% 50%',
-		});
-		$('.az-arrow').eq(0).animate({
-			'bottom' : h1 + 'px',
-			'left' : w1 + 'px',
-		}, 1000, 'linear');
-		setTimeout(function(){
-			$('.az-arrow').eq(0).css('display', 'none');
-			$('.az-arrow').eq(1).css({
-				'bottom' : h1 + 'px',
+		var anim = document.getElementById("anim");
+		anim.addEventListener("animationstart", function(){
+			
+			$('.az-arrow').eq(0).css({
+				'bottom' : start + 'px',
 				'display': 'block',
 				'left' :  '0px',
-				'transform': 'translate(-15px, 5px)',
-				'transform-origin': '50% 50%',
+				'transform': 'translate(-5px, 5px) rotate(' + -az_deg(h1-start, w1) + 'deg)',
+				'transform-origin': '20% 50%',
 			});
-			$('.az-arrow').eq(1).animate({
+			$('.az-arrow').eq(0).animate({
 				'bottom' : h1 + 'px',
 				'left' : w1 + 'px',
 			}, 1000, 'linear');
 			setTimeout(function(){
-				$('.az-arrow').eq(1).css('display', 'none');
-				$('.az-arrow').eq(2).css({
+				$('.az-arrow').eq(0).css('display', 'none');
+				$('.az-arrow').eq(1).css({
 					'bottom' : h1 + 'px',
 					'display': 'block',
 					'left' :  '0px',
-					'transform': 'translate(-15px, 5px) rotate(' + -az_deg(h2-h1, w1) + 'deg)',
-					'transform-origin': '50% 50%',
+					'transform': 'translate(-5px, 5px)',
+					'transform-origin': '20% 50%',
 				});
-				$('.az-arrow').eq(2).animate({
-					'bottom' : h2 + 'px',
+				$('.az-arrow').eq(1).animate({
+					'bottom' : h1 + 'px',
 					'left' : w1 + 'px',
 				}, 1000, 'linear');
 				setTimeout(function(){
-					$('.az-arrow').eq(2).css('display', 'none');
-					$('.az-arrow').eq(3).css({
-						'bottom' : h2 + 'px',
+					$('.az-arrow').eq(1).css('display', 'none');
+					$('.az-arrow').eq(2).css({
+						'bottom' : h1 + 'px',
 						'display': 'block',
 						'left' :  '0px',
-						'transform': 'translate(-15px, 5px)',
-						'transform-origin': '50% 50%',
+						'transform': 'translate(-5px, 5px) rotate(' + -az_deg(h2-h1, w1) + 'deg)',
+						'transform-origin': '20% 50%',
 					});
-					$('.az-arrow').eq(3).animate({
+					$('.az-arrow').eq(2).animate({
 						'bottom' : h2 + 'px',
 						'left' : w1 + 'px',
 					}, 1000, 'linear');
 					setTimeout(function(){
-						$('.az-arrow').eq(3).css('display', 'none');
-						$('.az-arrow').eq(4).css({
+						$('.az-arrow').eq(2).css('display', 'none');
+						$('.az-arrow').eq(3).css({
 							'bottom' : h2 + 'px',
 							'display': 'block',
 							'left' :  '0px',
-							'transform': 'translate(-15px, 5px) rotate(' + -az_deg(h3-h2, w1) + 'deg)',
-							'transform-origin': '50% 50%',
+							'transform': 'translate(-5px, 5px)',
+							'transform-origin': '20% 50%',
 						});
-						$('.az-arrow').eq(4).animate({
-							'bottom' : h3 + 'px',
+						$('.az-arrow').eq(3).animate({
+							'bottom' : h2 + 'px',
 							'left' : w1 + 'px',
 						}, 1000, 'linear');
+						setTimeout(function(){
+							$('.az-arrow').eq(3).css('display', 'none');
+							$('.az-arrow').eq(4).css({
+								'bottom' : h2 + 'px',
+								'display': 'block',
+								'left' :  '0px',
+								'transform': 'translate(-5px, 5px) rotate(' + -az_deg(h3-h2, w1) + 'deg)',
+								'transform-origin': '20% 50%',
+							});
+							$('.az-arrow').eq(4).animate({
+								'bottom' : h3 + 'px',
+								'left' : w1 + 'px',
+							}, 1000, 'linear');
+						}, 1000);
 					}, 1000);
 				}, 1000);
 			}, 1000);
-		}, 1000);
 
-		$('.ah-transleft').height(0);
-		$('.ah-transleft').animate({'height': (h1-50) + 'px'}, 1000);
-		$('.ah-transright').height(0);
-		setTimeout(function(){
-			$('.ah-transright').animate({'height': (h2-50) + 'px'}, 1400);
-		}, 400);
-		
+			$('.ah-transleft').height(0);
+			$('.ah-transleft').animate({'height': (h1-50) + 'px'}, 1000);
+			$('.ah-transright').height(0);
+			setTimeout(function(){
+				$('.ah-transright').animate({'height': (h2-50) + 'px'}, 1400);
+			}, 400);
+		}, false);
 	});
 	
 </script>
