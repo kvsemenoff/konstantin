@@ -24,6 +24,7 @@
                                 <li><a href="/presse.php">PRESSE</a></li>
                                 <li><a href="/kontakt.php">KONTAKT</a></li>
                                 <li><a href="/impressum.php">IMPRESSUM</a></li>
+                               <li><a href="/gescheftspartne.php">gescheftspartne</a></li>
                             </ul>
                         </div>
                     </div>
