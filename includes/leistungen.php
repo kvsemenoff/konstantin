@@ -1,4 +1,6 @@
-<div class="az-radar-arrow"></div>
+<div class="az-radar-arrow">
+	<div class="az-radar-arrow-inner"></div>
+</div>
 <div class="az-radar-elems">
 	<div class="az-pos1">
 		<div class="az-radar-elem-item3">Erfahrung</div>
