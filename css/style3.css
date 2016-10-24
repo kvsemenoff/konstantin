@@ -94,7 +94,8 @@ body {
   .main-menu a {
     color: #000;
     position: relative;
-    display: inline-block; }
+    display: inline-block;
+    text-transform: uppercase; }
   .main-menu a:before {
     position: absolute;
     bottom: 2px;
