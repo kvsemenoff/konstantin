@@ -369,16 +369,7 @@ body{
 .az-leistungen{
     background: #121212;
 }
-@keyframes rot{
-    0%{
-        transform-origin: 0% 0%;
-        transform: rotate(0deg) translate(32px, 0);
-    }
-    100%{
-        transform-origin: 0% 0%;
-        transform: rotate(360deg) translate(32px, 0);
-    }
-}
+
 .az-radar-arrow{
     // display: none;
 }
@@ -471,17 +462,20 @@ body{
 
 @keyframes opas{
     0%{
+        opacity: 0;
+        // z-index: 1;
+    }
+    50%{
         opacity: 1;
-        z-index: 1;
     }
     100%{
         opacity: 0;
-        z-index: -1;
+        // z-index: -1;
     }
 }
 .az-active{
     opacity: 0;
-    animation: opas 2s ease-in-out;
+    animation: opas 4s ease-in-out infinite;
 }
 .az-radar-elems{
     >div{
@@ -491,24 +485,38 @@ body{
     }
     .az-pos14{
         display: none;
+        animation-delay: 1s;
+        animation-duration: 4s;
     }
     .az-pos15{
         display: none;
+        animation-delay: 1.5s;
+        animation-duration: 4.5s;
     }
     .az-pos16{
         display: none;
+        animation-delay: 2s;
+        animation-duration: 4.8s;
     }
     .az-pos17{
         display: none;
+        animation-delay: 2.5s;
+        animation-duration: 3.5s;
     }
     .az-pos18{
         display: none;
+        animation-delay: 3s;
+        animation-duration: 3.2s;
     }
     .az-pos19{
         display: none;
+        animation-delay: 3.5s;
+        animation-duration: 3s;
     }
     .az-pos20{
         display: none;
+        animation-delay: 4s;
+        animation-duration: 5s;
     }
 }
 /*leistungen*/
@@ -599,26 +607,36 @@ body{
         padding: 0px;
     }
     .az-leistungen{
-        background: url(../img/az-radar.jpg) no-repeat calc(50% + 2px) calc(50% + 2px) #090909;
-        background-size: unset;
+        background: url(../img/az-radar2.jpg) no-repeat center center #000;
+        background-size: 100%;
     }
     .az-radar-elem{
         opacity: 0;
     }
     .az-radar-elems{
         >div{
-            display: block;
+            display: block !important;
+        }
+    }
+    @keyframes rot{
+        0%{
+            transform-origin: 0% 0%;
+            transform: rotate(0deg) translate(6.4%, 0);
+        }
+        100%{
+            transform-origin: 0% 0%;
+            transform: rotate(360deg) translate(6.4%, 0);
         }
     }
     .az-radar-arrow{
         position: fixed;
         top: 50%;
         left: 50%;
-        box-shadow: 0 -10px 20px #aaa;
+        box-shadow: 0 -20px 30px #555;
         animation: rot 4s linear infinite;
-        width: 543px;
-        height: 3px;
-        background: #fff
+        width: 38%;
+        height: 15px;
+        background: linear-gradient(#fff 2px, transparent 2px);
     }
     .az-pos1{
         position: fixed;
@@ -634,26 +652,26 @@ body{
     }
     .az-pos3{
         position: fixed;
-        left: 41.66%;
-        top: 17.33%;
+        left: 39.66%;
+        top: 14.33%;
         transform: translate(-50%, -50%);
     }
     .az-pos4{
         position: fixed;
         left: 61.80%;
-        top: 17.33%;
+        top: 14.33%;
         transform: translate(-50%, -50%);
     }
     .az-pos5{
         position: fixed;
-        left: 28.61%;
+        left: 22.61%;
         top: 25.33%;
         transform: translate(-50%, -50%);
     }
     .az-pos6{
         position: fixed;
         left: 50%;
-        top: 27.33%;
+        top: 24.33%;
         transform: translate(-50%, -50%);
     }
     .az-pos7{
@@ -671,7 +689,7 @@ body{
     .az-pos9{
         position: fixed;
         left: 50%;
-        top: 36.22%;
+        top: 33%;
         transform: translate(-50%, -50%);
     }
     .az-pos10{
@@ -749,7 +767,7 @@ body{
     .az-pos22{
         position: fixed;
         left: 50.41%;
-        top: 74.33%;
+        top: 77.33%;
         transform: translate(-50%, -50%);
     }
     .az-pos23{
@@ -767,13 +785,13 @@ body{
     .az-pos25{
         position: fixed;
         left: 43.75%;
-        top: 85.22%;
+        top: 89.22%;
         transform: translate(-50%, -50%);
     }
     .az-pos26{
         position: fixed;
         left: 66.66%;
-        top: 87.66%;
+        top: 88.66%;
         transform: translate(-50%, -50%);
     }
     .az-pos27{

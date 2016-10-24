@@ -6,107 +6,107 @@
 	<div class="az-pos2">
 		<div class="az-radar-elem-item3">Kontakte</div>
 	</div>
-	<div class="az-radar-elem az-pos3">
+	<div class="az-pos3">
 		<div class="az-radar-elem-item">Family Offices</div>
 	</div>
-	<div class="az-radar-elem az-pos4">
+	<div class="az-pos4">
 		<div class="az-radar-elem-item">Architekten</div>
 	</div>
-	<div class="az-radar-elem az-pos5">
+	<div class="az-pos5">
 		<div class="az-radar-elem-item">Private Immobilineigentumer</div>
 	</div>
-	<div class="az-radar-elem az-pos6">
+	<div class="az-pos6">
 		<div class="az-radar-elem-item">Projectentwickler</div>
 	</div>
-	<div class="az-radar-elem az-pos7">
+	<div class="az-pos7">
 		<div class="az-radar-elem-item">Erbengemeinschaften</div>
 	</div>
-	<div class="az-radar-elem az-pos8">
+	<div class="az-pos8">
 		<div class="az-radar-elem-item">Privatinvestoren</div>
 	</div>
-	<div class="az-radar-elem az-pos9">
+	<div class="az-pos9">
 		<div class="az-radar-elem-item">Kanzleien</div>
 	</div>
-	<div class="az-radar-elem az-pos10">
+	<div class="az-pos10">
 		<div class="az-radar-elem-item">Privatisierung von Wohnraum</div>
 	</div>
-	<div class="az-radar-elem az-pos11">
+	<div class="az-pos11">
 		<div class="az-radar-elem-item">Mezzaninkapitalgeber</div>
 	</div>
-	<div class="az-radar-elem az-pos12">
+	<div class="az-pos12">
 		<div class="az-radar-elem-item">Bautrager</div>
 	</div>
-	<div class="az-radar-elem az-pos13">
+	<div class="az-pos13">
 		<div class="az-radar-elem-item">Stadteplaner</div>
 	</div>
-	<div class="az-radar-elem az-pos14">
+	<div class="az-radar-elem az-pos14 az-active">
 		<div class="az-offerten-lr">
 			<div class="az-offerten-tb">
 				<div class="az-offerten">Offerten</div>
 			</div>
 		</div>
 	</div>
-	<div class="az-radar-elem az-pos15">
+	<div class="az-radar-elem az-pos15 az-active">
 		<div class="az-offerten-lr">
 			<div class="az-offerten-tb">
 				<div class="az-offerten">Offerten</div>
 			</div>
 		</div>
 	</div>
-	<div class="az-radar-elem az-pos16">
+	<div class="az-radar-elem az-pos16 az-active">
 		<div class="az-offerten-lr">
 			<div class="az-offerten-tb">
 				<div class="az-offerten">Offerten</div>
 			</div>
 		</div>
 	</div>
-	<div class="az-radar-elem az-pos17">
+	<div class="az-radar-elem az-pos17 az-active">
 		<div class="az-offerten-lr">
 			<div class="az-offerten-tb">
 				<div class="az-offerten">Offerten</div>
 			</div>
 		</div>
 	</div>
-	<div class="az-radar-elem az-pos18">
+	<div class="az-radar-elem az-pos18 az-active">
 		<div class="az-offerten-lr">
 			<div class="az-offerten-tb">
 				<div class="az-offerten">Offerten</div>
 			</div>
 		</div>
 	</div>
-	<div class="az-radar-elem az-pos19">
+	<div class="az-radar-elem az-pos19 az-active">
 		<div class="az-offerten-lr">
 			<div class="az-offerten-tb">
 				<div class="az-offerten">Offerten</div>
 			</div>
 		</div>
 	</div>
-	<div class="az-radar-elem az-pos20">
+	<div class="az-radar-elem az-pos20 az-active">
 		<div class="az-offerten-lr">
 			<div class="az-offerten-tb">
 				<div class="az-offerten">Offerten</div>
 			</div>
 		</div>
 	</div>
-	<div class="az-radar-elem az-pos21">
+	<div class="az-pos21">
 		<div class="az-radar-elem-item2"><strong>Beratung</strong> bei der Konzeption &<br>Entwicklung von Stadtquartieren</div>
 	</div>
-	<div class="az-radar-elem az-pos22">
+	<div class="az-pos22">
 		<div class="az-radar-elem-item2"><strong>Potentialanalysen</strong><br>von unbebauten & bebauten Grundstucken</div>
 	</div>
-	<div class="az-radar-elem az-pos23">
+	<div class="az-pos23">
 		<div class="az-radar-elem-item2"><strong>Diskrete abwicklung</strong><br>von Immobiliensuchauftragen</div>
 	</div>
-	<div class="az-radar-elem az-pos24">
+	<div class="az-pos24">
 		<div class="az-radar-elem-item2"><strong>Wertermittlung</strong></div>
 	</div>
-	<div class="az-radar-elem az-pos25">
+	<div class="az-pos25">
 		<div class="az-radar-elem-item2"><strong>Vermittlung</strong><br>von Mezzaninkapitalgebern</div>
 	</div>
-	<div class="az-radar-elem az-pos26">
+	<div class="az-pos26">
 		<div class="az-radar-elem-item2"><strong>Vermittlung</strong><br>von Gewerbe-/ Investmentimmobilien</div>
 	</div>
-	<div class="az-radar-elem az-pos27">
+	<div class="az-pos27">
 		<div class="az-radar-elem-item2"><strong>Immobilienscouting</strong></div>
 	</div>
 	<div class="az-pos28">
@@ -159,53 +159,53 @@
 	</div>
 </div>
 <script>
-	var az_deg = function(a, b){
-		return Math.atan(a/b)/Math.PI*180;
-	};
-	var ret_arr;
-	var az_in_array = function(num, arr){
-		ret_arr = new Array;
-		for(var i=0; i<arr.length; i++){
-			if((num-1)<arr[i] && (num+1)>arr[i]){
-				ret_arr.push(i);
-			}
-		}
-		return ret_arr;
-	};
-	$(document).ready(function(){
-		var elems = $('.az-radar-elem');
-		var deg_arrs = new Array();
-		var deg_arrs2 = new Array();
-		var x = $('body').width()/2;
-		var	y = $('body').height()/2;
-		var top;
-		var left;
-		for(var i=0; i<elems.length; i++){
-			top = elems.eq(i).position().top - y + elems.eq(i).height()/2;
-			left = elems.eq(i).position().left - x + elems.eq(i).width()/2;
-			deg_arrs.push((top>=0&&left>=0)?az_deg(top, left):(top<=0&&left>=0)?(360+az_deg(top, left)):(180+az_deg(top, left)));
-		}
-		for(var i=0; i<deg_arrs.length; i++){
-			deg_arrs2.push(deg_arrs[i]>180?deg_arrs[i]-180:deg_arrs[i]+180);
-		}
-		setInterval(function(){
-			var arrow_matrix = $('.az-radar-arrow').css('transform');
-			var matrix = arrow_matrix.slice(7, arrow_matrix.length-2).split(', ');
-			var azdeg = Math.acos(parseFloat(matrix[0]))/Math.PI*180;
-			var azdeg2 = Math.asin(parseFloat(matrix[1]))/Math.PI*180;
-			var azdeg3 = azdeg2>0?azdeg:(360-azdeg);
-			var az_in_it = az_in_array(azdeg3, deg_arrs);
-			var az_in_it2 = az_in_array(azdeg3, deg_arrs2);
-			if(az_in_it.length != 0){
-				for(var i=0; i<az_in_it.length; i++){
-					elems.eq(az_in_it[i]).addClass('az-active');
-				}
-			}
-			if(az_in_it2.length != 0){
-				for(var i=0; i<az_in_it2.length; i++){
-					elems.eq(az_in_it2[i]).removeClass('az-active');
-				}
-			}
-		}, 10);
-	});
+	// var az_deg = function(a, b){
+	// 	return Math.atan(a/b)/Math.PI*180;
+	// };
+	// var ret_arr;
+	// var az_in_array = function(num, arr){
+	// 	ret_arr = new Array;
+	// 	for(var i=0; i<arr.length; i++){
+	// 		if((num-1)<arr[i] && (num+1)>arr[i]){
+	// 			ret_arr.push(i);
+	// 		}
+	// 	}
+	// 	return ret_arr;
+	// };
+	// $(document).ready(function(){
+	// 	var elems = $('.az-radar-elem');
+	// 	var deg_arrs = new Array();
+	// 	var deg_arrs2 = new Array();
+	// 	var x = $('body').width()/2;
+	// 	var	y = $('body').height()/2;
+	// 	var top;
+	// 	var left;
+	// 	for(var i=0; i<elems.length; i++){
+	// 		top = elems.eq(i).position().top - y + elems.eq(i).height()/2;
+	// 		left = elems.eq(i).position().left - x + elems.eq(i).width()/2;
+	// 		deg_arrs.push((top>=0&&left>=0)?az_deg(top, left):(top<=0&&left>=0)?(360+az_deg(top, left)):(180+az_deg(top, left)));
+	// 	}
+	// 	for(var i=0; i<deg_arrs.length; i++){
+	// 		deg_arrs2.push(deg_arrs[i]>180?deg_arrs[i]-180:deg_arrs[i]+180);
+	// 	}
+	// 	setInterval(function(){
+	// 		var arrow_matrix = $('.az-radar-arrow').css('transform');
+	// 		var matrix = arrow_matrix.slice(7, arrow_matrix.length-2).split(', ');
+	// 		var azdeg = Math.acos(parseFloat(matrix[0]))/Math.PI*180;
+	// 		var azdeg2 = Math.asin(parseFloat(matrix[1]))/Math.PI*180;
+	// 		var azdeg3 = azdeg2>0?azdeg:(360-azdeg);
+	// 		var az_in_it = az_in_array(azdeg3, deg_arrs);
+	// 		var az_in_it2 = az_in_array(azdeg3, deg_arrs2);
+	// 		if(az_in_it.length != 0){
+	// 			for(var i=0; i<az_in_it.length; i++){
+	// 				elems.eq(az_in_it[i]).addClass('az-active');
+	// 			}
+	// 		}
+	// 		if(az_in_it2.length != 0){
+	// 			for(var i=0; i<az_in_it2.length; i++){
+	// 				elems.eq(az_in_it2[i]).removeClass('az-active');
+	// 			}
+	// 		}
+	// 	}, 10);
+	// });
 </script>
