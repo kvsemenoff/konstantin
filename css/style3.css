@@ -81,13 +81,13 @@ body {
   width: 41px;
   height: 43px;
   transition: all 0.5s ease-in-out;
-  background: url(../img/az-menu.png) no-repeat top left; }
+  background: url(../img/hamburger-black.svg) no-repeat top left; }
 
 .anz-menu-ch:hover {
   opacity: 0.4; }
 
 .anz-menu-ch_style {
-  background: url(../img/az-menu2.png) no-repeat top left; }
+  background: url(../img/hamburger-white.svg) no-repeat top left; }
 
 .main-menu {
   text-align: left; }
@@ -478,7 +478,8 @@ body {
     animation: rot 4s linear infinite;
     width: 100%;
     background: url(../img/az-radar-arrow2.png) no-repeat center center;
-    background-size: 100%; }
+    background-size: 100%;
+    z-index: -1; }
 
   .az-radar-arrow-inner {
     position: relative; }
@@ -504,67 +505,78 @@ body {
     position: fixed;
     left: 39.66%;
     top: 14.33%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    z-index: 2; }
 
   .az-pos4 {
     position: fixed;
     left: 61.80%;
     top: 14.33%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    z-index: 2; }
 
   .az-pos5 {
     position: fixed;
     left: 22.61%;
     top: 25.33%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    z-index: 2; }
 
   .az-pos6 {
     position: fixed;
     left: 50%;
     top: 24.33%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    z-index: 2; }
 
   .az-pos7 {
     position: fixed;
     left: 74.16%;
     top: 25%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    z-index: 2; }
 
   .az-pos8 {
     position: fixed;
     left: 25.41%;
     top: 33.88%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    z-index: 2; }
 
   .az-pos9 {
     position: fixed;
     left: 50%;
     top: 33%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    z-index: 2; }
 
   .az-pos10 {
     position: fixed;
     left: 74.44%;
     top: 32.88%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    z-index: 2; }
 
   .az-pos11 {
     position: fixed;
     left: 30.40%;
     top: 42.88%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    z-index: 2; }
 
   .az-pos12 {
     position: fixed;
     left: 62.5%;
     top: 42.88%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    z-index: 2; }
 
   .az-pos13 {
     position: fixed;
     left: 77.08%;
     top: 41.11%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    z-index: 2; }
 
   .az-pos14 {
     position: fixed;
