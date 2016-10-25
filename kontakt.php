@@ -56,9 +56,10 @@
 							<form action="" name="feedback" method="post" class="zk_form">		
 								<input type="text" name="from" placeholder="Ihr Name(Pflichtfeld)" /><br/>		
 								<input type="text" name="to" placeholder="Ihr Name(Pflichtfeld)" /><br/>
-								<textarea name="message" cols="" rows="5" placeholder="Ihre Nachricht"></textarea>		
+								<textarea name="message" cols="" rows="5" placeholder="Ihre Nachricht"></textarea>
+								<div id="zk_form"><input type="submit" value="senden"></div>
 							</form>
-							<a href="#">senden<span><img src="img/zk_send.png" alt=""></span></a>		
+									
 						</div>					
 					</div>
 				</div>

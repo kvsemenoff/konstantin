@@ -156,7 +156,7 @@
 		$('.az-arrow').css('display', 'none');
 		var anim = document.getElementById("anim");
 		anim.addEventListener("animationstart", function(){
-			$('.ah-transleft').animate({'height': (h1-50) + 'px'}, 1000);
+			
 			$('.az-arrow').eq(0).css({
 				'bottom' : start + 'px',
 				'display': 'block',
@@ -175,7 +175,7 @@
 
 		var anim2 = document.getElementById("anim2");
 		anim2.addEventListener("animationstart", function(){
-			$('.ah-transright').animate({'height': (h2-50) + 'px'}, 2000);
+			
 			$('.az-arrow').eq(1).css({
 				'bottom' : h1 + 'px',
 				'display': 'block',
@@ -242,6 +242,11 @@
 				'left' : w1 + 'px',
 			}, 1000, 'linear');
 		}, false);
+		setTimeout(function(){
+			$('.ah-transleft').animate({'height': (h1-50) + 'px'}, 3000);
+			$('.ah-transright').animate({'height': (h2-50) + 'px'}, 5000);
+		}, 1000);
+		
 		
 			// setTimeout(function(){
 			// 	$('.az-arrow').eq(0).css('display', 'none');

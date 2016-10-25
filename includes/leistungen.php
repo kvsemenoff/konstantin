@@ -1,7 +1,11 @@
-<div class="az-radar-arrow">
+<!-- <div class="az-radar-arrow">
 	<div class="az-radar-arrow-inner"></div>
-</div>
+</div> -->
+<div class="az-fixed" style="position: fixed; top: 10px; left: 10px; z-index: 200; background: #000; color: #fff; font-size: 20px;"></div>
 <div class="az-radar-elems">
+	<div class="az-radar-arrow">
+		<div class="az-radar-arrow-inner"></div>
+	</div>
 	<div class="az-pos1">
 		<div class="az-radar-elem-item3">Erfahrung</div>
 	</div>
@@ -159,8 +163,44 @@
 				</svg>
 		</div>
 	</div>
+	<div class="az-arrow-bottom"></div>
 </div>
+
 <script>
+$(document).ready(function(){
+	$('.az-arrow-bottom').click(function(){
+		$('html, body').animate({scrollTop: height}, 800);
+	});
+
+// if(window.matchMedia('(min-width : 480px)').matches){
+	var height = $('body').height();
+	// var body = $('body');
+	// var temp = $('html,body').scrollTop();
+	// var temp2 = 0;
+	// var temp3 = $('html,body').scrollTop();
+	// $(document).scroll(function(){
+	// 	temp3 = $('html,body').scrollTop();
+	// 	if(temp > temp3){
+	// 		temp2 = -1;
+	// 	} else if(temp < temp3){
+	// 		temp2 = 1;
+	// 	} else{
+	// 		temp2 = 0;
+	// 	}
+		
+	// 	temp = temp3;
+	// 	if((temp > 0) && (temp < 100) && (temp2 == 1)){
+	// 		$('html,body').animate({scrollTop: height}, 800);
+	// 		return false;
+	// 	} else if((temp > (height - 100)) && (temp < height) && (temp2 == -1)){
+	// 		$('html,body').animate({scrollTop: 0}, 800);
+	// 		return false;
+	// 	}
+	// });
+// }
+
+
+});
 	// var az_deg = function(a, b){
 	// 	return Math.atan(a/b)/Math.PI*180;
 	// };
