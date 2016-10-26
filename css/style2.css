@@ -69,19 +69,27 @@
   position: relative;
   text-align: center;
   background-color: #fff;
-  padding: 10px 10px 0px 10px;
+  padding: 10px 10px 16px 10px;
   margin-bottom: 11px;
-  min-height: 102px; }
+  min-height: 102px;
+  transition: all 1s ease-out; }
 
 .ah-ressewrap1 {
   position: relative;
   text-align: center;
   background-color: #fff;
-  padding: 10px 10px 0px 10px;
-  min-height: 63px; }
+  padding: 10px 10px 16px 10px;
+  min-height: 63px;
+  transition: all 1s ease-in-out; }
+
+.ah-ressewrap:hover {
+  opacity: 0.6; }
+
+.ah-ressewrap1:hover {
+  opacity: 0.6; }
 
 .ah-imgbox {
-  position: none;
+  position: absolute;
   left: 50%;
   bottom: 0;
   margin-top: 10px;
