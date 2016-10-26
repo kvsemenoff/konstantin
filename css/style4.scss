@@ -42,7 +42,7 @@
 		}
 	}
 	.ab-footer-menu{
-		padding-top:25px;
+		//padding-top:25px;
 		padding-bottom: 16px;
 		text-align: center;
 		li{
@@ -296,6 +296,15 @@
         background: none;
     }
 }
+.footer{
+    div[class|="col"]{
+        >a{
+            display: block;
+            margin-bottom: 25px;
+        }
+    }
+}
+
 
 @media only screen and (min-width : 320px) {
 }
@@ -359,7 +368,7 @@
    
 
 	.ab-footer-menu{
-		padding-top:25px;
+		// padding-top:25px;
 		padding-bottom: 16px;
 		text-align: left !important;
 		li{

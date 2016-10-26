@@ -57,7 +57,7 @@
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-6 col-xs-12">
-					<div class="qq-txt_box qq-t1">
+					<div class="qq-txt_box qq-txt_box1 qq-t1">
 						<h3>INDIVIDUALITÄT</h3>
 						<p>
 							Individuellen Wünschen von Eigentümern und Suchkunden gerecht zu werden zählt Konstantin Wettig zu den interessantesten Herausforderungen seines Berufsstandes.
@@ -65,7 +65,7 @@
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-6 col-xs-12">
-					<div class="qq-txt_box qq-t2">
+					<div class="qq-txt_box qq-txt_box2 qq-t2">
 						<h3>INTENSITÄT</h3>
 						<p>
 							Jeder Kundenwunsch wird zeitnah 
@@ -77,7 +77,7 @@
 			</div>
 			<div class="row qq-main_two">
 				<div class="col-md-4 col-sm-4 col-xs-12">
-					<div class="qq-txt_box qq-t3a">
+					<div class="qq-txt_box qq-txt_box3 qq-t3a">
 						<h3>VERTRAUEN</h3>
 						<p>
 							Gegenseitiges Vertrauen bildet die Basis für einen gemeinsamen 
@@ -93,7 +93,7 @@
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12">
-					<div class="qq-txt_box qq-t3">
+					<div class="qq-txt_box qq-txt_box4 qq-t3">
 						<h3>PASSION</h3>
 						<p>
 							Exzellentes Investment Advisory bedeutet mehr als erfolgreiche 
@@ -105,7 +105,7 @@
 			</div>
 			<div class="row main_free">
 				<div class="col-md-12 col-sm-12 col-xs-12">
-					<div class="qq-txt_box qq-t4">
+					<div class="qq-txt_box qq-txt_box5 qq-t4">
 						<h3>DISKRETION</h3>
 						<p>
 							Alle uns anvertrauten Informationen zur Vertragsabwicklung werden mit sorgfältiger Diskretion und Verständnis für die individuellen Belange unserer Auftraggeber behandelt.

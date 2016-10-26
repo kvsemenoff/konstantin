@@ -25,6 +25,10 @@
 		line-height: 32px;
 		margin-bottom: 25px;
 	}
+	div[class|="col"]{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
 }
 // transakvol************************
 .ah-transakvolbody{
@@ -141,6 +145,20 @@
 }
 
 @media only screen and (min-width : 768px) {
+	.ah-res{
+		p{
+			display: block;
+			font-family: "HelveticaNeue-Light";
+			color: #fff;
+			font-size: 26px;
+			line-height: 32px;
+			margin-bottom: 25px;
+		}
+		div[class|="col"]{
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
 	.ah-transakvolbody{
 		background: url(../img/ah-transakvol_xs.jpg) top center no-repeat;
 		// min-height: 900px;

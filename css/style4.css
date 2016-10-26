@@ -31,7 +31,6 @@
     transform: translate(-50%, 0);
     bottom: 20px; }
 .footer .ab-footer-menu {
-  padding-top: 25px;
   padding-bottom: 16px;
   text-align: center; }
   .footer .ab-footer-menu li {
@@ -177,6 +176,10 @@
     right: 6%;
     top: 30%;
     background: none; } }
+.footer div[class|="col"] > a {
+  display: block;
+  margin-bottom: 25px; }
+
 @media only screen and (min-width: 480px) {
   .ab-str {
     left: 50%;
@@ -222,7 +225,6 @@
     line-height: 38px; } }
 @media only screen and (min-width: 768px) {
   .ab-footer-menu {
-    padding-top: 25px;
     padding-bottom: 16px;
     text-align: left !important; }
     .ab-footer-menu li {
