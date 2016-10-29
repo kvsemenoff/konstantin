@@ -1,7 +1,7 @@
 <section class="footer">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3 col-sm-6">
+			<div class="col-md-3 col-sm-6 col-xs-6">
 				<a href="/KonstantinWettig.php">
 					<div class="ab-main-img-box">
 						<img src="img/art-1.png" alt="">
@@ -13,7 +13,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-md-3 col-sm-6">
+			<div class="col-md-3 col-sm-6 col-xs-6">
 				<a href="/leistungen.php">
 					<div class="ab-main-img-box">
 						<img src="img/art-2.png" alt="">
@@ -24,7 +24,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-md-3 col-sm-6">
+			<div class="col-md-3 col-sm-6 col-xs-6">
 				<a href="/gescheftspartne.php">
 					<div class="ab-main-img-box">
 						<img src="img/art-3.png" alt="">
@@ -35,7 +35,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="col-md-3 col-sm-6">
+			<div class="col-md-3 col-sm-6 col-xs-6">
 				<a href="/Transaktionsvolumen.php">
 					<div class="ab-main-img-box">
 						<img src="img/art-4.png" alt="">

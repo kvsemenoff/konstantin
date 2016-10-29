@@ -235,23 +235,23 @@ body {
   height: 9px;
   background: #9dbd1a;
   transform-origin: 0px 0px;
-  animation: len 1s linear;
+  animation: len 2s linear;
   animation-fill-mode: both; }
 
 .ah-arr1 {
-  animation-delay: 1s; }
-
-.ah-arr2 {
   animation-delay: 2s; }
 
-.ah-arr3 {
-  animation-delay: 3s; }
-
-.ah-arr4 {
+.ah-arr2 {
   animation-delay: 4s; }
 
+.ah-arr3 {
+  animation-delay: 6s; }
+
+.ah-arr4 {
+  animation-delay: 8s; }
+
 .ah-arr5 {
-  animation-delay: 5s; }
+  animation-delay: 10s; }
 
 .az-arrow {
   position: absolute;
@@ -368,31 +368,31 @@ body {
 .az-radar-elems .az-pos14 {
   display: none;
   animation-delay: 1s;
-  animation-duration: 4s; }
+  animation-duration: 6s; }
 .az-radar-elems .az-pos15 {
   display: none;
   animation-delay: 1.5s;
-  animation-duration: 4.5s; }
+  animation-duration: 6.5s; }
 .az-radar-elems .az-pos16 {
   display: none;
   animation-delay: 2s;
-  animation-duration: 4.8s; }
+  animation-duration: 6.8s; }
 .az-radar-elems .az-pos17 {
   display: none;
   animation-delay: 2.5s;
-  animation-duration: 3.5s; }
+  animation-duration: 5.5s; }
 .az-radar-elems .az-pos18 {
   display: none;
   animation-delay: 3s;
-  animation-duration: 3.2s; }
+  animation-duration: 5.2s; }
 .az-radar-elems .az-pos19 {
   display: none;
   animation-delay: 3.5s;
-  animation-duration: 3s; }
+  animation-duration: 5s; }
 .az-radar-elems .az-pos20 {
   display: none;
   animation-delay: 4s;
-  animation-duration: 5s; }
+  animation-duration: 7s; }
 
 /*leistungen*/
 /**/
@@ -457,7 +457,8 @@ body {
 .ah-res_style {
   position: relative;
   z-index: 3;
-  background: #121212;
+  background: url(../img/az-radar-background.jpg) no-repeat top center;
+  background-size: cover;
   height: 100%;
   padding: 20px; }
 
@@ -480,10 +481,11 @@ body {
   background: url(../img/right-black.svg) no-repeat top right;
   line-height: 48px; }
 
-@media only screen and (min-width: 480px) {
-  .ah-res_style {
-    background: #000; }
+.az-radar-back {
+  background: url(../img/az-radar-background.jpg) no-repeat top center;
+  background-size: cover; }
 
+@media only screen and (min-width: 480px) {
   .slidetextbox-outer {
     padding: 0px; }
 
@@ -521,7 +523,7 @@ body {
     position: absolute;
     top: 50%;
     left: 0%;
-    animation: rot 4s linear infinite;
+    animation: rot 8s linear infinite;
     width: 100%;
     background: url(../img/az-radar-arrow3.png) no-repeat center center;
     background-size: 100%;

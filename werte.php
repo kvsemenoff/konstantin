@@ -53,7 +53,7 @@
 			<div class="row qq-main">
 				<div class="col-xs-12">
 					<div class="qq-img-box-a">
-						<img src="img/werte-logo.png" alt="">
+						<img src="img/logo.svg" alt="">
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-6 col-xs-12">

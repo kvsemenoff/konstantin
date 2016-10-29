@@ -44,7 +44,9 @@
 .ah-transleft, .ah-transright{
 	position: absolute;
 	background-color: #fff;
-	padding: 25px 7px;
+	padding: 0px 7px;
+	box-sizing: border-box;
+	// padding-right: 
 	text-align: center;
 	width: 150%;
 	height: 0px;
@@ -213,7 +215,7 @@
 	// 	left: 7%;
 	// }
 	.ah-transleft, .ah-transright{
-		padding: 25px 30px;
+		padding: 0px 30px;
 		width: 100%;
 	}
 	.ah-transakvol-title{

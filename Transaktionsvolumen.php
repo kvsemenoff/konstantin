@@ -167,7 +167,7 @@
 			$('.az-arrow').eq(0).animate({
 				'bottom' : h1 + 'px',
 				'left' : w1 + 'px',
-			}, 1000, 'linear');
+			}, 2000, 'linear');
 		}, false);
 		anim.addEventListener("animationend", function(){
 			$('.az-arrow').eq(0).css('display', 'none');
@@ -186,7 +186,7 @@
 			$('.az-arrow').eq(1).animate({
 				'bottom' : h1 + 'px',
 				'left' : w1 + 'px',
-			}, 1000, 'linear');
+			}, 2000, 'linear');
 		}, false);
 		anim2.addEventListener("animationend", function(){
 			$('.az-arrow').eq(1).css('display', 'none');
@@ -204,7 +204,7 @@
 			$('.az-arrow').eq(2).animate({
 				'bottom' : h2 + 'px',
 				'left' : w1 + 'px',
-			}, 1000, 'linear');
+			}, 2000, 'linear');
 		}, false);
 		anim3.addEventListener("animationend", function(){
 			$('.az-arrow').eq(2).css('display', 'none');
@@ -222,7 +222,7 @@
 			$('.az-arrow').eq(3).animate({
 				'bottom' : h2 + 'px',
 				'left' : w1 + 'px',
-			}, 1000, 'linear');
+			}, 2000, 'linear');
 		}, false);
 		anim4.addEventListener("animationend", function(){
 			$('.az-arrow').eq(3).css('display', 'none');
@@ -240,12 +240,12 @@
 			$('.az-arrow').eq(4).animate({
 				'bottom' : h3 + 'px',
 				'left' : w1 + 'px',
-			}, 1000, 'linear');
+			}, 2000, 'linear');
 		}, false);
 		setTimeout(function(){
-			$('.ah-transleft').animate({'height': (h1-50) + 'px'}, 3000);
-			$('.ah-transright').animate({'height': (h2-50) + 'px'}, 5000);
-		}, 1000);
+			$('.ah-transleft').animate({'height': (h1-50) + 'px', 'padding-top': '25px'}, 4000);
+			$('.ah-transright').animate({'height': (h2-50) + 'px', 'padding-top': '25px'}, 6000);
+		}, 3000);
 		
 		
 			// setTimeout(function(){

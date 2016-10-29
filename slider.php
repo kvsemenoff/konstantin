@@ -6,7 +6,7 @@
 					<div class="item">
 						<div>
 							<div class="ab-img-box">
-								<img  src="img/ab-slide-1.jpg" alt="">
+								<img  src="img/ab-slide-1-2.jpg" alt="">
 							</div>
 							<div class="slidetextbox-outer">
 								<div class="slidetextbox">
@@ -22,7 +22,7 @@
 					<div class="item">
 						<div>
 							<div class="ab-img-box">
-								<img  src="img/ab-slide-2.jpg" alt="">
+								<img  src="img/ab-slide-2-2.jpg" alt="">
 							</div>
 							<div class="slidetextbox-outer">
 								<div class="slidetextbox slidetextbox-2">
@@ -41,7 +41,7 @@
 					<div class="item">
 						<div>
 							<div class="ab-img-box">
-								<img  src="img/ab-slide-3.jpg" alt="">
+								<img  src="img/ab-slide-3-2.jpg" alt="">
 							</div>
 							<div class="slidetextbox-outer">
 								<div class="slidetextbox  slidetextbox-3">
@@ -100,7 +100,7 @@
 	    items: 1,
 	    autoplay: true,
 	    smartSpeed:500,
-	    autoplayTimeout:10000,
+	    autoplayTimeout:3000,
 	    nav: true,
 	    navText:['<span class="az-arrowleft"></span>','<span class="az-arrowright"></span>']
 	});

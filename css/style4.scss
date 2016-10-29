@@ -82,14 +82,14 @@
     background-size: cover;
     background:#E8E8E8;
     .ab-img-box{
-		opacity: 0;
+		opacity: 1;
     }
 
 }
 .slidetextbox-span1{
     display: block;
     color: #212121;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 30px;
     letter-spacing: 0.025em;
     margin-bottom: 20px;
@@ -252,7 +252,11 @@
 
 
 
-
+.slidetextbox-span2{
+    // font-size: 18px;
+    color:#fff;
+    line-height: 38px;
+}
 
 /* Custom, iPhone Retina */
 
@@ -271,7 +275,7 @@
         }
     }
     .slidetextbox-span1{
-        font-size: 13px;
+        font-size: 15px;
         br{
         	display: none;
         }
@@ -393,8 +397,8 @@
     }
     .slidetextbox-3{
     	padding-left: 18px;
-    padding-top: 47px;
-    width: 68%;
+        padding-top: 47px;
+        width: 68%;
     }
     .slidetextbox{
     	span{

@@ -31,20 +31,17 @@
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
-<section class="az-content">
-	<?php require_once('includes/header3.php'); ?>
-	<?php require_once('includes/leistungen.php'); ?>
-</section>
+	<section class="az-content">
+		<?php require_once('includes/header3.php'); ?>
+		<?php require_once('includes/leistungen.php'); ?>
+	</section>
+
 <section class="ah-res ah-res_style">
     <div class="container">
 	    <div class="row">
 		    <div class="col-md-12 col-sm-12 col-xs-12">
-			    <p>Schon zu Studienzeiten entdeckte Konstantin Wettig sein Interesse und seine Leidenschaft für den Immobilienhandel. Eigenschaften wie erfolgreiche Kommunikation, aktives Zuhören sowie das Gespür welche Informationen an welchen Adressaten abzusetzen sind, haben ihn im Laufe von zwei Jahrzehnten zu einem interessanten Gesprächs- und Geschäftspartner werden lassen.</p>
-			    <p>15 Jahre fungierte Konstantin Wettig als einer der größten Lizenznehmer des weltweit tätigen Immobilienunternehmens Engel & Völkers.</p>
-			    <p>2014 veräusserte er seine Münchner Lizenzholding vollständig an ein Private Equity Unternehmen, um exklusiv unter eigenem Namen agieren zu können.</p>
-			    <p>Seitdem liegt der Fokus von Konstantin Wettig auf dem Immobilienscouting – der gezielten Suche nach Potentialimmobilien.</p>
-			    <p>Informationen über zum Verkauf kommende Immobilien werden dabei primär durch das eigene Netzwerk, welches er sich in vielen Jahren aufgebaut hat, diskret aufgenommen.</p>
-			    <p>Auf gleiche Weise erfolgt die gezielte Ansprache des in Frage kommenden Geschäftspartner- kreises. Mit dieser Vorgehensweise wurden und werden Transaktionen erfolgreich abgewickelt. Individualität und vertrauensvolle Zusammenarbeit sind die Grundlagen der immer auch sehr persönlichen Geschäftsbeziehungen. </p>
+			    <p>Im sogenannten Premium-Wohnbereich steht Konstantin Wettig in seiner Funktion als Vorsitzender des Beirates der Engel & Völkers München GmbH auch nach dem Verkauf seines Unternehmens den geschätzten Kunden als erfahrener Ansprechpartner auf Wunsch zur Verfügung.</p>
+				<p>Seine langjährige, operative Markterfahrung und Kenntnis des Münchner Immobilienmarktes kann somit weiterhin nutzenstiftend in Anspruch genommen werden.</p>
 		    </div>
 	    </div>
     </div>

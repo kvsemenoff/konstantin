@@ -61,12 +61,12 @@
   background-size: cover;
   background: #E8E8E8; }
   .item .ab-img-box {
-    opacity: 0; }
+    opacity: 1; }
 
 .slidetextbox-span1 {
   display: block;
   color: #212121;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 30px;
   letter-spacing: 0.025em;
   margin-bottom: 20px; }
@@ -143,6 +143,10 @@
 .ab-logos .box21 img {
   max-width: 174px; }
 
+.slidetextbox-span2 {
+  color: #fff;
+  line-height: 38px; }
+
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 250px) {
   .item {
@@ -155,7 +159,7 @@
       line-height: 15px; }
 
   .slidetextbox-span1 {
-    font-size: 13px; }
+    font-size: 15px; }
     .slidetextbox-span1 br {
       display: none; }
 
