@@ -322,7 +322,7 @@
 		    <div class="col-md-12 col-sm-12 col-xs-12">
 		    <a href="#">
 			    <div class="ah-ressewrap1">
-				    <span class="ah-resse-text">„Living in Style München“<span>herausgegeben von Stephanie von Pfuel (teNeues Publishing Group) mit Vorwort von Konstantin Wettig</span></span>
+				    <span class="ah-resse-text">„Living in Style München“ <span>herausgegeben von Stephanie von Pfuel (teNeues Publishing Group) mit Vorwort von Konstantin Wettig</span></span>
 				    <div class="ah-imgbox">
 						<div class="cube">
 							<div class="side">

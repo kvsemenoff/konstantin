@@ -97,7 +97,7 @@
 						<h3>PASSION</h3>
 						<p>
 							Exzellentes Investment Advisory bedeutet mehr als erfolgreiche 
-							Verkaufsabschlüsse. Es werden Visionen verwirklicht. 
+							Verkaufsabschlüsse. Visionen werden verwirklicht. 
 							Konstantin Wettig sieht es als seine Aufgabe, soziokulturelle Bedürfnisse früh zu erkennen, sie zum Vorteil seiner Auftraggeber in Projektideen zu integrieren und so nachhaltige Werte zu schaffen.
 						</p>
 					</div>
@@ -108,7 +108,7 @@
 					<div class="qq-txt_box qq-txt_box5 qq-t4">
 						<h3>DISKRETION</h3>
 						<p>
-							Alle uns anvertrauten Informationen zur Vertragsabwicklung werden mit sorgfältiger Diskretion und Verständnis für die individuellen Belange unserer Auftraggeber behandelt.
+							Alle uns anvertrauten Informationen zur Vertragsabwicklung werden mit sorgfältiger Diskretion und mit Verständnis für die individuellen Belange unserer Auftraggeber behandelt.
 						</p>
 					</div>
 				</div>

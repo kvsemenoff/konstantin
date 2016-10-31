@@ -12,7 +12,7 @@
 								<div class="slidetextbox">
 									<span class="slidetextbox-span1">
 										Immobilienscouting für bisher am Markt<br> 
-										unbekannte Potential immobilien ist das<br>  
+										unbekannte Potentialimmobilien ist das<br>  
 										Spezialgebiet von Konstantin Wettig.
 									</span>
 								</div>

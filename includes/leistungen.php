@@ -19,10 +19,10 @@
 		<div class="az-radar-elem-item">Architekten</div>
 	</div>
 	<div class="az-pos5">
-		<div class="az-radar-elem-item">Private Immobilineigentumer</div>
+		<div class="az-radar-elem-item">Private Immobilieneigentümer</div>
 	</div>
 	<div class="az-pos6">
-		<div class="az-radar-elem-item">Projectentwickler</div>
+		<div class="az-radar-elem-item">Projektentwickler</div>
 	</div>
 	<div class="az-pos7">
 		<div class="az-radar-elem-item">Erbengemeinschaften</div>
@@ -40,10 +40,10 @@
 		<div class="az-radar-elem-item">Mezzaninkapitalgeber</div>
 	</div>
 	<div class="az-pos12">
-		<div class="az-radar-elem-item">Bautrager</div>
+		<div class="az-radar-elem-item">Bauträger</div>
 	</div>
 	<div class="az-pos13">
-		<div class="az-radar-elem-item">Stadteplaner</div>
+		<div class="az-radar-elem-item">Städteplaner</div>
 	</div>
 	<div class="az-radar-elem az-pos14 az-active">
 		<div class="az-offerten-lr">
@@ -98,10 +98,10 @@
 		<div class="az-radar-elem-item2"><strong>Beratung</strong> bei der Konzeption &<br>Entwicklung von Stadtquartieren</div>
 	</div>
 	<div class="az-pos22">
-		<div class="az-radar-elem-item2"><strong>Potentialanalysen</strong><br>von unbebauten & bebauten Grundstucken</div>
+		<div class="az-radar-elem-item2"><strong>Potentialanalysen</strong><br>von unbebauten & bebauten Grundstücken</div>
 	</div>
 	<div class="az-pos23">
-		<div class="az-radar-elem-item2"><strong>Diskrete abwicklung</strong><br>von Immobiliensuchauftragen</div>
+		<div class="az-radar-elem-item2"><strong>Diskrete abwicklung</strong><br>von Immobiliensuchaufträgen</div>
 	</div>
 	<div class="az-pos24">
 		<div class="az-radar-elem-item2"><strong>Wertermittlung</strong></div>
