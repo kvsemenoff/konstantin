@@ -44,7 +44,8 @@
     display: block;
     padding: 10px 0; }
   .qq-main p {
-    padding: 5px 0; }
+    padding: 5px 0;
+    font-size: 16px; }
 
 .qq-foot {
   padding-top: 30px;
@@ -55,7 +56,9 @@
 .qq-txt {
   padding-top: 100px; }
   .qq-txt p {
-    padding: 5px 10px 5px 0; }
+    padding: 5px 10px 5px 0;
+    font-size: 20px;
+    line-height: 28px; }
 
 .qq-koorp {
   background: url("../img/korp-bg.jpg") no-repeat;
@@ -125,8 +128,16 @@
       display: inline-block; } }
 
 @media only screen and (min-width: 480px) {
+  .qq-main p {
+    font-size: unset;
+    line-height: unset; }
+
   .qq-impressum div[class|="col"] {
     padding-left: 15px;
-    padding-right: 15px; } }
+    padding-right: 15px; }
+
+  .qq-txt p {
+    font-size: 26px;
+    line-height: 32px; } }
 
 /*# sourceMappingURL=style6.css.map */

@@ -685,11 +685,14 @@ body{
     // .ah-res_style{
     //     background: #000;
     // }
+    .az-hidden-xs{
+        display: none;
+    }
     .az-head-span{
-        font-family: "HelveticaNeue-Medium";
+        // font-family: "HelveticaNeue-Medium";
         font-size: 20px;
-        line-height: 26px;
-        color: #000;
+        // line-height: 26px;
+        // color: #000;
     }
     .slidetextbox-outer{
         padding: 0px;
@@ -1149,6 +1152,9 @@ body{
     }
     .col-xxs-12{
         width: 100%;
+    }
+    .ab-str{
+        display: none;
     }
 }
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {

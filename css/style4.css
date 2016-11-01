@@ -6,22 +6,22 @@
   .footer .ab-main-img-box .ab-box-txt {
     position: absolute;
     top: 0;
-    margin-left: 16px;
-    margin-top: 18px; }
+    margin-left: 5px;
+    margin-top: 15px; }
     .footer .ab-main-img-box .ab-box-txt span {
       color: #fff;
       font-family: "HelveticaNeue-Medium";
       display: block;
-      font-size: 23px; }
+      font-size: 17px; }
     .footer .ab-main-img-box .ab-box-txt a {
       color: #fff;
       font-family: "HelveticaNeue-Medium";
       display: block;
-      font-size: 23px; }
+      font-size: 17px; }
     .footer .ab-main-img-box .ab-box-txt .ab-box-txt-span {
       font-family: "Helvetica";
       color: #fff;
-      font-size: 17px; }
+      font-size: 13px; }
   .footer .ab-main-img-box .ab-str {
     position: absolute;
     background: url(../img/ab-str.png) no-repeat;
@@ -96,7 +96,7 @@
   margin-bottom: 25px; }
 
 /*=============== end slider.php ==================*/
-@keyframes shake {
+@keyframes shake2 {
   from, to {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
@@ -114,7 +114,7 @@
     transform: translate3d(0, -10px, 0); } }
 .ab-logos .ab-logo-box {
   position: relative;
-  animation: shake 20s linear infinite; }
+  animation: shake2 20s linear infinite; }
   .ab-logos .ab-logo-box img {
     margin: 20px auto;
     height: auto; }
@@ -246,6 +246,16 @@
   margin-bottom: 25px; }
 
 @media only screen and (min-width: 480px) {
+  .footer .ab-main-img-box .ab-box-txt {
+    margin-left: 16px;
+    margin-top: 18px; }
+    .footer .ab-main-img-box .ab-box-txt span {
+      font-size: 23px; }
+    .footer .ab-main-img-box .ab-box-txt a {
+      font-size: 23px; }
+    .footer .ab-main-img-box .ab-box-txt .ab-box-txt-span {
+      font-size: 17px; }
+
   .ab-str {
     left: 50%;
     transform: translate(-50%, 0);

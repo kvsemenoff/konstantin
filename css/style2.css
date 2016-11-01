@@ -9,8 +9,8 @@
   display: block;
   font-family: "HelveticaNeue-Light";
   color: #fff;
-  font-size: 26px;
-  line-height: 32px;
+  font-size: 20px;
+  line-height: 28px;
   margin-bottom: 25px; }
 .ah-res div[class|="col"] {
   padding-left: 50px;
@@ -117,6 +117,10 @@
   .ah-resse-text span {
     font-family: "HelveticaNeue-Light"; }
 
+@media only screen and (min-width: 480px) {
+  .ah-res p {
+    font-size: 26px;
+    line-height: 32px; } }
 @media only screen and (min-width: 768px) {
   .ah-res p {
     display: block;

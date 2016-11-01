@@ -508,11 +508,11 @@ body {
   padding-top: 55px; }
 
 @media only screen and (min-width: 480px) {
+  .az-hidden-xs {
+    display: none; }
+
   .az-head-span {
-    font-family: "HelveticaNeue-Medium";
-    font-size: 20px;
-    line-height: 26px;
-    color: #000; }
+    font-size: 20px; }
 
   .slidetextbox-outer {
     padding: 0px; }
@@ -934,6 +934,9 @@ body {
     margin: 0 auto; }
 
   .col-xxs-12 {
-    width: 100%; } }
+    width: 100%; }
+
+  .ab-str {
+    display: none; } }
 
 /*# sourceMappingURL=style3.css.map */

@@ -54,6 +54,8 @@
 	}
 	p{
 		padding: 5px 0;
+		font-size: 16px;
+		// line-height: 28px;
 	}
 }
 .qq-foot{
@@ -67,6 +69,8 @@
 	padding-top: 100px;
 	p{
 		padding: 5px 10px 5px 0;
+		font-size: 20px;
+		line-height: 28px;
 	}
 }
 .qq-koorp{
@@ -185,12 +189,26 @@
 }
 
 @media only screen and (min-width : 480px) {
+	.qq-main{
+		p{
+			font-size: unset;
+			line-height: unset;
+		}
+	}
 	.qq-impressum{
 		div[class|="col"]{
 			padding-left: 15px;
 			padding-right: 15px;
 		}
 	}
+	.qq-txt{
+	// padding-top: 100px;
+	p{
+		// padding: 5px 10px 5px 0;
+		font-size: 26px;
+		line-height: 32px;
+	}
+}
 }
 
 @media only screen and (min-width : 768px) {

@@ -11,24 +11,24 @@
 		.ab-box-txt{
 			position:absolute;
 			top: 0;
-			margin-left: 16px;
-			margin-top: 18px;
+			margin-left: 5px;
+			margin-top: 15px;
 			span{
 				color: #fff;
 				font-family: "HelveticaNeue-Medium";
 				display: block;
-				font-size: 23px;
+				font-size: 17px;
 			}
             a{
                 color: #fff;
                 font-family: "HelveticaNeue-Medium";
                 display: block;
-                font-size: 23px;
+                font-size: 17px;
             }
 			.ab-box-txt-span{
 				 font-family: "Helvetica";
 				 color:#fff;
-				 font-size: 17px;
+				 font-size: 13px;
 			}
 		}
 		.ab-str{
@@ -126,7 +126,7 @@
 
 /*=============== end slider.php ==================*/
 
-@keyframes shake{
+@keyframes shake2{
 
     from, to {
         -webkit-transform: translate3d(0, 0, 0);
@@ -156,7 +156,7 @@
 .ab-logos{
     .ab-logo-box{
         position: relative;
-        animation: shake 20s linear infinite;
+        animation: shake2 20s linear infinite;
         img{
             margin:20px auto;
             height: auto;
@@ -364,7 +364,24 @@
 }
 
 @media only screen and (min-width : 480px) {
-
+    
+    .footer{
+        .ab-main-img-box{
+            .ab-box-txt{
+                margin-left: 16px;
+                margin-top: 18px;
+                span{
+                    font-size: 23px;
+                }
+                a{
+                    font-size: 23px;
+                }
+                .ab-box-txt-span{
+                     font-size: 17px;
+                }
+            }
+        }
+    }
 	.ab-str{
 		left: 50%;
 		transform: translate(-50%,0);
