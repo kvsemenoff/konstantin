@@ -17,7 +17,7 @@
                             <ul class="main-menu">
                                 <li><a href="/KonstantinWettig.php">KONSTANTIN</a></li>
                                 <li><a href="/leistungen.php">LEISTUNGEN</a></li>
-                                <li><a href="/gescheftspartne.php">GESCHÄFTSPARTNER</a></li>
+                                <li><a href="/gescheftspartner.php">GESCHÄFTSPARTNER</a></li>
                                 <li><a href="/Transaktionsvolumen.php">TRANSAKTIONSVOLUMEN</a></li>
                                 <li><a href="/werte.php">WERTE</a></li>
                                 <li><a href="/Kooperationspartner.php">KOOPERATIONSPARTNER</a></li>

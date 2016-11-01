@@ -39,7 +39,7 @@ body {
   height: 100%;
   -webkit-perspective: 500px;
   perspective: 500px;
-  z-index: 6; }
+  z-index: 13; }
 
 #check_1:checked ~ .anz-perspective {
   transition: all 1s ease-in-out;
@@ -82,6 +82,8 @@ body {
   display: inline-block;
   width: 41px;
   height: 43px;
+  position: relative;
+  z-index: 15;
   transition: all 0.5s ease-in-out;
   background: url(../img/hamburger-black.svg) no-repeat top left; }
 
@@ -162,7 +164,9 @@ body {
 .az-close {
   font-size: 40px;
   color: #222;
-  transition: all 0.5s ease-in-out; }
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  z-index: 13; }
 
 .az-close_style {
   display: inline-block;
@@ -356,10 +360,25 @@ body {
   50% {
     opacity: 1; }
   100% {
-    opacity: 0; } }
+    opacity: 0; }
+  from, to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  10%, 50%, 90% {
+    -webkit-transform: translate3d(-1px, 0, 0);
+    transform: translate3d(-1px, 0, 0); }
+  20%, 60% {
+    -webkit-transform: translate3d(1px, 0, 0);
+    transform: translate3d(1px, 0, 0); }
+  30%, 70% {
+    -webkit-transform: translate3d(0, 1px, 0);
+    transform: translate3d(0, 1px, 0); }
+  40%, 80% {
+    -webkit-transform: translate3d(0, -1px, 0);
+    transform: translate3d(0, -1px, 0); } }
 .az-active {
   opacity: 0;
-  animation: opas 4s ease-in-out infinite; }
+  animation: opas 4s linear infinite; }
 
 .az-radar-elems > div {
   display: block;
@@ -485,6 +504,9 @@ body {
   background: url(../img/az-radar-background.jpg) no-repeat top center;
   background-size: cover; }
 
+.ah-res_style2 {
+  padding-top: 55px; }
+
 @media only screen and (min-width: 480px) {
   .slidetextbox-outer {
     padding: 0px; }
@@ -498,7 +520,8 @@ body {
     height: 44px;
     background: url(../img/az-arrow-bottom.png) no-repeat top left;
     transform: translate(-50%, 0);
-    cursor: pointer; }
+    cursor: pointer;
+    z-index: 11; }
 
   .az-leistungen {
     background: url(../img/az-radar3.jpg) no-repeat center center #000;
@@ -527,7 +550,7 @@ body {
     width: 100%;
     background: url(../img/az-radar-arrow3.png) no-repeat center center;
     background-size: 100%;
-    z-index: -1; }
+    z-index: 9; }
 
   .az-radar-arrow-inner {
     position: relative; }
@@ -712,6 +735,7 @@ body {
 
   .az-pos28 {
     position: absolute;
+    z-index: 13;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); } }
@@ -898,5 +922,8 @@ body {
   .white-right {
     color: #fff;
     border: 2px solid #fff; } }
+@media only screen and (max-width: 480px) {
+  .col-xxs-12 {
+    width: 100%; } }
 
 /*# sourceMappingURL=style3.css.map */

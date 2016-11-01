@@ -51,11 +51,11 @@
 				</div>
 			</div> -->
 			<div class="row qq-main">
-				<div class="col-xs-12">
+				<!-- <div class="col-xs-12">
 					<div class="qq-img-box-a">
 						<img src="img/logo.svg" alt="">
 					</div>
-				</div>
+				</div> -->
 				<div class="col-md-6 col-sm-6 col-xs-12">
 					<div class="qq-txt_box qq-txt_box1 qq-t1">
 						<h3>INDIVIDUALITÄT</h3>
@@ -89,7 +89,7 @@
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12">
 					<div class="qq-img-box">
-						<img src="img/werte-logo.png" alt="">
+						<img src="img/logo.svg" alt="">
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12">

@@ -117,7 +117,7 @@
 					</div>
 					<div class="clearfix"></div>
 			</div>
-			<div class="row qq-foot">
+			<div class="row qq-main">
 				<div class="col-md-12">
 
 						<p>Disclaimer</p>

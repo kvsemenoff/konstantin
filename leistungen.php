@@ -36,7 +36,7 @@
 		<?php require_once('includes/leistungen.php'); ?>
 	</section>
 
-<section class="ah-res ah-res_style">
+<section class="ah-res ah-res_style ah-res_style2">
     <div class="container">
 	    <div class="row">
 		    <div class="col-md-12 col-sm-12 col-xs-12">
