@@ -361,7 +361,10 @@
         }
     }
 }
-
+.slidetextbox-span1_style{
+        width: 50%;
+        font-size: 10px;
+    }
 
 @media only screen and (min-width : 320px) {
 }
@@ -432,7 +435,7 @@
         width: 60%;
     }
     .slidetextbox-span2{
-		font-size: 18px;
+		font-size: 20px;
 		color:#fff;
 		line-height: 38px;
     }

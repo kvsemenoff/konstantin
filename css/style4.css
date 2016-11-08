@@ -256,6 +256,10 @@
   display: block;
   margin-bottom: 25px; }
 
+.slidetextbox-span1_style {
+  width: 50%;
+  font-size: 10px; }
+
 @media only screen and (min-width: 480px) {
   .footer .ab-main-img-box .ab-box-txt {
     margin-left: 16px;
@@ -309,7 +313,7 @@
     width: 60%; }
 
   .slidetextbox-span2 {
-    font-size: 18px;
+    font-size: 20px;
     color: #fff;
     line-height: 38px; } }
 @media only screen and (min-width: 768px) {
