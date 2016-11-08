@@ -61,11 +61,23 @@
 					<div class="az-arrow"></div>
 					<div class="ah-transright">
 						<span class="ah-transakvol-title">2015</span>
-						<span class="ah-transakvol-text">60 MIO.<br>EURO</span>
+						<span class="ah-transakvol-text">50 MIO.<br>EURO</span>
 					</div>
 				</div>
 				<div class="az-col">
 					<div class="ah-arr ah-arr5" id="anim5"></div>
+					<div class="az-arrow"></div>
+				</div>
+				<div class="az-col">
+					<div class="ah-arr ah-arr6" id="anim6"></div>
+					<div class="az-arrow"></div>
+					<div class="ah-transrightright">
+						<span class="ah-transakvol-title">2016</span>
+						<span class="ah-transakvol-text">68 MIO.<br>EURO</span>
+					</div>
+				</div>
+				<div class="az-col">
+					<div class="ah-arr ah-arr7" id="anim7"></div>
 					<div class="az-arrow"></div>
 				</div>
 				<div class="clearfix"></div>
@@ -79,9 +91,10 @@
 	};
 	$(document).ready(function(){
 		var start = 200;
-		var h1 = 340;
-		var h2 = 450;
-		var h3 = 550;
+		var h1 = 300;
+		var h2 = 380;
+		var h3 = 480;
+		var h4 = 550;
 		var w1 = $('.az-col').width();
 		
 		$('.ah-arr1').css({
@@ -106,6 +119,15 @@
 			'bottom' : h2 + 'px',
 			'left' : '0px',
 			'transform': 'skewY(' + -az_deg(h3-h2, w1) + 'deg)'
+		});
+		$('.ah-arr6').css({
+			'bottom' : h3 + 'px',
+			'left' : '0px',
+		});
+		$('.ah-arr7').css({
+			'bottom' : h3 + 'px',
+			'left' : '0px',
+			'transform': 'skewY(' + -az_deg(h4-h3, w1) + 'deg)'
 		});
 		// var az_arrow = $('.az-arrow');
 		// az_arrow.css('display', 'none');
@@ -242,9 +264,47 @@
 				'left' : w1 + 'px',
 			}, 2000, 'linear');
 		}, false);
+		anim5.addEventListener("animationend", function(){
+			$('.az-arrow').eq(4).css('display', 'none');
+		}, false);
+
+		var anim6 = document.getElementById("anim6");
+		anim6.addEventListener("animationstart", function(){
+			$('.az-arrow').eq(5).css({
+				'bottom' : h3 + 'px',
+				'display': 'block',
+				'left' :  '0px',
+				'transform': 'translate(-5px, 5px)',
+				'transform-origin': '20% 50%',
+			});
+			$('.az-arrow').eq(5).animate({
+				'bottom' : h3 + 'px',
+				'left' : w1 + 'px',
+			}, 2000, 'linear');
+		}, false);
+		anim6.addEventListener("animationend", function(){
+			$('.az-arrow').eq(5).css('display', 'none');
+		}, false);
+
+		var anim7 = document.getElementById("anim7");
+		anim7.addEventListener("animationstart", function(){
+			$('.az-arrow').eq(6).css({
+				'bottom' : h3 + 'px',
+				'display': 'block',
+				'left' :  '0px',
+				'transform': 'translate(-5px, 5px) rotate(' + -az_deg(h4-h3, w1) + 'deg)',
+				'transform-origin': '20% 50%',
+			});
+			$('.az-arrow').eq(6).animate({
+				'bottom' : h4 + 'px',
+				'left' : w1 + 'px',
+			}, 2000, 'linear');
+		}, false);
 		setTimeout(function(){
-			$('.ah-transleft').animate({'height': (h1-50) + 'px', 'padding-top': '25px'}, 4000);
-			$('.ah-transright').animate({'height': (h2-50) + 'px', 'padding-top': '25px'}, 6000);
+			$('.ah-transleft').animate({'height': (h1-30) + 'px', 'padding-top': '25px'}, 4000);
+			$('.ah-transright').animate({'height': (h2-30) + 'px', 'padding-top': '25px'}, 6000);
+			$('.ah-transrightright').animate({'height': (h3-30) + 'px', 'padding-top': '25px'}, 10000);
+
 		}, 3000);
 		
 		

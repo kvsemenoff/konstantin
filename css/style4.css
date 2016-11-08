@@ -101,17 +101,17 @@
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
   10%, 50%, 90% {
-    -webkit-transform: translate3d(-20px, 0, 0);
-    transform: translate3d(-20px, 0, 0); }
+    -webkit-transform: translate3d(-18px, 0, 0);
+    transform: translate3d(-18px, 0, 0); }
   20%, 60% {
-    -webkit-transform: translate3d(20px, 0, 0);
-    transform: translate3d(20px, 0, 0); }
+    -webkit-transform: translate3d(18px, 0, 0);
+    transform: translate3d(18px, 0, 0); }
   30%, 70% {
-    -webkit-transform: translate3d(0, 20px, 0);
-    transform: translate3d(0, 20px, 0); }
+    -webkit-transform: translate3d(0, 18px, 0);
+    transform: translate3d(0, 18px, 0); }
   40%, 80% {
-    -webkit-transform: translate3d(0, -20px, 0);
-    transform: translate3d(0, -20px, 0); } }
+    -webkit-transform: translate3d(0, -18px, 0);
+    transform: translate3d(0, -18px, 0); } }
 .ab-logos .ab-logo-box {
   position: relative;
   animation: shake2 10s linear infinite; }
@@ -143,12 +143,17 @@
   animation-delay: 0.5s; }
   .ab-logos .box6 img {
     max-width: 223px; }
+.ab-logos .box6-1 {
+  animation-delay: 0.5s; }
+  .ab-logos .box6-1 img {
+    max-width: 200px; }
 .ab-logos .box7 {
   animation-delay: 1.9s; }
   .ab-logos .box7 img {
     max-width: 334px; }
 .ab-logos .box8 {
-  animation-delay: 1s; }
+  animation-delay: 1s;
+  margin-left: 40px; }
   .ab-logos .box8 img {
     max-width: 298px; }
 .ab-logos .box9 {
@@ -207,6 +212,12 @@
 .slidetextbox-span2 {
   color: #fff;
   line-height: 38px; }
+
+.da-mob {
+  display: none; }
+
+.ab-logos {
+  overflow: hidden; }
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 250px) {
@@ -294,11 +305,23 @@
     .slidetextbox-span1 br {
       display: none; }
 
+  .slidetextbox-span1_style {
+    width: 60%; }
+
   .slidetextbox-span2 {
     font-size: 18px;
     color: #fff;
     line-height: 38px; } }
 @media only screen and (min-width: 768px) {
+  .slidetextbox-span1 {
+    font-size: 20px;
+    line-height: 38px; }
+    .slidetextbox-span1 br {
+      display: none; }
+
+  .slidetextbox-span1_style {
+    width: unset; }
+
   .ab-footer-menu {
     padding-bottom: 16px;
     text-align: left !important; }
@@ -332,15 +355,22 @@
     margin-left: 105px; }
   .ab-logos .box1 {
     margin-left: 0 !important; }
-  .ab-logos .box6 img {
-    margin-left: 135px;
+  .ab-logos .box6 {
+    margin-left: 75px; }
+    .ab-logos .box6 img {
+      margin-left: 60px;
+      margin-top: 28px; }
+  .ab-logos .box6-1 img {
+    margin-left: 30px;
     margin-top: 28px; }
-  .ab-logos .box7 img {
-    margin-left: 90px; }
+  .ab-logos .box7 {
+    margin-left: 30px; }
+    .ab-logos .box7 img {
+      margin-left: 40px; }
   .ab-logos .box9, .ab-logos .box10 {
     margin-top: 20px; }
   .ab-logos .box8 {
-    margin-left: 0 !important;
+    margin-left: 140px;
     margin-top: 12px; }
   .ab-logos .box11 {
     margin-left: 92px;
@@ -430,6 +460,12 @@
     padding-left: 80px !important;
     padding-top: 140px; } }
 @media only screen and (min-width: 1200px) {
+  .ab-logos .box8 {
+    margin-left: 0px; }
+
+  .da-mob {
+    display: block; }
+
   .slidetextbox-2 {
     margin-left: 212px;
     margin-top: 0;

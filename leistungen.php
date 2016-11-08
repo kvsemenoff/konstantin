@@ -31,7 +31,7 @@
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
-	<section class="az-content">
+	<section class="az-content az-leistungen-content">
 		<?php require_once('includes/header3.php'); ?>
 		<?php require_once('includes/leistungen.php'); ?>
 	</section>

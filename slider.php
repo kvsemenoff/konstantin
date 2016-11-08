@@ -10,7 +10,7 @@
 							</div>
 							<div class="slidetextbox-outer">
 								<div class="slidetextbox">
-									<span class="slidetextbox-span1">
+									<span class="slidetextbox-span1 slidetextbox-span1_style">
 										Immobilienscouting für bisher am Markt<br> 
 										unbekannte Potentialimmobilien ist das<br>  
 										Spezialgebiet von Konstantin Wettig.
@@ -46,8 +46,7 @@
 							<div class="slidetextbox-outer">
 								<div class="slidetextbox  slidetextbox-3">
 									<span class="slidetextbox-span1 slidetextbox-span2">
-										Das diskrete Vernetzen von Informations-<br>
-										vorsprüngen im 
+										Das diskrete Vernetzen von Informations<span class="da-show-hide">-<br> </span>vorsprüngen im 
 										Immobilienbereich stellt den<br> 
 										Geschäftspartnern der KW Real
 										Estate einen<br> besonderen Nutzen 
@@ -100,7 +99,7 @@
 	    items: 1,
 	    autoplay: true,
 	    smartSpeed:500,
-	    autoplayTimeout:3000,
+	    autoplayTimeout:7000,
 	    nav: true,
 	    navText:['<span class="az-arrowleft"></span>','<span class="az-arrowright"></span>']
 	});

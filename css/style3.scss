@@ -319,7 +319,7 @@ body{
 //     }
 // }
 .az-col{
-    width: 20%;
+    width: 14.28%;
     float: left;
     position: relative;
     height: 570px;
@@ -363,6 +363,12 @@ body{
 .ah-arr5{
     animation-delay: 10s;
 }
+.ah-arr6{
+    animation-delay: 12s;
+}
+.ah-arr7{
+    animation-delay: 14s;
+}
 .az-arrow{
     position: absolute;
     // top: 50%;
@@ -377,8 +383,12 @@ body{
 /*graph*/
 
 /*leistungen*/
-.az-leistungen{
-    background: #121212;
+.az-leistungen-content{
+    background: url(../img/az-radar3.jpg) no-repeat center center #000;
+    background-size: cover;
+    height: unset;
+    //background: #121212;
+    padding-bottom: 100px;
 }
 
 .az-radar-arrow{
@@ -514,6 +524,7 @@ body{
 }
 
 .az-radar-elems{
+    text-align: center;
     >div{
         display: block;
         text-align: center;
@@ -553,6 +564,12 @@ body{
         display: none;
         animation-delay: 4s;
         animation-duration: 7s;
+    }
+    .az-pos1{
+        display: inline-block;
+    }
+    .az-pos2{
+        display: inline-block;
     }
 }
 /*leistungen*/
@@ -676,7 +693,9 @@ body{
 .ah-res_style2{
     padding-top: 55px;
 }
-
+.da-show-hide{
+    display: none;
+}
 
 @media only screen and (min-width : 320px) {
 }
@@ -685,6 +704,7 @@ body{
     // .ah-res_style{
     //     background: #000;
     // }
+
     .az-hidden-xs{
         display: none;
     }
@@ -697,6 +717,11 @@ body{
     .slidetextbox-outer{
         padding: 0px;
     }
+
+
+}
+
+@media only screen and (min-width : 768px) {
     .az-arrow-bottom{
         display: block;
         position: absolute;
@@ -709,7 +734,34 @@ body{
         cursor: pointer;
         z-index: 11;
     }
-    .az-leistungen{
+    .az-leistungen-content{
+        background: none;
+    }
+    .qq-txt_box{
+        animation: anim 1s ease-in-out;
+    }
+    .qq-txt_box2{
+        animation-delay: 0s;
+        animation-fill-mode: both;
+    }
+    .qq-txt_box4{
+        animation-delay: 1s;
+        animation-fill-mode: both;
+    }
+    .qq-txt_box5{
+        animation-delay: 2s;
+        animation-fill-mode: both;
+    }
+    .qq-txt_box3{
+        animation-delay: 3s;
+        animation-fill-mode: both;
+    }
+    .qq-txt_box1{
+        animation-delay: 4s;
+        animation-fill-mode: both;
+    }
+    
+        .az-leistungen{
         background: url(../img/az-radar3.jpg) no-repeat center center #000;
         background-size: 100%;
         height: 100%;
@@ -762,16 +814,28 @@ body{
         display: block;
         margin-top: 100%;
     }
+    // .az-pos1{
+    //     position: absolute;
+    //     left: 40%;
+    //     top: 70%;
+    //     transform: translate(-50%, -50%);
+    // }
+    // .az-pos2{
+    //     position: absolute;
+    //     left: 60%;
+    //     top: 70%;
+    //     transform: translate(-50%, -50%);
+    // }
     .az-pos1{
         position: absolute;
-        left: 40%;
-        top: 70%;
+        left: 44.79%;
+        top: 68%;
         transform: translate(-50%, -50%);
     }
     .az-pos2{
         position: absolute;
-        left: 60%;
-        top: 70%;
+        left: 56.04%;
+        top: 68%;
         transform: translate(-50%, -50%);
     }
     .az-pos3{
@@ -944,47 +1008,10 @@ body{
     }
 }
 
-@media only screen and (min-width : 768px) {
-        
-    .qq-txt_box{
-        animation: anim 1s ease-in-out;
-    }
-    .qq-txt_box2{
-        animation-delay: 0s;
-        animation-fill-mode: both;
-    }
-    .qq-txt_box4{
-        animation-delay: 1s;
-        animation-fill-mode: both;
-    }
-    .qq-txt_box5{
-        animation-delay: 2s;
-        animation-fill-mode: both;
-    }
-    .qq-txt_box3{
-        animation-delay: 3s;
-        animation-fill-mode: both;
-    }
-    .qq-txt_box1{
-        animation-delay: 4s;
-        animation-fill-mode: both;
-    }
-    .az-pos1{
-        position: absolute;
-        left: 44.79%;
-        top: 68%;
-        transform: translate(-50%, -50%);
-    }
-    .az-pos2{
-        position: absolute;
-        left: 56.04%;
-        top: 68%;
-        transform: translate(-50%, -50%);
-    }
-    
-}
-
 @media only screen and (min-width : 992px) {
+    .da-show-hide{
+        display: inline;
+    }
     .ab-logo-box{
         animation: anim 1s ease-in-out;
     }
@@ -1076,11 +1103,11 @@ body{
     .az-radar-elem-item{
         color: #fff;
         padding: 10px 20px;
-        font-size: 27px;
+        font-size: 23px;
     }
     .az-radar-elem-item2{
         padding: 15px;
-        font-size: 18px;
+        font-size: 16px;
         color: #000;
     }
     .az-radar-elem-item3{

@@ -12,9 +12,6 @@
   font-size: 20px;
   line-height: 28px;
   margin-bottom: 25px; }
-.ah-res div[class|="col"] {
-  padding-left: 50px;
-  padding-right: 50px; }
 
 .ah-transakvolbody {
   background: url(../img/ah-transakvol_xs.jpg) top center no-repeat;
@@ -25,7 +22,7 @@
   min-height: 560px;
   margin-top: 109px; }
 
-.ah-transleft, .ah-transright {
+.ah-transleft, .ah-transright, .ah-transrightright {
   position: absolute;
   background-color: #fff;
   padding: 0px 7px;
@@ -40,6 +37,11 @@
   left: 0; }
 
 .ah-transright {
+  min-height: none;
+  bottom: 0;
+  left: 0; }
+
+.ah-transrightright {
   min-height: none;
   bottom: 0;
   left: 0; }
@@ -146,10 +148,10 @@
     bottom: 0;
     margin-top: 5px; }
 
-  .ah-transleft, .ah-transright {
-    padding: 0px 30px;
-    width: 100%; }
-
+  .ah-transleft, .ah-transright, .ah-transrightright {
+    padding: 0px 20px;
+    width: 100%; } }
+@media only screen and (min-width: 1200px) {
   .ah-transakvol-title {
     font-size: 40px; }
 

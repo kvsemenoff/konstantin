@@ -49,14 +49,17 @@
         <div class="ab-logo-box box5">
             <img class="img-responsive" src="img/Combine.jpg" alt="">
         </div>
-        <div class="clearfix"></div>
-         <div class="ab-logo-box box6">
+        <div class="clearfix da-mob"></div>
+        <div class="ab-logo-box box6">
             <img class="img-responsive" src="img/Sacher.jpg" alt="">
+        </div>
+        <div class="ab-logo-box box6-1">
+            <img class="img-responsive" src="img/Omega-Gruppe-300x136.jpg" alt="">
         </div>
         <div class="ab-logo-box box7">
             <img class="img-responsive" src="img/Hilmer.jpg" alt="">
         </div>
-        <div class="clearfix"></div>
+        <div class="clearfix da-mob"></div>
         <div class="ab-logo-box box8">
             <img class="img-responsive" src="img/Grundkontor.jpg" alt="">
         </div>
