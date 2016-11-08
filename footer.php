@@ -25,7 +25,7 @@
 				</a>
 			</div>
 			<div class="col-md-3 col-sm-6 col-xs-6">
-				<a href="/gescheftspartne.php">
+				<a href="/gescheftspartner.php">
 					<div class="ab-main-img-box">
 						<img src="img/art-3.png" alt="">
 						<div class="ab-box-txt">
