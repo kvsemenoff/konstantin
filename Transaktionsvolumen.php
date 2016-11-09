@@ -100,7 +100,8 @@
 		$('.ah-arr1').css({
 			'bottom' : start + 'px',
 			'left' : '0px',
-			'transform': 'skewY(' + -az_deg(h1-start, w1) + 'deg)'
+			'transform': 'skewY(' + -az_deg(h1-start, w1) + 'deg)',
+			'-webkit-transform': 'skewY(' + -az_deg(h1-start, w1) + 'deg)'
 		});
 		$('.ah-arr2').css({
 			'bottom' : h1 + 'px',
@@ -109,7 +110,8 @@
 		$('.ah-arr3').css({
 			'bottom' : h1 + 'px',
 			'left' : '0px',
-			'transform': 'skewY(' + -az_deg(h2-h1, w1) + 'deg)'
+			'transform': 'skewY(' + -az_deg(h2-h1, w1) + 'deg)',
+			'-webkit-transform': 'skewY(' + -az_deg(h2-h1, w1) + 'deg)'
 		});
 		$('.ah-arr4').css({
 			'bottom' : h2 + 'px',
@@ -118,7 +120,8 @@
 		$('.ah-arr5').css({
 			'bottom' : h2 + 'px',
 			'left' : '0px',
-			'transform': 'skewY(' + -az_deg(h3-h2, w1) + 'deg)'
+			'transform': 'skewY(' + -az_deg(h3-h2, w1) + 'deg)',
+			'-webkit-transform': 'skewY(' + -az_deg(h3-h2, w1) + 'deg)'
 		});
 		$('.ah-arr6').css({
 			'bottom' : h3 + 'px',
@@ -127,7 +130,8 @@
 		$('.ah-arr7').css({
 			'bottom' : h3 + 'px',
 			'left' : '0px',
-			'transform': 'skewY(' + -az_deg(h4-h3, w1) + 'deg)'
+			'transform': 'skewY(' + -az_deg(h4-h3, w1) + 'deg)',
+			'-webkit-transform': 'skewY(' + -az_deg(h4-h3, w1) + 'deg)'
 		});
 		// var az_arrow = $('.az-arrow');
 		// az_arrow.css('display', 'none');
@@ -185,6 +189,8 @@
 				'left' :  '0px',
 				'transform': 'translate(-5px, 5px) rotate(' + -az_deg(h1-start, w1) + 'deg)',
 				'transform-origin': '20% 50%',
+				'-webkit-transform': 'translate(-5px, 5px) rotate(' + -az_deg(h1-start, w1) + 'deg)',
+				'-webkit-transform-origin': '20% 50%',
 			});
 			$('.az-arrow').eq(0).animate({
 				'bottom' : h1 + 'px',
@@ -204,6 +210,8 @@
 				'left' :  '0px',
 				'transform': 'translate(-5px, 5px)',
 				'transform-origin': '20% 50%',
+				'-webkit-transform': 'translate(-5px, 5px)',
+				'-webkit-transform-origin': '20% 50%',
 			});
 			$('.az-arrow').eq(1).animate({
 				'bottom' : h1 + 'px',
@@ -222,6 +230,8 @@
 				'left' :  '0px',
 				'transform': 'translate(-5px, 5px) rotate(' + -az_deg(h2-h1, w1) + 'deg)',
 				'transform-origin': '20% 50%',
+				'-webkit-transform': 'translate(-5px, 5px) rotate(' + -az_deg(h2-h1, w1) + 'deg)',
+				'-webkit-transform-origin': '20% 50%',
 			});
 			$('.az-arrow').eq(2).animate({
 				'bottom' : h2 + 'px',
@@ -240,6 +250,8 @@
 				'left' :  '0px',
 				'transform': 'translate(-5px, 5px)',
 				'transform-origin': '20% 50%',
+				'-webkit-transform': 'translate(-5px, 5px)',
+				'-webkit-transform-origin': '20% 50%',
 			});
 			$('.az-arrow').eq(3).animate({
 				'bottom' : h2 + 'px',
@@ -258,6 +270,8 @@
 				'left' :  '0px',
 				'transform': 'translate(-5px, 5px) rotate(' + -az_deg(h3-h2, w1) + 'deg)',
 				'transform-origin': '20% 50%',
+				'-webkit-transform': 'translate(-5px, 5px) rotate(' + -az_deg(h3-h2, w1) + 'deg)',
+				'-webkit-transform-origin': '20% 50%',
 			});
 			$('.az-arrow').eq(4).animate({
 				'bottom' : h3 + 'px',
@@ -276,6 +290,8 @@
 				'left' :  '0px',
 				'transform': 'translate(-5px, 5px)',
 				'transform-origin': '20% 50%',
+				'-webkit-transform': 'translate(-5px, 5px)',
+				'-webkit-transform-origin': '20% 50%',
 			});
 			$('.az-arrow').eq(5).animate({
 				'bottom' : h3 + 'px',
@@ -294,6 +310,8 @@
 				'left' :  '0px',
 				'transform': 'translate(-5px, 5px) rotate(' + -az_deg(h4-h3, w1) + 'deg)',
 				'transform-origin': '20% 50%',
+				'-webkit-transform': 'translate(-5px, 5px) rotate(' + -az_deg(h4-h3, w1) + 'deg)',
+				'-webkit-transform-origin': '20% 50%',
 			});
 			$('.az-arrow').eq(6).animate({
 				'bottom' : h4 + 'px',
