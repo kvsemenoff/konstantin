@@ -356,6 +356,52 @@
     color: #fff;
     line-height: 38px; } }
 @media only screen and (min-width: 768px) {
+  .ab-logos .ab-logo-box {
+    float: left;
+    margin-left: 105px; }
+  .ab-logos .box1 {
+    margin-left: 0 !important; }
+  .ab-logos .box6 {
+    margin-left: 75px; }
+    .ab-logos .box6 img {
+      margin-left: 60px;
+      margin-top: 28px; }
+  .ab-logos .box6-1 img {
+    margin-left: 30px;
+    margin-top: 28px; }
+  .ab-logos .box7 {
+    margin-left: 30px; }
+    .ab-logos .box7 img {
+      margin-left: 40px; }
+  .ab-logos .box9, .ab-logos .box10 {
+    margin-top: 20px; }
+  .ab-logos .box8 {
+    margin-left: 18px;
+    margin-top: 12px; }
+  .ab-logos .box11 {
+    margin-left: 92px;
+    margin-top: -30px; }
+  .ab-logos .box12 {
+    margin-left: 0; }
+  .ab-logos .box13 {
+    margin-left: 148px; }
+  .ab-logos .box14 {
+    margin-left: 188px; }
+  .ab-logos .box15 {
+    margin-left: 213px;
+    margin-top: -56px; }
+  .ab-logos .box16 {
+    margin-left: 133px; }
+  .ab-logos .box17 {
+    float: right;
+    margin-top: -16px; }
+  .ab-logos .box18 {
+    margin-left: 0 !important; }
+  .ab-logos .box19, .ab-logos .box20 {
+    margin-left: 176px; }
+  .ab-logos .box21 {
+    float: right; }
+
   .slidetextbox-span1 {
     font-size: 20px;
     line-height: 38px; }
@@ -394,51 +440,9 @@
   .slidetextbox span {
     line-height: 35px; } }
 @media only screen and (min-width: 992px) {
-  .ab-logos .ab-logo-box {
-    float: left;
-    margin-left: 105px; }
-  .ab-logos .box1 {
-    margin-left: 0 !important; }
-  .ab-logos .box6 {
-    margin-left: 75px; }
-    .ab-logos .box6 img {
-      margin-left: 60px;
-      margin-top: 28px; }
-  .ab-logos .box6-1 img {
-    margin-left: 30px;
-    margin-top: 28px; }
-  .ab-logos .box7 {
-    margin-left: 30px; }
-    .ab-logos .box7 img {
-      margin-left: 40px; }
-  .ab-logos .box9, .ab-logos .box10 {
-    margin-top: 20px; }
   .ab-logos .box8 {
     margin-left: 140px;
     margin-top: 12px; }
-  .ab-logos .box11 {
-    margin-left: 92px;
-    margin-top: -30px; }
-  .ab-logos .box12 {
-    margin-left: 0; }
-  .ab-logos .box13 {
-    margin-left: 148px; }
-  .ab-logos .box14 {
-    margin-left: 188px; }
-  .ab-logos .box15 {
-    margin-left: 213px;
-    margin-top: -56px; }
-  .ab-logos .box16 {
-    margin-left: 133px; }
-  .ab-logos .box17 {
-    float: right;
-    margin-top: -16px; }
-  .ab-logos .box18 {
-    margin-left: 0 !important; }
-  .ab-logos .box19, .ab-logos .box20 {
-    margin-left: 176px; }
-  .ab-logos .box21 {
-    float: right; }
 
   .ab-str {
     left: 50%;

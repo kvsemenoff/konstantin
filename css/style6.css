@@ -111,7 +111,7 @@
     padding-top: 50px;
     width: 90%;
     height: auto; } }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .qq-werte .qq-t1, .qq-werte .qq-t2, .qq-werte .qq-t3, .qq-werte .qq-t3a, .qq-werte .qq-t4 {
     max-width: 100% !important;
     margin: 0 auto !important; }
