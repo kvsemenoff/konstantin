@@ -113,9 +113,20 @@
 						<p>Quellenangaben für die verwendeten Bilder & Grafiken:  </p>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12">
-						<p>????</p>
+						<p>Christine Dempf, iStockphoto, fotolia, shutterstock</p>
 					</div>
 					<div class="clearfix"></div>
+
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<p>Gestaltung:  </p>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<p>dedicated<br>
+						Isabelle Iburg<br>
+						Schornstraße 8<br>
+						81669 München</p>
+					</div>
+					<div class="clearfix"></div>		
 			</div>
 			<div class="row qq-main">
 				<div class="col-md-12">

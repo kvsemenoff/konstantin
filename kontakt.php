@@ -54,7 +54,8 @@
 							<h3 class="zk_first_li">Kontaktformular</h3>
 							<form action="" name="feedback" method="post" class="zk_form">		
 								<input type="text" name="from" placeholder="Ihr Name(Pflichtfeld)" /><br/>		
-								<input type="text" name="to" placeholder="Ihr Name(Pflichtfeld)" /><br/>
+								<input type="text" name="to" placeholder="Ihre E-Mail(Pflichtfeld)" /><br/>
+								<input type="text" name="to" placeholder="Ihre Telefonnummer" /><br/>
 								<textarea name="message" cols="" rows="5" placeholder="Ihre Nachricht"></textarea>
 								<div id="zk_form"><input type="submit" value="senden"></div>
 							</form>
