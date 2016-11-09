@@ -1,7 +1,10 @@
 
 
 /*================ footer.php ====================*/
-
+.slidetextbox-outer{
+    width: 100%;
+    
+}
 .footer{
 	.ab-main-img-box{
 		position: relative;
@@ -93,6 +96,8 @@
     line-height: 30px;
     letter-spacing: 0.025em;
     margin-bottom: 20px;
+    width: 100%;
+
 }
 
 
@@ -377,6 +382,7 @@
     }
     .slidetextbox-span1{
         // font-size: 15px;
+        width: 100%;
         font-size: 10px;
         br{
         	display: none;

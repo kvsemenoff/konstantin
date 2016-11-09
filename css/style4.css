@@ -1,4 +1,7 @@
 /*================ footer.php ====================*/
+.slidetextbox-outer {
+  width: 100%; }
+
 .footer .ab-main-img-box {
   position: relative; }
   .footer .ab-main-img-box img {
@@ -69,7 +72,8 @@
   font-size: 15px;
   line-height: 30px;
   letter-spacing: 0.025em;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  width: 100%; }
 
 .owl-dots {
   display: block;
@@ -270,6 +274,7 @@
       line-height: 15px; }
 
   .slidetextbox-span1 {
+    width: 100%;
     font-size: 10px; }
     .slidetextbox-span1 br {
       display: none; }
