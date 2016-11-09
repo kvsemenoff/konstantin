@@ -626,6 +626,9 @@ body {
   .slidetextbox-outer {
     padding: 0px; } }
 @media only screen and (min-width: 768px) {
+  .ah-res_style2 {
+    padding-top: 140px; }
+
   .az-arrow-bottom {
     display: block;
     position: absolute;
