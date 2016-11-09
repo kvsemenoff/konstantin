@@ -19,7 +19,7 @@
                                 <li><a href="/gescheftspartner.php">GESCHÄFTSPARTNER</a></li>
                                 <li><a href="/Transaktionsvolumen.php">TRANSAKTIONSVOLUMEN</a></li>
                                 <li><a href="/werte.php">WERTE</a></li>
-                                <li><a href="/Kooperationspartner.php">KOOPERATIONSPARTNER</a></li>
+                                <li><a href="/Kooperationspartner.php">KOOPERATION</a></li>
                                 <li><a href="/presse.php">PRESSE</a></li>
                                 <li><a href="/kontakt.php">KONTAKT</a></li>
                                 <li><a href="/impressum.php">IMPRESSUM</a></li>

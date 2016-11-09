@@ -47,8 +47,7 @@
 							<li class="zk_br">Frau Maria Iskudi</li>
 							<li>Assistentin des Geschäftsführers</li>
 							<li>Telefon	+49 (0)89 – 33 99 55 40</li>
-							<li>Mobil	+49 (0)172 – 888 11 01</li>
-							<li>E-Mail	kw@konstantin-wettig.com</li>
+							<li>E-Mail	mi@konstantin-wettig.com</li>
 						</ul>
 						
 						<div class="zk_form">

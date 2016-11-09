@@ -12,7 +12,7 @@
                         <div class="menu-list-pressed">
                             <ul class="main-menu">
                                 <li><a href="#">Werte</a></li>
-                                <li><a href="#">Kooperationen</a></li>
+                                <li><a href="#">Kooperation</a></li>
                                 <li><a href="#">Presse</a></li>
                                 <li><a href="#">Kontakt</a></li>
                                 <li><a href="#">Impressum</a></li>
