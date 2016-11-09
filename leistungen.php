@@ -40,8 +40,10 @@
     <div class="container">
 	    <div class="row">
 		    <div class="col-md-12 col-sm-12 col-xs-12">
-			    <p>Im sogenannten Premium-Wohnbereich steht Konstantin Wettig in seiner Funktion als Vorsitzender des Beirates der Engel & Völkers München GmbH auch nach dem Verkauf seines Unternehmens den geschätzten Kunden als erfahrener Ansprechpartner auf Wunsch zur Verfügung.</p>
-				<p>Seine langjährige, operative Markterfahrung und Kenntnis des Münchner Immobilienmarktes kann somit weiterhin nutzenstiftend in Anspruch genommen werden.</p>
+			    <p>Anhand eines Beispiels erlaube ich mir Ihnen exemplarisch einen Leistungsinhalt darzustellen:</p>
+				<p>KW Real Estate wurde von einem Unternehmen für Wohnraumprivatisierung mit der Suche nach einem geeigneten Mezzaninkapitalgeber beauftragt.</p>
+				<p>Gleichzeitig sollte das bereits per Optionsvertrag gesicherte Immobilienportfolio dahingehend analysiert werden, zu welchen Quadratmeterpreisen und  in welchem Zeitraum das Wohnungsgemenge am Kapitalanlagemarkt platzierbar ist.</p> 
+				<p>KW Real Estate vermittelte den Mezzaninkapitalpartner und beriet konzeptionell den zukünftigen Eigentümer bei der Auswahl der Vertriebspartner.</p>
 		    </div>
 	    </div>
     </div>

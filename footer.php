@@ -50,7 +50,7 @@
 			<div class="col-md-12">
 				<ul class="ab-footer-menu">
 					<li><a href="/werte.php">Werte</a></li>
-					<li><a href="/Kooperationspartner.php">Kooperationen</a></li>
+					<li><a href="/Kooperationspartner.php">Kooperation</a></li>
 					<li><a href="/presse.php">Presse</a></li>
 					<li><a href="/kontakt.php">Kontakt</a></li>
 					<li><a href="/impressum.php">Impressum</a></li>

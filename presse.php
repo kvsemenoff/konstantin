@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Geschäftspartner</title>
+	<title>Presse</title>
 
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
@@ -273,7 +273,7 @@
 		    </div>
 			<div class="clearfix"></div>
 		    <div class="col-md-4 col-sm-4 col-xs-12">
-		    <a href="#">
+		    <a href="http://m.abendzeitung-muenchen.de/inhalt.neues-projekt-fuer-einen-konzertsaal-wird-die-paketposthalle-am-hirschgarten-zum-musikzentrum.dcfa7bab-8b78-4416-923d-58d9dbbb94d1.php" target="_blank">
 			    <div class="ah-ressewrap">
 					<span class="ah-resse-title">Abendzeitung München</span>
 					<span class="ah-resse-text">Wird die Paketposthalle am Hirschgarten zum Musikzentrum?</span>
@@ -288,7 +288,7 @@
 				</a>
 		    </div>
 		    <div class="col-md-4 col-sm-4 col-xs-12">
-			    <a href="#">
+			    <a href="http://www.sueddeutsche.de/muenchen/konzertsaal-debatte-wo-die-musik-kuenftig-spielen-soll-1.2679903" target="_blank" >
 			        <div class="ah-ressewrap">
 					<span class="ah-resse-title">Süddeutsche Zeitung
 					</span>
@@ -304,7 +304,7 @@
 				</a>
 		    </div>
 		    <div class="col-md-4 col-sm-4 col-xs-12">
-			    <a href="#">
+			    <a href="http://www.sueddeutsche.de/muenchen/muenchen-private-investoren-praesentieren-eigene-konzertsaal-plaene-1.2550981?utm_source=newsletter_176&utm_medium=email&utm_campaign=news-08-07-2015" target="_blank" >
 			        <div class="ah-ressewrap">
 					<span class="ah-resse-title">Süddeutsche Zeitung</span>
 					<span class="ah-resse-text">Private Investoren präsentieren<br class="ah-br1">spektakuläre Konzertsaal-Pläne</span>
