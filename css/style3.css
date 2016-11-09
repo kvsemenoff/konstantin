@@ -427,6 +427,10 @@ body {
     display: inline-block; }
   .az-radar-elems .az-pos2 {
     display: inline-block; }
+  .az-radar-elems .az-pos28 {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px; }
 
 /*leistungen*/
 /**/
@@ -788,7 +792,9 @@ body {
     z-index: 13;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); } }
+    transform: translate(-50%, -50%);
+    margin-top: 0px !important;
+    margin-bottom: 0px !important; } }
 @media only screen and (min-width: 992px) {
   .da-show-hide {
     display: inline; }

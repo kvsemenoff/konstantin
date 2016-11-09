@@ -571,6 +571,11 @@ body{
     .az-pos2{
         display: inline-block;
     }
+    .az-pos28{
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 }
 /*leistungen*/
 
@@ -1005,6 +1010,8 @@ body{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
     }
 }
 
