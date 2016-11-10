@@ -265,6 +265,20 @@ body {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both; }
 
+@-webkit-keyframes rot {
+  from {
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transform: translate(0, -50%) rotate(0deg); }
+  to {
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transform: translate(0, -50%) rotate(360deg); } }
+@keyframes rot {
+  from {
+    transform-origin: 50% 50%;
+    transform: translate(0, -50%) rotate(0deg); }
+  to {
+    transform-origin: 50% 50%;
+    transform: translate(0, -50%) rotate(360deg); } }
 .ah-arr1 {
   -webkit-animation-delay: 2s;
   animation-delay: 2s; }
@@ -439,7 +453,8 @@ body {
     transform: translate3d(0, -1px, 0); } }
 .az-active {
   opacity: 0;
-  -webkit-animation: opas 4s linear infinite; }
+  -webkit-animation: opas 4s linear infinite;
+  animation: opas 4s linear infinite; }
 
 .az-radar-elems {
   text-align: center; }
@@ -603,7 +618,7 @@ body {
   text-align: left;
   height: 44px;
   width: 130px;
-  background: url(../img/right-black.svg) no-repeat top right;
+  background: url(../img/right-black.svg) no-repeat right top;
   line-height: 48px; }
 
 .az-radar-back {
@@ -691,34 +706,16 @@ body {
   .az-radar-elems > div {
     display: block !important; }
 
-  @-webkit-keyframes rot {
-    0% {
-      -webkit-transform-origin: 50% 50%;
-      -webkit-transform: translate(0, -50%) rotate(0deg); }
-    100% {
-      -webkit-transform-origin: 50% 50%;
-      -webkit-transform: translate(0, -50%) rotate(360deg); } }
-  @keyframes rot {
-    0% {
-      transform-origin: 50% 50%;
-      transform: translate(0, -50%) rotate(0deg);
-      -webkit-transform-origin: 50% 50%;
-      -webkit-transform: translate(0, -50%) rotate(0deg); }
-    100% {
-      transform-origin: 50% 50%;
-      transform: translate(0, -50%) rotate(360deg);
-      -webkit-transform-origin: 50% 50%;
-      -webkit-transform: translate(0, -50%) rotate(360deg); } }
   .az-radar-arrow {
     position: absolute;
     top: 50%;
     left: 0%;
-    -webkit-animation: rot 8s linear infinite;
-    animation: rot 8s linear infinite;
     width: 100%;
     background: url(../img/az-radar-arrow3.png) no-repeat center center;
     background-size: 100%;
-    z-index: 9; }
+    z-index: 9;
+    animation: rot 8s linear infinite;
+    -webkit-animation: rot 8s linear infinite; }
 
   .az-radar-arrow-inner {
     position: relative; }
