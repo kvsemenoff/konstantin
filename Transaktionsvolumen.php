@@ -97,6 +97,48 @@
 		var h4 = 550;
 		var w1 = $('.az-col').width();
 		
+
+
+		$( window ).resize(function() {
+			w1 = $('.az-col').width();
+		  $('.ah-arr1').css({
+			'bottom' : start + 'px',
+			'left' : '0px',
+			'transform': 'skewY(' + -az_deg(h1-start, w1) + 'deg)',
+			'-webkit-transform': 'skewY(' + -az_deg(h1-start, w1) + 'deg)'
+		});
+		$('.ah-arr2').css({
+			'bottom' : h1 + 'px',
+			'left' : '0px',
+		});
+		$('.ah-arr3').css({
+			'bottom' : h1 + 'px',
+			'left' : '0px',
+			'transform': 'skewY(' + -az_deg(h2-h1, w1) + 'deg)',
+			'-webkit-transform': 'skewY(' + -az_deg(h2-h1, w1) + 'deg)'
+		});
+		$('.ah-arr4').css({
+			'bottom' : h2 + 'px',
+			'left' : '0px',
+		});
+		$('.ah-arr5').css({
+			'bottom' : h2 + 'px',
+			'left' : '0px',
+			'transform': 'skewY(' + -az_deg(h3-h2, w1) + 'deg)',
+			'-webkit-transform': 'skewY(' + -az_deg(h3-h2, w1) + 'deg)'
+		});
+		$('.ah-arr6').css({
+			'bottom' : h3 + 'px',
+			'left' : '0px',
+		});
+		$('.ah-arr7').css({
+			'bottom' : h3 + 'px',
+			'left' : '0px',
+			'transform': 'skewY(' + -az_deg(h4-h3, w1) + 'deg)',
+			'-webkit-transform': 'skewY(' + -az_deg(h4-h3, w1) + 'deg)'
+		});
+		});
+		
 		$('.ah-arr1').css({
 			'bottom' : start + 'px',
 			'left' : '0px',
@@ -182,6 +224,7 @@
 		$('.az-arrow').css('display', 'none');
 		var anim = document.getElementById("anim");
 		anim.addEventListener("animationstart", function(){
+			w1 = $('.az-col').width();
 			$('.az-arrow').eq(0).css({
 				'bottom' : start + 'px',
 				'display': 'block',
@@ -200,6 +243,7 @@
 			$('.az-arrow').eq(0).css('display', 'none');
 		}, false);
 		anim.addEventListener("webkitAnimationStart", function(){
+			w1 = $('.az-col').width();
 			$('.az-arrow').eq(0).css({
 				'bottom' : start + 'px',
 				'display': 'block',
@@ -220,7 +264,7 @@
 
 		var anim2 = document.getElementById("anim2");
 		anim2.addEventListener("animationstart", function(){
-			
+			w1 = $('.az-col').width();
 			$('.az-arrow').eq(1).css({
 				'bottom' : h1 + 'px',
 				'display': 'block',
@@ -239,7 +283,7 @@
 			$('.az-arrow').eq(1).css('display', 'none');
 		}, false);
 		anim2.addEventListener("webkitAnimationStart", function(){
-			
+			w1 = $('.az-col').width();
 			$('.az-arrow').eq(1).css({
 				'bottom' : h1 + 'px',
 				'display': 'block',
@@ -260,6 +304,7 @@
 
 		var anim3 = document.getElementById("anim3");
 		anim3.addEventListener("animationstart", function(){
+			w1 = $('.az-col').width();
 			$('.az-arrow').eq(2).css({
 				'bottom' : h1 + 'px',
 				'display': 'block',
@@ -278,6 +323,7 @@
 			$('.az-arrow').eq(2).css('display', 'none');
 		}, false);
 		anim3.addEventListener("webkitAnimationStart", function(){
+			w1 = $('.az-col').width();
 			$('.az-arrow').eq(2).css({
 				'bottom' : h1 + 'px',
 				'display': 'block',
@@ -298,6 +344,7 @@
 
 		var anim4 = document.getElementById("anim4");
 		anim4.addEventListener("animationstart", function(){
+			w1 = $('.az-col').width();
 			$('.az-arrow').eq(3).css({
 				'bottom' : h2 + 'px',
 				'display': 'block',
@@ -316,6 +363,7 @@
 			$('.az-arrow').eq(3).css('display', 'none');
 		}, false);
 		anim4.addEventListener("webkitAnimationStart", function(){
+			w1 = $('.az-col').width();
 			$('.az-arrow').eq(3).css({
 				'bottom' : h2 + 'px',
 				'display': 'block',
@@ -336,6 +384,7 @@
 
 		var anim5 = document.getElementById("anim5");
 		anim5.addEventListener("animationstart", function(){
+			w1 = $('.az-col').width();
 			$('.az-arrow').eq(4).css({
 				'bottom' : h2 + 'px',
 				'display': 'block',
@@ -354,6 +403,7 @@
 			$('.az-arrow').eq(4).css('display', 'none');
 		}, false);
 		anim5.addEventListener("webkitAnimationStart", function(){
+			w1 = $('.az-col').width();
 			$('.az-arrow').eq(4).css({
 				'bottom' : h2 + 'px',
 				'display': 'block',
@@ -374,6 +424,7 @@
 
 		var anim6 = document.getElementById("anim6");
 		anim6.addEventListener("animationstart", function(){
+			w1 = $('.az-col').width();
 			$('.az-arrow').eq(5).css({
 				'bottom' : h3 + 'px',
 				'display': 'block',
@@ -392,6 +443,7 @@
 			$('.az-arrow').eq(5).css('display', 'none');
 		}, false);
 		anim6.addEventListener("webkitAnimationStart", function(){
+			w1 = $('.az-col').width();
 			$('.az-arrow').eq(5).css({
 				'bottom' : h3 + 'px',
 				'display': 'block',
@@ -412,6 +464,7 @@
 
 		var anim7 = document.getElementById("anim7");
 		anim7.addEventListener("animationstart", function(){
+			w1 = $('.az-col').width();
 			$('.az-arrow').eq(6).css({
 				'bottom' : h3 + 'px',
 				'display': 'block',
@@ -425,8 +478,25 @@
 				'bottom' : h4 + 'px',
 				'left' : w1 + 'px',
 			}, 2000, 'linear');
+			// $( window ).resize(function() {
+			// 	w1 = $('.az-col').width();
+			// 	$('.az-arrow').eq(6).css({
+			// 		'bottom' : h3 + 'px',
+			// 		'display': 'block',
+			// 		'left' :  '0px',
+			// 		'transform': 'translate(-5px, 5px) rotate(' + -az_deg(h4-h3, w1) + 'deg)',
+			// 		'transform-origin': '20% 50%',
+			// 		'-webkit-transform': 'translate(-5px, 5px) rotate(' + -az_deg(h4-h3, w1) + 'deg)',
+			// 		'-webkit-transform-origin': '20% 50%',
+			// 	});
+			// 	$('.az-arrow').eq(6).animate({
+			// 		'bottom' : h4 + 'px',
+			// 		'left' : w1 + 'px',
+			// 	}, 2000, 'linear');
+			// });
 		}, false);
 		anim7.addEventListener("webkitAnimationStart", function(){
+			w1 = $('.az-col').width();
 			$('.az-arrow').eq(6).css({
 				'bottom' : h3 + 'px',
 				'display': 'block',
@@ -440,6 +510,7 @@
 				'bottom' : h4 + 'px',
 				'left' : w1 + 'px',
 			}, 2000, 'linear');
+			
 		}, false);
 		setTimeout(function(){
 			$('.ah-transleft').animate({'height': (h1-30) + 'px', 'padding-top': '25px'}, 4000);
@@ -447,8 +518,24 @@
 			$('.ah-transrightright').animate({'height': (h3-30) + 'px', 'padding-top': '25px'}, 10000);
 
 		}, 3000);
-		
-		
+		setTimeout(function(){
+			$( window ).resize(function() {
+				w1 = $('.az-col').width();
+				$('.az-arrow').eq(6).css({
+					'bottom' : h3 + 'px',
+					'display': 'block',
+					'left' :  '0px',
+					'transform': 'translate(-5px, 5px) rotate(' + -az_deg(h4-h3, w1) + 'deg)',
+					'transform-origin': '20% 50%',
+					'-webkit-transform': 'translate(-5px, 5px) rotate(' + -az_deg(h4-h3, w1) + 'deg)',
+					'-webkit-transform-origin': '20% 50%',
+				});
+				$('.az-arrow').eq(6).css({
+					'bottom' : h4 + 'px',
+					'left' : w1 + 'px',
+				}, 2000, 'linear');
+			});
+		}, 16000);
 			// setTimeout(function(){
 			// 	$('.az-arrow').eq(0).css('display', 'none');
 			// 	$('.az-arrow').eq(1).css({
