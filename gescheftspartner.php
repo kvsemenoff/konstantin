@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="ru">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gescheftspartner</title>
+    <title>KW REAL ESTATE - Partners</title>
 
     <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
@@ -92,6 +92,9 @@
 
         <div class="ab-logo-box box16">
             <img class="img-responsive" src="img/Gebhard.jpg" alt="">
+        </div>
+		 <div class="ab-logo-box box22">
+            <img class="img-responsive" src="img/RES-Logo_4C_Webseite.png" alt="">
         </div>
         <div class="ab-logo-box box17">
             <img class="img-responsive" src="img/kkconsulting.jpg" alt="">

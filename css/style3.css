@@ -82,7 +82,8 @@ body {
   font-size: 22px;
   padding: 30px;
   line-height: 40px;
-  background: #fff; }
+  background: #fff;
+  overflow-y: auto; }
 
 .anz-menu-ch {
   display: inline-block;
@@ -621,6 +622,22 @@ body {
   background: url(../img/right-black.svg) no-repeat right top;
   line-height: 48px; }
 
+.zk_form #zk_form input[type="button"] {
+  color: #000000;
+  font-size: 20px;
+  font-family: "HelveticaNeue-Medium";
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+  background: none;
+  border: none;
+  margin-top: 35px;
+  text-align: left;
+  height: 44px;
+  width: 130px;
+  background: url(../img/right-black.svg) no-repeat right top;
+  line-height: 48px; }
+  
 .az-radar-back {
   background: url(../img/az-radar-background.jpg) no-repeat top center;
   background-size: cover; }
@@ -642,7 +659,7 @@ body {
     padding: 0px; } }
 @media only screen and (min-width: 768px) {
   .ah-res_style2 {
-    padding-top: 140px; }
+    padding-top: 280px; }
 
   .az-arrow-bottom {
     display: block;
@@ -1142,6 +1159,47 @@ body {
     width: 100%; }
 
   .ab-str {
-    display: none; } }
+    display: none; } 
+}
 
+.Error_filling {
+	display: none;
+	margin: 0;
+    padding: 5px 10px;
+    color: #c4690e;
+    background: #fffdf3;
+    border: 1px solid #e6bf4a;
+}
+.Error_filling:selection {
+	background: #fefac7;
+    color: #555555;
+}
+
+.change-lang {
+  margin-right: 30px;
+}
+
+.change-lang-xs {
+  margin-right: 0;
+}
+
+.chng-lng {
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+
+a.change-lang, a.change-lang-xs  {
+  text-align: right;
+  font-family: "HelveticaNeue-Thin";
+  color: #000;
+}
+
+a:hover.change-lang, a:hover.change-lang-xs  {
+  color: #555;
+}
+
+
+
+	
+	
 /*# sourceMappingURL=style3.css.map */

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-5 col-xs-5">
-                <span class="az-head-span az-head-span_style">Kooperations<span class="az-hidden-xs">-<br></span>partner</span>
+                <span class="az-head-span az-head-span_style">Kooperation</span>
             </div>
             <div class="col-md-2 col-xs-2 az-center">
                 <a href="/" class="az-close az-close_style"></a>

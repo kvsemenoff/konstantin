@@ -8,6 +8,7 @@
             </div>
             <div class="col-md-6 col-xs-6">
                 <div class="anz-menu az-margin-bottom45">
+                    <a class="change-lang hidden-xs" href="/en/">English Version <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                     <input type="checkbox" id="check_1" class=""/>
                     <label class="anz-menu-ch" for="check_1"></label>
                     <div class="anz-perspective">
@@ -25,6 +26,9 @@
                                 <li><a href="/impressum.php">IMPRESSUM</a></li>
                             </ul>
                         </div>
+                    </div>
+                    <div class="chng-lng hidden-lg hidden-md hidden-sm">
+                        <a class="change-lang-xs" href="/en/">English Version <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>

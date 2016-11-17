@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="ru">
+<html lang="de">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Kontakt</title>
+	<title>KW REAL ESTATE - Kontakt</title>
 
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
@@ -52,14 +52,53 @@
 						
 						<div class="zk_form">
 							<h3 class="zk_first_li">Kontaktformular</h3>
-							<form action="" name="feedback" method="post" class="zk_form">		
-								<input type="text" name="from" placeholder="Ihr Name(Pflichtfeld)" /><br/>		
-								<input type="text" name="to" placeholder="Ihre E-Mail(Pflichtfeld)" /><br/>
-								<input type="text" name="to" placeholder="Ihre Telefonnummer" /><br/>
+							<form action="mail.php" name="feedback" method="post" class="zk_form">		
+								<input type="text" name="name" id="feedback_name" placeholder="Ihr Name (Pflichtfeld)" /><br/>		
+								<input type="text" name="email" id="feedback_email" placeholder="Ihre E-Mail (Pflichtfeld)" /><br/>
+								<input type="text" name="phone" placeholder="Ihre Telefonnummer" /><br/>
 								<textarea name="message" cols="" rows="5" placeholder="Ihre Nachricht"></textarea>
-								<div id="zk_form"><input type="submit" value="senden"></div>
+								<div id="zk_form"><input type="button" value="senden" onclick="verify_fields();"></div>
+								<div class="Error_filling">Fehler beim Ausfüllen des Formulars! Bitte überprüfen Sie Ihre Eingaben und versuchen es erneut.</div>
 							</form>
-									
+							
+<script>
+function verify_fields(){
+	var 
+		name = document.getElementById("feedback_name"),
+		email = document.getElementById("feedback_email");
+	if((name.value == "") || (email.value == "")) 
+	{
+		document.getElementsByClassName("Error_filling")[0].style.display = "block";
+		if(name.value == "")
+		{
+			name.style = "border-color: #f9bbb8;\
+							border-width: 1px; \
+							background: #ffe5e3;"
+		}
+		else
+		{
+			name.style = "border-width: 2px;\
+						border-style: inset;\
+						border-color: initial;\
+						background: #fff;"
+		}
+		if(email.value == "")
+		{
+			email.style = "border-color: #f9bbb8;\
+							border-width: 1px; \
+							background: #ffe5e3;"
+		}
+		else
+		{
+			email.style = "border-width: 2px;\
+						border-style: inset;\
+						border-color: initial;\
+						background: #fff;"
+		}
+	}
+	else document.getElementsByName("feedback")[0].submit();
+}
+</script>								
 						</div>					
 					</div>
 				</div>

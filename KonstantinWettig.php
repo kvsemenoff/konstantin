@@ -45,7 +45,7 @@
 			    <p>2014 veräusserte er seine Münchner Lizenzholding vollständig an ein Private Equity Unternehmen, um exklusiv unter eigenem Namen agieren zu können.</p>
 			    <p>Seitdem liegt der Fokus von Konstantin Wettig auf dem Immobilienscouting – der gezielten Suche nach Potentialimmobilien.</p>
 			    <p>Informationen über zum Verkauf kommende Immobilien werden dabei primär durch das eigene Netzwerk, welches er sich in vielen Jahren aufgebaut hat, diskret aufgenommen.</p>
-			    <p>Auf gleiche Weise erfolgt die gezielte Ansprache des in Frage kommenden Geschäftspartner- kreises. Mit dieser Vorgehensweise wurden und werden Transaktionen erfolgreich abgewickelt. Individualität und vertrauensvolle Zusammenarbeit sind die Grundlagen der immer auch sehr persönlichen Geschäftsbeziehungen. </p>
+			    <p>Auf gleiche Weise erfolgt die gezielte Ansprache des in Frage kommenden Geschäftspartnerkreises. Mit dieser Vorgehensweise wurden und werden Transaktionen erfolgreich abgewickelt. Individualität und vertrauensvolle Zusammenarbeit sind die Grundlagen der immer auch sehr persönlichen Geschäftsbeziehungen. </p>
 		    </div>
 	    </div>
     </div>
